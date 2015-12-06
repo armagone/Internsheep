@@ -1,0 +1,22 @@
+Les musiques :
+
+- Musique de menu principal.
+- Musique d'ambiance calme.
+- Musique lors d'événement négatifs.		{  A lancer à l'affichage des messages
+- Musique lors d'événement positifs.		{  de descriptions, s'arrete lorsque c'est geré.
+- Musique de fin.
+
+Bruitages :
+
+- Séléction d'une unité humaine.			{ Liste de plusieurs 
+- Séléction d'un robot.						{ qui tourne en boucle
+- Séléction d'un module :
+	- cuisine
+	- 
+- 
+
+
+
+Idées afin de dynamiser l'ambiance :
+
+- Ouverture de porte. 
