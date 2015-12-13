@@ -1,0 +1,47 @@
+﻿[2015.12.13-03.52.34:711][  0]Log file open, 12/13/15 04:52:34
+[2015.12.13-03.52.34:711][  0]LogInit:Display: Running engine for game: Internsheep
+[2015.12.13-03.52.34:711][  0]LogInit:Display: RandInit(1017147650) SRandInit(1017147650).
+[2015.12.13-03.52.34:711][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.12.13-03.52.34:711][  0]LogStats: Stats thread started at 13.787215
+[2015.12.13-03.52.34:711][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.12.13-03.52.34:711][  0]LogInit: API Version: 2672455
+[2015.12.13-03.52.34:711][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.12.13-03.52.34:711][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.12.13-03.52.34:711][  0]LogInit: Build Configuration: Development
+[2015.12.13-03.52.34:711][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.12.13-03.52.34:711][  0]LogInit: Command line:  
+[2015.12.13-03.52.34:711][  0]LogInit: Base directory: D:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.12.13-03.52.34:711][  0]LogInit: Rocket: 1
+[2015.12.13-03.52.35:549][  0]LogInit: Using libcurl 7.41.0
+[2015.12.13-03.52.35:549][  0]LogInit:  - built for x86_64-pc-win32
+[2015.12.13-03.52.35:549][  0]LogInit:  - supports SSL with WinSSL
+[2015.12.13-03.52.35:549][  0]LogInit:  - other features:
+[2015.12.13-03.52.35:549][  0]LogInit:      CURL_VERSION_SSL
+[2015.12.13-03.52.35:549][  0]LogInit:      CURL_VERSION_IPV6
+[2015.12.13-03.52.35:549][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.12.13-03.52.35:549][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.12.13-03.52.35:549][  0]LogInit:      CURL_VERSION_IDN
+[2015.12.13-03.52.35:581][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.12.13-03.52.35:599][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.12.13-03.52.35:599][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.12.13-03.52.35:599][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.12.13-03.52.35:599][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.12.13-03.52.36:422][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.12.13-03.52.36:847][  0]LogInit: Object subsystem initialized
+[2015.12.13-03.52.37:329][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.13-03.52.37:329][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.12.13-03.52.37:421][  0]LogInit: Computer: PIERRE
+[2015.12.13-03.52.37:421][  0]LogInit: User: Pierre6991
+[2015.12.13-03.52.37:421][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.12.13-03.52.37:421][  0]LogInit: High frequency timer resolution =2.338346 MHz
+[2015.12.13-03.52.37:422][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2015.12.13-03.52.37:422][  0]LogMemory: Platform Memory Stats for Windows
+[2015.12.13-03.52.37:422][  0]LogMemory: Process Physical Memory: 52.90 MB used, 52.90 MB peak
+[2015.12.13-03.52.37:422][  0]LogMemory: Process Virtual Memory: 58.50 MB used, 58.50 MB peak
+[2015.12.13-03.52.37:422][  0]LogMemory: Physical Memory: 2535.96 MB used, 3981.01 MB total
+[2015.12.13-03.52.37:422][  0]LogMemory: Virtual Memory: 355.87 MB used, 134217728.00 MB total
+[2015.12.13-03.52.39:038][  0]LogTextLocalizationManager: No translations for ('fr-FR') exist, falling back to 'en' for localization and internationalization data.
+[2015.12.13-03.52.40:308][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 740M        (Feature Level 11_0)
+[2015.12.13-03.52.40:309][  0]LogD3D11RHI: Adapter has 1992MB of dedicated video memory, 0MB of dedicated system memory, and 1990MB of shared system memory, 1 output[s]
+[2015.12.13-03.52.40:327][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 740M        (Feature Level 11_0)
+[2015.12.13-03.52.40:327][  0]LogD3D11RHI: Adapter has 1992MB of dedicated video memory, 0MB of dedicated system memory, and 1
