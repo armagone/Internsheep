@@ -1,0 +1,619 @@
+﻿[2015.12.14-22.58.41:854][  0]Log file open, 12/14/15 23:58:41
+[2015.12.14-22.58.41:854][  0]LogInit:Display: Running engine for game: Internsheep
+[2015.12.14-22.58.41:854][  0]LogPlatformFile: Not using cached read wrapper
+[2015.12.14-22.58.41:854][  0]LogInit:Display: RandInit(341746897) SRandInit(341746899).
+[2015.12.14-22.58.41:854][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.12.14-22.58.41:854][  0]LogStats: Stats thread started at 0.402762
+[2015.12.14-22.58.41:854][  0]LogInit: Version: 4.10.0-2758231+++depot+UE4-Releases+4.10
+[2015.12.14-22.58.41:854][  0]LogInit: API Version: 2758231
+[2015.12.14-22.58.41:854][  0]LogInit: Compiled (64-bit): Nov  7 2015 05:13:45
+[2015.12.14-22.58.41:854][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2015.12.14-22.58.41:854][  0]LogInit: Build Configuration: Development
+[2015.12.14-22.58.41:854][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2015.12.14-22.58.41:854][  0]LogInit: Command line:  
+[2015.12.14-22.58.41:854][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/
+[2015.12.14-22.58.41:854][  0]LogInit: Rocket: 1
+[2015.12.14-22.58.41:861][  0]LogInit: Using libcurl 7.41.0
+[2015.12.14-22.58.41:861][  0]LogInit:  - built for x86_64-pc-win32
+[2015.12.14-22.58.41:861][  0]LogInit:  - supports SSL with WinSSL
+[2015.12.14-22.58.41:861][  0]LogInit:  - other features:
+[2015.12.14-22.58.41:861][  0]LogInit:      CURL_VERSION_SSL
+[2015.12.14-22.58.41:861][  0]LogInit:      CURL_VERSION_IPV6
+[2015.12.14-22.58.41:861][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.12.14-22.58.41:861][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.12.14-22.58.41:861][  0]LogInit:      CURL_VERSION_IDN
+[2015.12.14-22.58.41:861][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.12.14-22.58.41:861][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.12.14-22.58.41:861][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.12.14-22.58.41:861][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.12.14-22.58.41:861][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.12.14-22.58.41:902][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.12.14-22.58.41:911][  0]LogInit: Object subsystem initialized
+[2015.12.14-22.58.41:912][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.14-22.58.41:912][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.12.14-22.58.41:921][  0]LogInit: Computer: BASUS
+[2015.12.14-22.58.41:921][  0]LogInit: User: BCoat
+[2015.12.14-22.58.41:921][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.12.14-22.58.41:921][  0]LogInit: High frequency timer resolution =2.143603 MHz
+[2015.12.14-22.58.41:921][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2015.12.14-22.58.41:921][  0]LogMemory: Platform Memory Stats for Windows
+[2015.12.14-22.58.41:921][  0]LogMemory: Process Physical Memory: 57.82 MB used, 57.82 MB peak
+[2015.12.14-22.58.41:921][  0]LogMemory: Process Virtual Memory: 59.96 MB used, 59.96 MB peak
+[2015.12.14-22.58.41:921][  0]LogMemory: Physical Memory: 3369.69 MB used, 4001.06 MB total
+[2015.12.14-22.58.41:921][  0]LogMemory: Virtual Memory: 354.69 MB used, 8388608.00 MB total
+[2015.12.14-22.58.42:453][  0]LogTextLocalizationManager: No translations for ('fr-FR') exist, falling back to 'en' for localization and internationalization data.
+[2015.12.14-22.58.43:779][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 540M      (Feature Level 11_0)
+[2015.12.14-22.58.43:779][  0]LogD3D11RHI: Adapter has 2000MB of dedicated video memory, 0MB of dedicated system memory, and 1744MB of shared system memory, 1 output[s]
+[2015.12.14-22.58.43:819][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 540M      (Feature Level 11_0)
+[2015.12.14-22.58.43:819][  0]LogD3D11RHI: Adapter has 2000MB of dedicated video memory, 0MB of dedicated system memory, and 1744MB of shared system memory, 0 output[s]
+[2015.12.14-22.58.43:820][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.12.14-22.58.43:931][  0]LogD3D11RHI: !Direct3DDevice
+[2015.12.14-22.58.43:946][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.12.14-22.58.43:963][  0]LogD3D11RHI: Async texture creation enabled
+[2015.12.14-22.58.44:403][  0]LogShaderCompilers: Guid format shader working directory is -31 characters bigger than the processId version (../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Intermediate/Shaders/WorkingDirectory/6948/).
+[2015.12.14-22.58.44:404][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/BCoat/AppData/Local/Temp/UnrealShaderWorkingDir/7EE78A94409444F49D2567BDE50619F3/'.
+[2015.12.14-22.58.44:404][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.12.14-22.58.54:004][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.12.14-22.58.54:100][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.12.14-22.58.54:123][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.12.14-22.58.54:141][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.12.14-22.58.54:173][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.12.14-22.58.54:235][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.12.14-22.58.54:251][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.12.14-22.58.54:263][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.12.14-22.58.54:271][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.12.14-22.58.54:290][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.12.14-22.58.54:303][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.12.14-22.58.54:353][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2015.12.14-22.58.54:353][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.12.14-22.58.54:367][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.12.14-22.58.54:502][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.12.14-22.58.54:515][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.12.14-22.58.54:528][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.12.14-22.58.54:565][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.12.14-22.58.54:574][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.12.14-22.58.55:693][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.12.14-22.58.57:398][  0]LogDerivedDataCache: Loaded boot cache 1.69s 41MB C:/Users/BCoat/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2015.12.14-22.58.57:398][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/BCoat/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2015.12.14-22.58.57:419][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.12.14-22.58.57:419][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.12.14-22.58.57:419][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.12.14-22.58.57:419][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.12.14-22.58.57:766][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.12.14-22.58.57:881][  0]LogDerivedDataCache: Using Local data cache path C:/Users/BCoat/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.12.14-22.59.08:763][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.14-22.59.08:779][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.12.14-22.59.09:579][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.12.14-22.59.09:579][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.12.14-22.59.14:592][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.12.14-22.59.45:020][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.12.14-22.59.46:074][  0]LogAssetRegistry: FAssetRegistry took 0.0101 seconds to start up
+[2015.12.14-22.59.52:845][  0]SourceControl: Info Source control is disabled
+[2015.12.14-22.59.53:000][  0]SourceControl: Info Source control is disabled
+[2015.12.14-22.59.53:657][  0]SourceControl: Info Source control is disabled
+[2015.12.14-22.59.54:226][  0]SourceControl: Info Source control is disabled
+[2015.12.14-23.00.01:857][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2015.12.14-23.00.01:857][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2015.12.14-23.00.05:783][  0]LogAutomationTest:Warning: Smoke tests took > 1s to run: 1.99s
+[2015.12.14-23.00.05:933][  0]LogEngine: Initializing Engine...
+[2015.12.14-23.00.06:475][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2015.12.14-23.00.07:020][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.12.14-23.00.08:710][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.12.14-23.00.09:238][  0]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.14-23.00.09:528][  0]LogInit: FAudioDevice initialized.
+[2015.12.14-23.00.09:821][  0]LogDerivedDataCache: Saved boot cache 0.29s 41MB C:/Users/BCoat/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2015.12.14-23.00.09:839][  0]LogInit: Texture streaming: Enabled
+[2015.12.14-23.00.10:119][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.12.14-23.00.10:119][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.0-2758231+++depot+UE4-Releases+4.10
+[2015.12.14-23.00.10:119][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 359921a2436e31eaf87960919bdb1a59|936cf5e516d74d48a34239ccdf491ac4|c2d66dc4-68c3-4b61-8408-d1981ac11ab9
+[2015.12.14-23.00.10:146][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.12.14-23.00.12:589][  0]LogInit: Transaction tracking system initialized
+[2015.12.14-23.00.15:168][  0]BlueprintLog: New page: Editor Load
+[2015.12.14-23.00.28:817][  0]LocalizationService: Info Localization service is disabled
+[2015.12.14-23.00.36:837][  0]LogConsoleResponse:Display: 
+[2015.12.14-23.00.41:218][  0]LogFileCache: Scanning file cache for directory 'C:/Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/' took 0.13s
+[2015.12.14-23.00.41:218][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.12.14-23.00.49:093][  0]SourceControl: Info Source control is disabled
+[2015.12.14-23.00.49:118][  0]Cmd: MAP LOAD FILE="../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/Debut.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.14-23.00.49:265][  0]LightingResults: New page: Lighting Build
+[2015.12.14-23.00.49:833][  0]MapCheck: New page: Map Check
+[2015.12.14-23.00.49:833][  0]LightingResults: New page: Lighting Build
+[2015.12.14-23.00.49:848][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000025E7D120
+[2015.12.14-23.00.51:294][  0]LogBlueprint:Warning: [compiler Debut] Warning Node  Unknown  is not referencing a valid level actor
+[2015.12.14-23.00.51:295][  0]LogBlueprint:Warning: [compiler Debut] Warning [0130.92] Compile of Debut successful, but with 1 Warning(s) [in 5 ms]
+[2015.12.14-23.00.51:295][  0]LogBlueprint:Warning: [compiler Debut] Warning [0130.92] Compile of Debut successful, but with 2 Warning(s) [in 0 ms]
+[2015.12.14-23.00.51:295][  0]LogBlueprint:Warning: [compiler Debut] Warning [0130.92] Compile of Debut successful, but with 3 Warning(s) [in 0 ms]
+[2015.12.14-23.00.51:301][  0]LogBlueprint:Warning: [compiler Debut] Warning Node  Unknown  is not referencing a valid level actor
+[2015.12.14-23.00.51:302][  0]LogBlueprint:Warning: [compiler Debut] Warning [0130.93] Compile of Debut successful, but with 1 Warning(s) [in 5 ms]
+[2015.12.14-23.00.51:302][  0]LogBlueprint:Warning: [compiler Debut] Warning [0130.93] Compile of Debut successful, but with 2 Warning(s) [in 0 ms]
+[2015.12.14-23.00.51:302][  0]LogBlueprint:Warning: [compiler Debut] Warning [0130.93] Compile of Debut successful, but with 3 Warning(s) [in 0 ms]
+[2015.12.14-23.00.52:302][  0]LogAIModule: Creating AISystem for world Debut
+[2015.12.14-23.00.53:079][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.14-23.00.53:224][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.14-23.00.53:300][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 75.569ms to complete.
+[2015.12.14-23.00.53:300][  0]LogFileHelpers: Loading map 'Debut' took 4.183
+[2015.12.14-23.00.59:849][  0]LogCollectionManager: Loaded 0 collections in 0.005207 seconds
+[2015.12.14-23.01.00:135][  0]LogFileCache: Scanning file cache for directory 'C:/Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Saved/Collections/' took 0.01s
+[2015.12.14-23.01.00:135][  0]LogFileCache: Scanning file cache for directory 'C:/Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/Developers/BCoat/Collections/' took 0.01s
+[2015.12.14-23.01.00:135][  0]LogFileCache: Scanning file cache for directory 'C:/Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/Collections/' took 0.01s
+[2015.12.14-23.01.00:135][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.038635 seconds
+[2015.12.14-23.01.00:348][  0]LogContentBrowser: Native class hierarchy populated in 0.1977 seconds. Added 1893 classes and 338 folders.
+[2015.12.14-23.01.00:667][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2015.12.14-23.01.16:970][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2015.12.14-23.01.18:202][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2015.12.14-23.01.19:997][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.12.14-23.01.20:343][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.12.14-23.01.20:743][  0]LogLoad: Full Startup: 160.37 seconds (BP compile: 0.77 seconds)
+[2015.12.14-23.01.22:382][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2015.12.14-23.01.23:731][  0]LogContentStreaming: Texture pool size now 200 MB
+[2015.12.14-23.01.25:005][  0]LogRenderer: Reallocating scene render targets to support 792x368 (Frame:2).
+[2015.12.14-23.01.25:204][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/' took 2.57s
+[2015.12.14-23.01.26:800][  7]LogAssetRegistry: Asset discovery search completed in 100.7340 seconds
+[2015.12.14-23.01.27:279][  7]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2015.12.14-23.01.27:280][  7]LogCollectionManager: Fixed up redirectors for 0 collections in 0.479574 seconds (updated 0 objects)
+[2015.12.14-23.01.36:966][493]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Debut.Debut:PersistentLevel' has LevelScriptBlueprint '/Game/Debut.Debut:PersistentLevel.Debut' with GeneratedClass '/Game/Debut.Debut_C' with ClassGeneratedBy '/Game/Debut.Debut:PersistentLevel.Debut'
+[2015.12.14-23.01.36:966][493]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.14-23.01.37:002][493]PIE: New page: PIE session: Debut (Dec 15, 2015, 1:01:36 AM)
+[2015.12.14-23.01.37:002][493]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Debut
+[2015.12.14-23.01.37:011][493]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008994s)
+[2015.12.14-23.01.37:012][493]LogAIModule: Creating AISystem for world Debut
+[2015.12.14-23.01.37:013][493]LogPlayLevel: PIE: World Init took: (0.001376s)
+[2015.12.14-23.01.37:013][493]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Debut.Debut to /Game/UEDPIE_0_Debut.Debut (0.010715s)
+[2015.12.14-23.01.37:036][493]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.14-23.01.37:111][493]LogInit: FAudioDevice initialized.
+[2015.12.14-23.01.37:258][493]LogLinker:Warning: Can't find file '/Game/Gamemode'
+[2015.12.14-23.01.37:259][493]LogLinker:Warning: Can't find file '/Game/Gamemode'
+[2015.12.14-23.01.37:259][493]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/Gamemode.Gamemode_C'
+[2015.12.14-23.01.37:259][493]LogWorld: Game class is 'GameMode'
+[2015.12.14-23.01.37:288][493]LogWorld: Bringing World /Game/UEDPIE_0_Debut.Debut up for play (max tick rate 60) at 2015.12.15-00.01.37
+[2015.12.14-23.01.37:288][493]LogActor:Warning: GameSession /Game/UEDPIE_0_Debut.Debut:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.14-23.01.37:288][493]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Debut.Debut:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.14-23.01.37:289][493]LogWorld: Bringing up level for play took: 0.002688
+[2015.12.14-23.01.37:330][493]PIE: Info Play in editor start time for /Game/UEDPIE_0_Debut -0.424
+[2015.12.14-23.01.37:331][493]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Debut.Debut:PersistentLevel' has LevelScriptBlueprint '/Game/Debut.Debut:PersistentLevel.Debut' with GeneratedClass '/Game/Debut.Debut_C' with ClassGeneratedBy '/Game/Debut.Debut:PersistentLevel.Debut'
+[2015.12.14-23.01.42:059][573]LogPackageName: SearchForPackageOnDisk took   3.283s to resolve Level1.umap.
+[2015.12.14-23.01.42:129][573]LogPackageName: SearchForPackageOnDisk took   0.069s to resolve Level1.umap.
+[2015.12.14-23.01.42:129][573]LogNet: Browse: /Game/Level1
+[2015.12.14-23.01.42:129][573]LogLoad: LoadMap: /Game/Level1
+[2015.12.14-23.01.42:183][573]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002239B6A0
+[2015.12.14-23.01.42:186][573]Cmd: MEM
+[2015.12.14-23.01.42:205][573]LogMemory: Platform Memory Stats for Windows
+[2015.12.14-23.01.42:205][573]LogMemory: Process Physical Memory: 647.95 MB used, 659.38 MB peak
+[2015.12.14-23.01.42:205][573]LogMemory: Process Virtual Memory: 852.69 MB used, 855.15 MB peak
+[2015.12.14-23.01.42:205][573]LogMemory: Physical Memory: 3661.41 MB used, 4001.06 MB total
+[2015.12.14-23.01.42:205][573]LogMemory: Virtual Memory: 1490.88 MB used, 8388608.00 MB total
+[2015.12.14-23.01.42:205][573]LogMemory: 
+[2015.12.14-23.01.42:205][573]Allocator Stats for TBB: (not implemented)
+[2015.12.14-23.01.44:512][573]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2015.12.14-23.01.44:512][573]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading ../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/Mesh/InvisibleWall.uasset.
+[2015.12.14-23.01.44:512][573]LoadErrors:Error: Error /Game/Mesh/InvisibleWall : Can't find file for asset. /Game/StarterContent/Materials/M_Basic_Wall
+[2015.12.14-23.01.44:512][573]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2015.12.14-23.01.44:513][573]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading ../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/Mesh/InvisibleWall.uasset.
+[2015.12.14-23.01.44:530][573]LogLinker:Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2015.12.14-23.01.44:530][573]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading ../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/Old/Module1.uasset.
+[2015.12.14-23.01.44:530][573]LoadErrors:Error: Error /Game/Old/Module1 : Can't find file for asset. /Game/StarterContent/Architecture/Floor_400x400
+[2015.12.14-23.01.44:530][573]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cylinder'
+[2015.12.14-23.01.44:531][573]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cylinder' while loading ../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/Old/Module1.uasset.
+[2015.12.14-23.01.44:531][573]LoadErrors:Error: Error /Game/Old/Module1 : Can't find file for asset. /Game/StarterContent/Shapes/Shape_Cylinder
+[2015.12.14-23.01.44:531][573]LogLinker:Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2015.12.14-23.01.44:531][573]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading ../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/Old/Module1.uasset.
+[2015.12.14-23.01.44:532][573]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cylinder'
+[2015.12.14-23.01.44:532][573]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cylinder' while loading ../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/Old/Module1.uasset.
+[2015.12.14-23.01.44:561][573]LogLinker:Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2015.12.14-23.01.44:561][573]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading ../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/Plateforme/Actor_Couloir_petit.uasset.
+[2015.12.14-23.01.44:561][573]LoadErrors:Error: Error /Game/Plateforme/Actor_Couloir_petit : Can't find file for asset. /Game/StarterContent/Architecture/Floor_400x400
+[2015.12.14-23.01.44:561][573]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cylinder'
+[2015.12.14-23.01.44:561][573]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cylinder' while loading ../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/Plateforme/Actor_Couloir_petit.uasset.
+[2015.12.14-23.01.44:561][573]LoadErrors:Error: Error /Game/Plateforme/Actor_Couloir_petit : Can't find file for asset. /Game/StarterContent/Shapes/Shape_Cylinder
+[2015.12.14-23.01.44:562][573]LogLinker:Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2015.12.14-23.01.44:562][573]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading ../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/Plateforme/Actor_Couloir_petit.uasset.
+[2015.12.14-23.01.44:562][573]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cylinder'
+[2015.12.14-23.01.44:562][573]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cylinder' while loading ../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/Plateforme/Actor_Couloir_petit.uasset.
+[2015.12.14-23.01.44:660][573]LogLinker:Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2015.12.14-23.01.44:660][573]LoadErrors: Info Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by floor_GEN_VARIABLE
+[2015.12.14-23.01.44:660][573]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading ../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/Plateforme/Actor_Couloir_petit.uasset.
+[2015.12.14-23.01.44:662][573]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cylinder'
+[2015.12.14-23.01.44:662][573]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Cylinder.Shape_Cylinder Referenced by ori_GEN_VARIABLE
+[2015.12.14-23.01.44:663][573]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cylinder' while loading ../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/Plateforme/Actor_Couloir_petit.uasset.
+[2015.12.14-23.01.48:913][573]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2015.12.14-23.01.48:913][573]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Basic_Wall.M_Basic_Wall Referenced by InvisibleWall
+[2015.12.14-23.01.48:913][573]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading NULL.
+[2015.12.14-23.01.54:921][573]LogAIModule: Creating AISystem for world Level1
+[2015.12.14-23.01.54:922][573]LogWorld: Game class is 'MyGameMode_C'
+[2015.12.14-23.01.54:952][573]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllWidgetsOfClass_FoundWidgets out of bounds [0/0]!
+[2015.12.14-23.01.54:955][573]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2015.12.15-00.01.54
+[2015.12.14-23.01.54:955][573]LogActor:Warning: GameSession /Game/UEDPIE_0_Level1.Level1:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.14-23.01.54:957][573]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Level1.Level1:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.14-23.01.54:959][573]LogWorld: Bringing up level for play took: 0.019078
+[2015.12.14-23.01.54:963][573]LogScript:Warning: Accessed None 'GameHudReference'
+	Char2_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.Char2_C_0
+	Function /Game/Char2.Char2_C:ExecuteUbergraph_Char2:0A3C
+[2015.12.14-23.01.54:964][573]PIE:Error: Error Accessed None 'GameHudReference' from node Add in graph 'EventGraph' in blueprint Char2
+[2015.12.14-23.01.54:964][573]LogScript:Warning: Accessed None
+	Char2_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.Char2_C_0
+	Function /Game/Char2.Char2_C:ExecuteUbergraph_Char2:0A1D
+[2015.12.14-23.01.54:964][573]PIE:Error: Error Accessed None from node Add in graph 'EventGraph' in blueprint Char2
+[2015.12.14-23.01.54:969][573]LogScript:Warning: Accessed None 'timeManager'
+	Actor_Couloir_petit_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.Actor_Couloir_petit_C_1
+	Function /Game/Plateforme/BasicPlateform.BasicPlateform_C:TickUpdate:001E
+[2015.12.14-23.01.54:969][573]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.55:055][574]LogScript:Warning: Accessed None 'timeManager'
+	Actor_Couloir_petit_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.Actor_Couloir_petit_C_1
+	Function /Game/Plateforme/BasicPlateform.BasicPlateform_C:TickUpdate:001E
+[2015.12.14-23.01.55:055][574]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.55:109][575]LogScript:Warning: Accessed None 'timeManager'
+	Actor_Couloir_petit_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.Actor_Couloir_petit_C_1
+	Function /Game/Plateforme/BasicPlateform.BasicPlateform_C:TickUpdate:001E
+[2015.12.14-23.01.55:109][575]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.55:145][576]LogScript:Warning: Accessed None 'timeManager'
+	Actor_Couloir_petit_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.Actor_Couloir_petit_C_1
+	Function /Game/Plateforme/BasicPlateform.BasicPlateform_C:TickUpdate:001E
+[2015.12.14-23.01.55:145][576]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.55:157][577]LogScript:Warning: Accessed None 'timeManager'
+	Actor_Couloir_petit_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.Actor_Couloir_petit_C_1
+	Function /Game/Plateforme/BasicPlateform.BasicPlateform_C:TickUpdate:001E
+[2015.12.14-23.01.55:157][577]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.55:175][578]LogScript:Warning: Accessed None 'timeManager'
+	Actor_Couloir_petit_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.Actor_Couloir_petit_C_1
+	Function /Game/Plateforme/BasicPlateform.BasicPlateform_C:TickUpdate:001E
+[2015.12.14-23.01.55:176][578]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.55:192][579]LogScript:Warning: Accessed None 'timeManager'
+	Actor_Couloir_petit_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.Actor_Couloir_petit_C_1
+	Function /Game/Plateforme/BasicPlateform.BasicPlateform_C:TickUpdate:001E
+[2015.12.14-23.01.55:193][579]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.55:219][580]LogScript:Warning: Accessed None 'timeManager'
+	Actor_Couloir_petit_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.Actor_Couloir_petit_C_1
+	Function /Game/Plateforme/BasicPlateform.BasicPlateform_C:TickUpdate:001E
+[2015.12.14-23.01.55:220][580]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.55:235][581]LogScript:Warning: Accessed None 'timeManager'
+	Actor_Couloir_petit_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.Actor_Couloir_petit_C_1
+	Function /Game/Plateforme/BasicPlateform.BasicPlateform_C:TickUpdate:001E
+[2015.12.14-23.01.55:236][581]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.55:253][582]LogScript:Warning: Accessed None 'timeManager'
+	Actor_Couloir_petit_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.Actor_Couloir_petit_C_1
+	Function /Game/Plateforme/BasicPlateform.BasicPlateform_C:TickUpdate:001E
+[2015.12.14-23.01.55:254][582]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.55:274][583]LogScript:Warning: Accessed None 'timeManager'
+	Actor_Couloir_petit_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.Actor_Couloir_petit_C_1
+	Function /Game/Plateforme/BasicPlateform.BasicPlateform_C:TickUpdate:001E
+[2015.12.14-23.01.55:275][583]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.55:291][584]LogScript:Warning: Accessed None 'timeManager'
+	Actor_Couloir_petit_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.Actor_Couloir_petit_C_1
+	Function /Game/Plateforme/BasicPlateform.BasicPlateform_C:TickUpdate:001E
+[2015.12.14-23.01.55:291][584]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.55:307][585]LogScript:Warning: Accessed None 'timeManager'
+	Actor_Couloir_petit_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.Actor_Couloir_petit_C_1
+	Function /Game/Plateforme/BasicPlateform.BasicPlateform_C:TickUpdate:001E
+[2015.12.14-23.01.55:308][585]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.55:324][586]LogScript:Warning: Accessed None 'timeManager'
+	Actor_Couloir_petit_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.Actor_Couloir_petit_C_1
+	Function /Game/Plateforme/BasicPlateform.BasicPlateform_C:TickUpdate:001E
+[2015.12.14-23.01.55:325][586]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.55:345][587]LogScript:Warning: Accessed None 'timeManager'
+	Actor_Couloir_petit_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.Actor_Couloir_petit_C_1
+	Function /Game/Plateforme/BasicPlateform.BasicPlateform_C:TickUpdate:001E
+[2015.12.14-23.01.55:345][587]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.55:364][588]LogScript:Warning: Accessed None 'timeManager'
+	Actor_Couloir_petit_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.Actor_Couloir_petit_C_1
+	Function /Game/Plateforme/BasicPlateform.BasicPlateform_C:TickUpdate:001E
+[2015.12.14-23.01.55:364][588]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.55:380][589]LogScript:Warning: Accessed None 'timeManager'
+	Actor_Couloir_petit_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.Actor_Couloir_petit_C_1
+	Function /Game/Plateforme/BasicPlateform.BasicPlateform_C:TickUpdate:001E
+[2015.12.14-23.01.55:380][589]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.55:396][590]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.55:414][591]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.55:430][592]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.55:448][593]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.55:475][594]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.55:502][595]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.55:529][596]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.55:551][597]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.55:572][598]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.55:588][599]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.55:605][600]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.55:622][601]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.55:639][602]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.55:657][603]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.55:679][604]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.55:702][605]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.55:728][606]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.55:744][607]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.55:764][608]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.55:782][609]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.55:804][610]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.55:826][611]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.55:847][612]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.55:864][613]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.55:881][614]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.55:898][615]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.55:915][616]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.55:931][617]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.55:949][618]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.55:973][619]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.55:991][620]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:007][621]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:032][622]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:048][623]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:063][624]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:081][625]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:098][626]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:114][627]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:130][628]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:147][629]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:164][630]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:183][631]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:200][632]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:217][633]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:233][634]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:251][635]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:267][636]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:284][637]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:304][638]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:320][639]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:337][640]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:355][641]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:372][642]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:388][643]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:405][644]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:422][645]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:438][646]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:455][647]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:473][648]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:490][649]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:516][650]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:535][651]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:552][652]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:569][653]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:586][654]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:603][655]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:619][656]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:635][657]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:663][658]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:683][659]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:703][660]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:719][661]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:736][662]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:752][663]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:769][664]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:786][665]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:803][666]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:824][667]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:844][668]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:867][669]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:889][670]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:904][671]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:927][672]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:948][673]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:966][674]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:982][675]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.56:999][676]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.57:015][677]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.57:032][678]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.57:049][679]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.57:066][680]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.57:082][681]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.57:099][682]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.57:116][683]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.57:133][684]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.57:151][685]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.57:180][686]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.57:198][687]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.57:217][688]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.57:234][689]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.57:251][690]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.57:267][691]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.57:400][699]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.14-23.01.57:402][699]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Debut.Debut:PersistentLevel' has LevelScriptBlueprint '/Game/Debut.Debut:PersistentLevel.Debut' with GeneratedClass '/Game/Debut.Debut_C' with ClassGeneratedBy '/Game/Debut.Debut:PersistentLevel.Debut'
+[2015.12.14-23.01.57:509][699]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Debut.Debut:PersistentLevel' has LevelScriptBlueprint '/Game/Debut.Debut:PersistentLevel.Debut' with GeneratedClass '/Game/Debut.Debut_C' with ClassGeneratedBy '/Game/Debut.Debut:PersistentLevel.Debut'
+[2015.12.14-23.01.57:647][699]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003E0AF740
+[2015.12.14-23.02.00:416][798]Cmd: QUIT_EDITOR
+[2015.12.14-23.02.00:992][798]LogExit: Preparing to exit.
+[2015.12.14-23.02.02:708][798]LogExit: Editor shut down
+[2015.12.14-23.02.02:708][798]LogExit: Transaction tracking system shut down
+[2015.12.14-23.02.02:777][798]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000109037E0
+[2015.12.14-23.02.02:778][798]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000032C45E40
+[2015.12.14-23.02.02:784][798]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000044EB19E0
+[2015.12.14-23.02.04:825][798]LogExit: Object subsystem successfully closed.
+[2015.12.14-23.02.05:460][798]LogD3D11RHI: Shutdown
+[2015.12.14-23.02.05:460][798]LogD3D11RHI: CleanupD3DDevice
+[2015.12.14-23.02.05:925][798]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.12.14-23.02.07:691][798]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2015.12.14-23.02.07:691][798]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2015.12.14-23.02.07:691][798]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2015.12.14-23.02.07:691][798]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2015.12.14-23.02.07:719][798]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2015.12.14-23.02.07:768][798]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2015.12.14-23.02.07:768][798]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2015.12.14-23.02.07:842][798]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2015.12.14-23.02.07:887][798]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2015.12.14-23.02.07:908][798]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2015.12.14-23.02.07:995][798]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2015.12.14-23.02.07:995][798]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2015.12.14-23.02.07:995][798]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2015.12.14-23.02.07:995][798]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2015.12.14-23.02.07:995][798]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2015.12.14-23.02.07:995][798]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2015.12.14-23.02.07:995][798]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2015.12.14-23.02.07:995][798]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2015.12.14-23.02.07:995][798]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2015.12.14-23.02.07:995][798]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2015.12.14-23.02.08:100][798]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2015.12.14-23.02.08:229][798]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2015.12.14-23.02.08:352][798]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2015.12.14-23.02.08:352][798]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2015.12.14-23.02.08:374][798]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2015.12.14-23.02.08:375][798]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2015.12.14-23.02.09:289][798]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2015.12.14-23.02.09:289][798]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2015.12.14-23.02.09:289][798]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2015.12.14-23.02.09:289][798]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2015.12.14-23.02.09:331][798]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2015.12.14-23.02.09:331][798]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2015.12.14-23.02.09:417][798]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2015.12.14-23.02.09:422][798]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2015.12.14-23.02.09:432][798]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2015.12.14-23.02.09:448][798]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2015.12.14-23.02.09:455][798]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2015.12.14-23.02.09:474][798]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2015.12.14-23.02.09:484][798]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2015.12.14-23.02.09:492][798]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2015.12.14-23.02.09:492][798]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2015.12.14-23.02.09:504][798]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2015.12.14-23.02.09:504][798]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2015.12.14-23.02.09:512][798]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2015.12.14-23.02.09:512][798]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2015.12.14-23.02.09:537][798]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2015.12.14-23.02.09:537][798]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2015.12.14-23.02.09:558][798]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2015.12.14-23.02.09:583][798]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2015.12.14-23.02.09:597][798]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2015.12.14-23.02.09:604][798]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2015.12.14-23.02.09:605][798]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2015.12.14-23.02.09:641][798]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2015.12.14-23.02.09:698][798]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2015.12.14-23.02.09:754][798]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2015.12.14-23.02.09:948][798]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2015.12.14-23.02.09:949][798]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2015.12.14-23.02.09:972][798]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2015.12.14-23.02.09:972][798]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2015.12.14-23.02.10:185][798]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2015.12.14-23.02.10:185][798]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2015.12.14-23.02.10:185][798]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2015.12.14-23.02.10:186][798]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2015.12.14-23.02.10:186][798]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2015.12.14-23.02.10:252][798]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2015.12.14-23.02.10:299][798]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2015.12.14-23.02.10:299][798]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2015.12.14-23.02.10:322][798]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2015.12.14-23.02.10:322][798]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2015.12.14-23.02.10:356][798]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2015.12.14-23.02.10:356][798]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2015.12.14-23.02.10:356][798]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2015.12.14-23.02.10:356][798]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2015.12.14-23.02.10:415][798]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2015.12.14-23.02.10:455][798]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2015.12.14-23.02.10:455][798]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2015.12.14-23.02.10:709][798]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2015.12.14-23.02.10:779][798]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2015.12.14-23.02.10:780][798]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2015.12.14-23.02.10:780][798]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2015.12.14-23.02.10:780][798]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2015.12.14-23.02.10:780][798]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2015.12.14-23.02.10:780][798]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2015.12.14-23.02.10:780][798]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2015.12.14-23.02.10:944][798]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2015.12.14-23.02.10:944][798]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2015.12.14-23.02.10:966][798]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2015.12.14-23.02.10:966][798]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2015.12.14-23.02.11:101][798]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2015.12.14-23.02.11:222][798]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2015.12.14-23.02.11:223][798]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2015.12.14-23.02.11:223][798]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2015.12.14-23.02.11:384][798]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2015.12.14-23.02.11:409][798]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2015.12.14-23.02.11:459][798]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2015.12.14-23.02.11:483][798]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2015.12.14-23.02.11:483][798]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2015.12.14-23.02.11:528][798]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2015.12.14-23.02.11:917][798]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2015.12.14-23.02.12:003][798]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2015.12.14-23.02.12:084][798]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2015.12.14-23.02.12:084][798]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2015.12.14-23.02.12:107][798]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2015.12.14-23.02.12:107][798]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2015.12.14-23.02.12:107][798]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2015.12.14-23.02.12:198][798]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2015.12.14-23.02.12:260][798]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2015.12.14-23.02.12:260][798]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2015.12.14-23.02.12:311][798]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2015.12.14-23.02.12:313][798]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2015.12.14-23.02.12:522][798]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2015.12.14-23.02.12:523][798]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2015.12.14-23.02.12:802][798]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2015.12.14-23.02.12:902][798]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2015.12.14-23.02.12:902][798]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2015.12.14-23.02.12:922][798]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2015.12.14-23.02.12:947][798]LogModuleManager: Shutting down and abandoning module Media (82)
+[2015.12.14-23.02.12:947][798]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2015.12.14-23.02.13:095][798]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2015.12.14-23.02.13:095][798]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2015.12.14-23.02.13:095][798]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2015.12.14-23.02.13:095][798]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2015.12.14-23.02.13:226][798]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2015.12.14-23.02.13:226][798]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2015.12.14-23.02.13:261][798]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2015.12.14-23.02.13:261][798]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2015.12.14-23.02.13:261][798]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2015.12.14-23.02.13:261][798]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2015.12.14-23.02.13:476][798]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2015.12.14-23.02.13:476][798]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2015.12.14-23.02.13:476][798]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2015.12.14-23.02.13:476][798]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2015.12.14-23.02.13:498][798]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2015.12.14-23.02.13:498][798]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2015.12.14-23.02.13:499][798]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2015.12.14-23.02.13:499][798]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2015.12.14-23.02.13:499][798]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2015.12.14-23.02.13:499][798]LogModuleManager: Shutting down and abandoning module Core (60)
+[2015.12.14-23.02.13:499][798]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2015.12.14-23.02.13:499][798]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2015.12.14-23.02.13:550][798]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2015.12.14-23.02.13:769][798]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2015.12.14-23.02.13:940][798]LogDerivedDataCache: Shutdown
+[2015.12.14-23.02.13:940][798]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2015.12.14-23.02.13:964][798]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2015.12.14-23.02.14:003][798]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2015.12.14-23.02.14:083][798]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2015.12.14-23.02.14:083][798]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2015.12.14-23.02.14:107][798]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2015.12.14-23.02.14:138][798]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2015.12.14-23.02.14:180][798]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2015.12.14-23.02.14:180][798]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2015.12.14-23.02.14:180][798]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2015.12.14-23.02.14:180][798]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2015.12.14-23.02.14:204][798]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2015.12.14-23.02.14:224][798]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2015.12.14-23.02.14:239][798]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2015.12.14-23.02.14:239][798]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2015.12.14-23.02.14:289][798]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2015.12.14-23.02.14:310][798]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2015.12.14-23.02.14:310][798]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2015.12.14-23.02.14:310][798]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2015.12.14-23.02.14:310][798]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2015.12.14-23.02.14:310][798]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2015.12.14-23.02.14:310][798]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2015.12.14-23.02.14:310][798]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2015.12.14-23.02.14:310][798]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2015.12.14-23.02.14:310][798]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2015.12.14-23.02.14:310][798]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2015.12.14-23.02.14:310][798]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2015.12.14-23.02.14:310][798]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2015.12.14-23.02.14:310][798]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2015.12.14-23.02.14:336][798]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2015.12.14-23.02.14:408][798]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2015.12.14-23.02.14:441][798]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2015.12.14-23.02.14:441][798]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2015.12.14-23.02.14:441][798]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2015.12.14-23.02.14:441][798]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2015.12.14-23.02.14:441][798]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2015.12.14-23.02.14:442][798]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2015.12.14-23.02.16:443][798]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2015.12.14-23.02.16:590][798]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2015.12.14-23.02.16:720][798]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.12.14-23.02.16:720][798]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.12.14-23.02.16:766][798]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.12.14-23.02.16:766][798]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.12.14-23.02.16:766][798]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.12.14-23.02.16:851][798]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.12.14-23.02.16:906][798]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.12.14-23.02.16:906][798]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.12.14-23.02.16:931][798]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.12.14-23.02.16:931][798]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.12.14-23.02.16:931][798]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.12.14-23.02.16:931][798]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.12.14-23.02.16:986][798]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.12.14-23.02.17:090][798]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.12.14-23.02.17:106][798]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.12.14-23.02.17:140][798]LogExit: Exiting.
+[2015.12.14-23.02.17:214][798]Log file closed, 12/15/15 00:02:17
