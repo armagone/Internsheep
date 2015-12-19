@@ -1,0 +1,726 @@
+﻿[2015.12.13-03.52.53:121][  0]Log file open, 12/13/15 04:52:53
+[2015.12.13-03.52.53:121][  0]LogInit:Display: Running engine for game: Internsheep
+[2015.12.13-03.52.53:121][  0]LogPlatformFile: Not using cached read wrapper
+[2015.12.13-03.52.53:121][  0]LogInit:Display: RandInit(1072874702) SRandInit(1072874703).
+[2015.12.13-03.52.53:121][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.12.13-03.52.53:121][  0]LogStats: Stats thread started at 0.076091
+[2015.12.13-03.52.53:121][  0]LogInit: Version: 4.10.1-2791327+++depot+UE4-Releases+4.10
+[2015.12.13-03.52.53:121][  0]LogInit: API Version: 2758231
+[2015.12.13-03.52.53:121][  0]LogInit: Compiled (64-bit): Dec  4 2015 19:44:40
+[2015.12.13-03.52.53:121][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2015.12.13-03.52.53:121][  0]LogInit: Build Configuration: Development
+[2015.12.13-03.52.53:121][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2015.12.13-03.52.53:121][  0]LogInit: Command line:  
+[2015.12.13-03.52.53:121][  0]LogInit: Base directory: D:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/
+[2015.12.13-03.52.53:121][  0]LogInit: Rocket: 1
+[2015.12.13-03.52.53:126][  0]LogInit: Using libcurl 7.41.0
+[2015.12.13-03.52.53:126][  0]LogInit:  - built for x86_64-pc-win32
+[2015.12.13-03.52.53:126][  0]LogInit:  - supports SSL with WinSSL
+[2015.12.13-03.52.53:126][  0]LogInit:  - other features:
+[2015.12.13-03.52.53:126][  0]LogInit:      CURL_VERSION_SSL
+[2015.12.13-03.52.53:126][  0]LogInit:      CURL_VERSION_IPV6
+[2015.12.13-03.52.53:126][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.12.13-03.52.53:126][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.12.13-03.52.53:126][  0]LogInit:      CURL_VERSION_IDN
+[2015.12.13-03.52.53:126][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.12.13-03.52.53:126][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.12.13-03.52.53:126][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.12.13-03.52.53:126][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.12.13-03.52.53:126][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.12.13-03.52.53:131][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.12.13-03.52.53:138][  0]LogInit: Object subsystem initialized
+[2015.12.13-03.52.53:139][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.13-03.52.53:139][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.12.13-03.52.53:146][  0]LogInit: Computer: PIERRE
+[2015.12.13-03.52.53:146][  0]LogInit: User: Pierre6991
+[2015.12.13-03.52.53:146][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.12.13-03.52.53:146][  0]LogInit: High frequency timer resolution =2.338346 MHz
+[2015.12.13-03.52.53:146][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2015.12.13-03.52.53:146][  0]LogMemory: Platform Memory Stats for Windows
+[2015.12.13-03.52.53:146][  0]LogMemory: Process Physical Memory: 55.60 MB used, 55.60 MB peak
+[2015.12.13-03.52.53:146][  0]LogMemory: Process Virtual Memory: 57.02 MB used, 57.02 MB peak
+[2015.12.13-03.52.53:146][  0]LogMemory: Physical Memory: 2503.89 MB used, 3981.01 MB total
+[2015.12.13-03.52.53:146][  0]LogMemory: Virtual Memory: 367.55 MB used, 134217728.00 MB total
+[2015.12.13-03.52.53:186][  0]LogTextLocalizationManager: No translations for ('fr-FR') exist, falling back to 'en' for localization and internationalization data.
+[2015.12.13-03.52.53:641][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 740M        (Feature Level 11_0)
+[2015.12.13-03.52.53:641][  0]LogD3D11RHI: Adapter has 1992MB of dedicated video memory, 0MB of dedicated system memory, and 1990MB of shared system memory, 1 output[s]
+[2015.12.13-03.52.53:681][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 740M        (Feature Level 11_0)
+[2015.12.13-03.52.53:681][  0]LogD3D11RHI: Adapter has 1992MB of dedicated video memory, 0MB of dedicated system memory, and 1990MB of shared system memory, 0 output[s]
+[2015.12.13-03.52.53:685][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.12.13-03.52.53:685][  0]LogD3D11RHI: Adapter has 1992MB of dedicated video memory, 0MB of dedicated system memory, and 1990MB of shared system memory, 0 output[s]
+[2015.12.13-03.52.53:685][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.12.13-03.52.53:695][  0]LogD3D11RHI: !Direct3DDevice
+[2015.12.13-03.52.53:695][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.12.13-03.52.53:716][  0]LogD3D11RHI: Async texture creation enabled
+[2015.12.13-03.52.53:732][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (../../../../../../Download/Internsheep-max/Internsheep-max/Intermediate/Shaders/WorkingDirectory/9032/).
+[2015.12.13-03.52.53:732][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/PIERRE~1/AppData/Local/Temp/UnrealShaderWorkingDir/1A87550342A6F3C7E8FBD8AE4497C0E5/'.
+[2015.12.13-03.52.53:732][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.12.13-03.52.55:164][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.12.13-03.52.55:186][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.12.13-03.52.55:211][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.12.13-03.52.55:220][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.12.13-03.52.55:232][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.12.13-03.52.55:275][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.12.13-03.52.55:305][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.12.13-03.52.55:330][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.12.13-03.52.55:356][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.12.13-03.52.55:379][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.12.13-03.52.55:401][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.12.13-03.52.55:414][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2015.12.13-03.52.55:414][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.12.13-03.52.55:427][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.12.13-03.52.55:521][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.12.13-03.52.55:552][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.12.13-03.52.55:558][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.12.13-03.52.55:582][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.12.13-03.52.55:582][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.12.13-03.52.56:418][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.12.13-03.52.57:010][  0]LogDerivedDataCache: Loaded boot cache 0.59s 41MB C:/Users/Pierre6991/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2015.12.13-03.52.57:010][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Pierre6991/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2015.12.13-03.52.57:010][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Download/Internsheep-max/Internsheep-max/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.12.13-03.52.57:010][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.12.13-03.52.57:010][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Download/Internsheep-max/Internsheep-max/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.12.13-03.52.57:010][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.12.13-03.52.57:170][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.12.13-03.52.57:183][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Pierre6991/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.12.13-03.53.06:426][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.13-03.53.06:490][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.12.13-03.53.07:444][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.12.13-03.53.07:444][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.12.13-03.53.10:609][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.12.13-03.53.23:436][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.12.13-03.53.24:206][  0]LogAssetRegistry: FAssetRegistry took 0.0114 seconds to start up
+[2015.12.13-03.53.27:250][  0]SourceControl: Info Source control is disabled
+[2015.12.13-03.53.27:277][  0]SourceControl: Info Source control is disabled
+[2015.12.13-03.53.27:724][  0]SourceControl: Info Source control is disabled
+[2015.12.13-03.53.27:777][  0]SourceControl: Info Source control is disabled
+[2015.12.13-03.53.29:137][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2015.12.13-03.53.29:137][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2015.12.13-03.53.29:897][  0]LogEngine: Initializing Engine...
+[2015.12.13-03.53.29:955][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2015.12.13-03.53.30:021][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.12.13-03.53.30:804][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.12.13-03.53.30:879][  0]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.13-03.53.30:889][  0]LogInit: FAudioDevice initialized.
+[2015.12.13-03.53.30:947][  0]LogDerivedDataCache: Saved boot cache 0.06s 41MB C:/Users/Pierre6991/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2015.12.13-03.53.30:955][  0]LogInit: Texture streaming: Enabled
+[2015.12.13-03.53.31:335][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.12.13-03.53.31:335][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.1-2791327+++depot+UE4-Releases+4.10
+[2015.12.13-03.53.31:362][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 9634230f474bfd6af3d7eca0853271ec|0564376c1eb44b439f5c4df5195a7a7e|dbd06198-ba12-401f-9f01-08593f6665de
+[2015.12.13-03.53.31:371][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.12.13-03.53.31:491][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.12.13-03.53.32:284][  0]LogInit: Transaction tracking system initialized
+[2015.12.13-03.53.33:948][  0]BlueprintLog: New page: Editor Load
+[2015.12.13-03.53.37:124][  0]LocalizationService: Info Localization service is disabled
+[2015.12.13-03.53.38:871][  0]LogConsoleResponse:Display: 
+[2015.12.13-03.53.40:426][  0]LogFileCache: Scanning file cache for directory 'D:/Download/Internsheep-max/Internsheep-max/Content/' took 0.05s
+[2015.12.13-03.53.40:427][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.12.13-03.53.41:526][  0]SourceControl: Info Source control is disabled
+[2015.12.13-03.53.41:540][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.13-03.53.41:641][  0]LightingResults: New page: Lighting Build
+[2015.12.13-03.53.41:699][  0]MapCheck: New page: Map Check
+[2015.12.13-03.53.41:700][  0]LightingResults: New page: Lighting Build
+[2015.12.13-03.53.41:867][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008CF37FBB00
+[2015.12.13-03.53.43:634][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2015.12.13-03.53.43:956][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.13-03.53.44:056][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.13-03.53.44:105][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 49.083ms to complete.
+[2015.12.13-03.53.44:105][  0]LogFileHelpers: Loading map 'Template_Default' took 2.566
+[2015.12.13-03.53.45:753][  0]LogCollectionManager: Loaded 0 collections in 0.001065 seconds
+[2015.12.13-03.53.46:171][  0]LogFileCache: Scanning file cache for directory 'D:/Download/Internsheep-max/Internsheep-max/Saved/Collections/' took 0.01s
+[2015.12.13-03.53.46:171][  0]LogFileCache: Scanning file cache for directory 'D:/Download/Internsheep-max/Internsheep-max/Content/Developers/Pierre6991/Collections/' took 0.01s
+[2015.12.13-03.53.46:171][  0]LogFileCache: Scanning file cache for directory 'D:/Download/Internsheep-max/Internsheep-max/Content/Collections/' took 0.01s
+[2015.12.13-03.53.46:171][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2015.12.13-03.53.46:205][  0]LogContentBrowser: Native class hierarchy populated in 0.0139 seconds. Added 1893 classes and 338 folders.
+[2015.12.13-03.53.46:455][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.12.13-03.53.47:244][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.12.13-03.53.47:357][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2015.12.13-03.53.48:777][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.12.13-03.53.49:046][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.12.13-03.53.49:232][  0]LogLoad: Full Startup: 56.49 seconds (BP compile: 1.20 seconds)
+[2015.12.13-03.53.49:279][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2015.12.13-03.53.49:459][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.12.13-03.53.50:447][  0]LogRenderer: Reallocating scene render targets to support 1004x480 (Frame:2).
+[2015.12.13-03.53.50:733][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/Download/Internsheep-max/Internsheep-max/Content/' took 1.39s
+[2015.12.13-03.53.51:740][  4]LogAssetRegistry: Asset discovery search completed in 27.5460 seconds
+[2015.12.13-03.53.51:740][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2015.12.13-03.53.51:740][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000016 seconds (updated 0 objects)
+[2015.12.13-03.54.01:838][137]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.13-03.54.02:457][137]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 107 classes and 0 folders.
+[2015.12.13-03.56.08:701][109]AssetReimport: New page: Outstanding source content changes 5:56:08 AM
+[2015.12.13-03.56.11:730][230]AssetReimport: Info Ignoring new file looperman-l-1107241-0073334-techseeker-5-seconds-only-space-arp.wav as it's already imported by looperman-l-1107241-0073334-techseeker-5-seconds-only-space-arp.
+[2015.12.13-03.56.22:209][553]LogBlueprint:Warning: [compiler Debut] Warning InputAction Event references unknown Action 'StopSound' for  InputAction StopSound 
+[2015.12.13-03.56.22:210][553]LogBlueprint:Warning: [compiler Debut] Warning [0209.47] Compile of Debut successful, but with 1 Warning(s) [in 43 ms]
+[2015.12.13-03.56.22:211][553]LogBlueprint:Warning: [compiler Debut] Warning [0209.47] Compile of Debut successful, but with 2 Warning(s) [in 0 ms]
+[2015.12.13-03.56.22:211][553]LogBlueprint:Warning: [compiler Debut] Warning [0209.47] Compile of Debut successful, but with 3 Warning(s) [in 0 ms]
+[2015.12.13-03.56.22:213][553]LogBlueprint:Warning: [compiler Debut] Warning InputAction Event references unknown Action 'StopSound' for  InputAction StopSound 
+[2015.12.13-03.56.22:215][553]LogBlueprint:Warning: [compiler Debut] Warning [0209.47] Compile of Debut successful, but with 1 Warning(s) [in 2 ms]
+[2015.12.13-03.56.22:215][553]LogBlueprint:Warning: [compiler Debut] Warning [0209.47] Compile of Debut successful, but with 2 Warning(s) [in 0 ms]
+[2015.12.13-03.56.22:215][553]LogBlueprint:Warning: [compiler Debut] Warning [0209.47] Compile of Debut successful, but with 3 Warning(s) [in 0 ms]
+[2015.12.13-03.56.22:275][553]LogAIModule: Creating AISystem for world Debut
+[2015.12.13-03.56.22:514][553]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008C9A3665C0
+[2015.12.13-03.56.22:514][553]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008C9A367920
+[2015.12.13-03.56.22:542][553]Cmd: MAP LOAD FILE="../../../../../../Download/Internsheep-max/Internsheep-max/Content/New/Debut.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.13-03.56.22:542][553]LightingResults: New page: Lighting Build
+[2015.12.13-03.56.22:556][553]LoadErrors: New page: Loading map: Debut.umap
+[2015.12.13-03.56.22:574][553]MapCheck: New page: Map Check
+[2015.12.13-03.56.22:574][553]LightingResults: New page: Lighting Build
+[2015.12.13-03.56.22:598][553]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008CE49674C0
+[2015.12.13-03.56.22:709][553]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.13-03.56.23:124][553]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.13-03.56.23:168][553]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 44.413ms to complete.
+[2015.12.13-03.56.23:168][553]LogFileHelpers: Loading map 'Debut' took 0.627
+[2015.12.13-03.56.25:559][631]LogBlueprint:Warning: [compiler Char2] Warning InputAction Event references unknown Action 'MouseClick' for  InputAction MouseClick 
+[2015.12.13-03.56.25:562][631]LogBlueprint:Warning: [compiler Char2] Warning [0212.82] Compile of Char2 successful, but with 1 Warning(s) [in 9 ms]
+[2015.12.13-03.56.25:562][631]LogBlueprint:Warning: [compiler Char2] Warning [0212.82] Compile of Char2 successful, but with 2 Warning(s) [in 0 ms]
+[2015.12.13-03.56.25:562][631]LogBlueprint:Warning: [compiler Char2] Warning [0212.82] Compile of Char2 successful, but with 3 Warning(s) [in 0 ms]
+[2015.12.13-03.56.25:572][631]LogBlueprint:Warning: [compiler Char2] Warning InputAction Event references unknown Action 'MouseClick' for  InputAction MouseClick 
+[2015.12.13-03.56.25:575][631]LogBlueprint:Warning: [compiler Char2] Warning [0212.83] Compile of Char2 successful, but with 1 Warning(s) [in 9 ms]
+[2015.12.13-03.56.25:575][631]LogBlueprint:Warning: [compiler Char2] Warning [0212.84] Compile of Char2 successful, but with 2 Warning(s) [in 0 ms]
+[2015.12.13-03.56.25:575][631]LogBlueprint:Warning: [compiler Char2] Warning [0212.84] Compile of Char2 successful, but with 3 Warning(s) [in 0 ms]
+[2015.12.13-03.56.25:700][631]LogBlueprint:Warning: [compiler Mychar] Warning InputAction Event references unknown Action 'MouseClick' for  InputAction MouseClick 
+[2015.12.13-03.56.25:702][631]LogBlueprint:Warning: [compiler Mychar] Warning [0212.96] Compile of Mychar successful, but with 1 Warning(s) [in 4 ms]
+[2015.12.13-03.56.25:702][631]LogBlueprint:Warning: [compiler Mychar] Warning [0212.96] Compile of Mychar successful, but with 2 Warning(s) [in 0 ms]
+[2015.12.13-03.56.25:702][631]LogBlueprint:Warning: [compiler Mychar] Warning [0212.96] Compile of Mychar successful, but with 3 Warning(s) [in 0 ms]
+[2015.12.13-03.56.25:706][631]LogBlueprint:Warning: [compiler Mychar] Warning InputAction Event references unknown Action 'MouseClick' for  InputAction MouseClick 
+[2015.12.13-03.56.25:709][631]LogBlueprint:Warning: [compiler Mychar] Warning [0212.97] Compile of Mychar successful, but with 1 Warning(s) [in 4 ms]
+[2015.12.13-03.56.25:709][631]LogBlueprint:Warning: [compiler Mychar] Warning [0212.97] Compile of Mychar successful, but with 2 Warning(s) [in 0 ms]
+[2015.12.13-03.56.25:709][631]LogBlueprint:Warning: [compiler Mychar] Warning [0212.97] Compile of Mychar successful, but with 3 Warning(s) [in 0 ms]
+[2015.12.13-03.56.25:712][631]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2015.12.13-03.56.25:712][631]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading ../../../../../../Download/Internsheep-max/Internsheep-max/Content/Mesh/InvisibleWall.uasset.
+[2015.12.13-03.56.25:712][631]LoadErrors:Error: Error /Game/Mesh/InvisibleWall : Can't find file for asset. /Game/StarterContent/Materials/M_Basic_Wall
+[2015.12.13-03.56.25:712][631]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2015.12.13-03.56.25:712][631]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading ../../../../../../Download/Internsheep-max/Internsheep-max/Content/Mesh/InvisibleWall.uasset.
+[2015.12.13-03.56.25:713][631]LogLinker:Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2015.12.13-03.56.25:713][631]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading ../../../../../../Download/Internsheep-max/Internsheep-max/Content/Old/Module1.uasset.
+[2015.12.13-03.56.25:713][631]LoadErrors:Error: Error /Game/Old/Module1 : Can't find file for asset. /Game/StarterContent/Architecture/Floor_400x400
+[2015.12.13-03.56.25:713][631]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cylinder'
+[2015.12.13-03.56.25:713][631]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cylinder' while loading ../../../../../../Download/Internsheep-max/Internsheep-max/Content/Old/Module1.uasset.
+[2015.12.13-03.56.25:713][631]LoadErrors:Error: Error /Game/Old/Module1 : Can't find file for asset. /Game/StarterContent/Shapes/Shape_Cylinder
+[2015.12.13-03.56.25:714][631]LogLinker:Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2015.12.13-03.56.25:714][631]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading ../../../../../../Download/Internsheep-max/Internsheep-max/Content/Old/Module1.uasset.
+[2015.12.13-03.56.25:714][631]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cylinder'
+[2015.12.13-03.56.25:714][631]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cylinder' while loading ../../../../../../Download/Internsheep-max/Internsheep-max/Content/Old/Module1.uasset.
+[2015.12.13-03.56.25:718][631]LogLinker:Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2015.12.13-03.56.25:718][631]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading ../../../../../../Download/Internsheep-max/Internsheep-max/Content/Plateforme/Actor_Couloir_petit.uasset.
+[2015.12.13-03.56.25:718][631]LoadErrors:Error: Error /Game/Plateforme/Actor_Couloir_petit : Can't find file for asset. /Game/StarterContent/Architecture/Floor_400x400
+[2015.12.13-03.56.25:718][631]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cylinder'
+[2015.12.13-03.56.25:718][631]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cylinder' while loading ../../../../../../Download/Internsheep-max/Internsheep-max/Content/Plateforme/Actor_Couloir_petit.uasset.
+[2015.12.13-03.56.25:718][631]LoadErrors:Error: Error /Game/Plateforme/Actor_Couloir_petit : Can't find file for asset. /Game/StarterContent/Shapes/Shape_Cylinder
+[2015.12.13-03.56.25:718][631]LogLinker:Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2015.12.13-03.56.25:718][631]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading ../../../../../../Download/Internsheep-max/Internsheep-max/Content/Plateforme/Actor_Couloir_petit.uasset.
+[2015.12.13-03.56.25:719][631]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cylinder'
+[2015.12.13-03.56.25:719][631]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cylinder' while loading ../../../../../../Download/Internsheep-max/Internsheep-max/Content/Plateforme/Actor_Couloir_petit.uasset.
+[2015.12.13-03.56.25:771][631]LogLinker:Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2015.12.13-03.56.25:771][631]LoadErrors: Info Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by floor_GEN_VARIABLE
+[2015.12.13-03.56.25:771][631]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading ../../../../../../Download/Internsheep-max/Internsheep-max/Content/Plateforme/Actor_Couloir_petit.uasset.
+[2015.12.13-03.56.25:772][631]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cylinder'
+[2015.12.13-03.56.25:772][631]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Cylinder.Shape_Cylinder Referenced by ori_GEN_VARIABLE
+[2015.12.13-03.56.25:772][631]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cylinder' while loading ../../../../../../Download/Internsheep-max/Internsheep-max/Content/Plateforme/Actor_Couloir_petit.uasset.
+[2015.12.13-03.56.25:832][631]LogBlueprint:Warning: [compiler Module1] Warning InputAction Event references unknown Action 'SpawnR' for  InputAction SpawnR 
+[2015.12.13-03.56.25:850][631]LogBlueprint:Warning: [compiler Module1] Warning [0213.11] Compile of Module1 successful, but with 1 Warning(s) [in 24 ms]
+[2015.12.13-03.56.25:851][631]LogBlueprint:Warning: [compiler Module1] Warning [0213.11] Compile of Module1 successful, but with 2 Warning(s) [in 0 ms]
+[2015.12.13-03.56.25:851][631]LogBlueprint:Warning: [compiler Module1] Warning [0213.11] Compile of Module1 successful, but with 3 Warning(s) [in 0 ms]
+[2015.12.13-03.56.25:864][631]LogBlueprint:Warning: [compiler Module1] Warning InputAction Event references unknown Action 'SpawnR' for  InputAction SpawnR 
+[2015.12.13-03.56.25:882][631]LogBlueprint:Warning: [compiler Module1] Warning [0213.14] Compile of Module1 successful, but with 1 Warning(s) [in 24 ms]
+[2015.12.13-03.56.25:883][631]LogBlueprint:Warning: [compiler Module1] Warning [0213.14] Compile of Module1 successful, but with 2 Warning(s) [in 0 ms]
+[2015.12.13-03.56.25:883][631]LogBlueprint:Warning: [compiler Module1] Warning [0213.14] Compile of Module1 successful, but with 3 Warning(s) [in 0 ms]
+[2015.12.13-03.56.26:115][631]LogBlueprint:Warning: [compiler Anneau_actor] Warning InputAction Event references unknown Action 'SpawnR' for  InputAction SpawnR 
+[2015.12.13-03.56.26:119][631]LogBlueprint:Warning: [compiler Anneau_actor] Warning [0213.38] Compile of Anneau_actor successful, but with 1 Warning(s) [in 7 ms]
+[2015.12.13-03.56.26:120][631]LogBlueprint:Warning: [compiler Anneau_actor] Warning [0213.38] Compile of Anneau_actor successful, but with 2 Warning(s) [in 0 ms]
+[2015.12.13-03.56.26:120][631]LogBlueprint:Warning: [compiler Anneau_actor] Warning [0213.38] Compile of Anneau_actor successful, but with 3 Warning(s) [in 0 ms]
+[2015.12.13-03.56.26:216][631]LogBlueprint:Warning: [compiler Quartier_simple_actor] Warning InputAction Event references unknown Action 'SpawnR' for  InputAction SpawnR 
+[2015.12.13-03.56.26:221][631]LogBlueprint:Warning: [compiler Quartier_simple_actor] Warning [0213.48] Compile of Quartier_simple_actor successful, but with 1 Warning(s) [in 7 ms]
+[2015.12.13-03.56.26:221][631]LogBlueprint:Warning: [compiler Quartier_simple_actor] Warning [0213.48] Compile of Quartier_simple_actor successful, but with 2 Warning(s) [in 0 ms]
+[2015.12.13-03.56.26:221][631]LogBlueprint:Warning: [compiler Quartier_simple_actor] Warning [0213.48] Compile of Quartier_simple_actor successful, but with 3 Warning(s) [in 0 ms]
+[2015.12.13-03.56.26:304][631]LogBlueprint:Warning: [compiler Serre_actor] Warning InputAction Event references unknown Action 'SpawnR' for  InputAction SpawnR 
+[2015.12.13-03.56.26:312][631]LogBlueprint:Warning: [compiler Serre_actor] Warning [0213.57] Compile of Serre_actor successful, but with 1 Warning(s) [in 10 ms]
+[2015.12.13-03.56.26:313][631]LogBlueprint:Warning: [compiler Serre_actor] Warning [0213.57] Compile of Serre_actor successful, but with 2 Warning(s) [in 0 ms]
+[2015.12.13-03.56.26:313][631]LogBlueprint:Warning: [compiler Serre_actor] Warning [0213.57] Compile of Serre_actor successful, but with 3 Warning(s) [in 0 ms]
+[2015.12.13-03.56.26:826][631]LogBlueprint:Warning: [compiler Actor_Couloir_Grand] Warning InputAction Event references unknown Action 'SpawnR' for  InputAction SpawnR 
+[2015.12.13-03.56.27:035][631]LogBlueprint:Warning: [compiler Actor_Couloir_Grand] Warning [0214.30] Compile of Actor_Couloir_Grand successful, but with 1 Warning(s) [in 223 ms]
+[2015.12.13-03.56.27:039][631]LogBlueprint:Warning: [compiler Actor_Couloir_Grand] Warning [0214.30] Compile of Actor_Couloir_Grand successful, but with 2 Warning(s) [in 2 ms]
+[2015.12.13-03.56.27:039][631]LogBlueprint:Warning: [compiler Actor_Couloir_Grand] Warning [0214.30] Compile of Actor_Couloir_Grand successful, but with 3 Warning(s) [in 0 ms]
+[2015.12.13-03.56.27:544][631]LogBlueprint:Warning: [compiler Actor_Couloir_petit] Warning InputAction Event references unknown Action 'SpawnR' for  InputAction SpawnR 
+[2015.12.13-03.56.27:711][631]LogBlueprint:Warning: [compiler Actor_Couloir_petit] Warning [0214.97] Compile of Actor_Couloir_petit successful, but with 1 Warning(s) [in 202 ms]
+[2015.12.13-03.56.27:722][631]LogBlueprint:Warning: [compiler Actor_Couloir_petit] Warning [0214.98] Compile of Actor_Couloir_petit successful, but with 2 Warning(s) [in 10 ms]
+[2015.12.13-03.56.27:722][631]LogBlueprint:Warning: [compiler Actor_Couloir_petit] Warning [0214.98] Compile of Actor_Couloir_petit successful, but with 3 Warning(s) [in 0 ms]
+[2015.12.13-03.56.27:851][631]LogBlueprint:Warning: [compiler Actor_Couloir_Grand] Warning InputAction Event references unknown Action 'SpawnR' for  InputAction SpawnR 
+[2015.12.13-03.56.27:940][631]LogBlueprint:Warning: [compiler Actor_Couloir_Grand] Warning [0215.20] Compile of Actor_Couloir_Grand successful, but with 1 Warning(s) [in 129 ms]
+[2015.12.13-03.56.27:940][631]LogBlueprint:Warning: [compiler Actor_Couloir_Grand] Warning [0215.20] Compile of Actor_Couloir_Grand successful, but with 2 Warning(s) [in 0 ms]
+[2015.12.13-03.56.27:944][631]LogBlueprint:Warning: [compiler Actor_Couloir_Grand] Warning [0215.20] Compile of Actor_Couloir_Grand successful, but with 3 Warning(s) [in 3 ms]
+[2015.12.13-03.56.27:953][631]LogBlueprint:Warning: [compiler Anneau_actor] Warning InputAction Event references unknown Action 'SpawnR' for  InputAction SpawnR 
+[2015.12.13-03.56.27:963][631]LogBlueprint:Warning: [compiler Anneau_actor] Warning [0215.22] Compile of Anneau_actor successful, but with 1 Warning(s) [in 13 ms]
+[2015.12.13-03.56.27:963][631]LogBlueprint:Warning: [compiler Anneau_actor] Warning [0215.22] Compile of Anneau_actor successful, but with 2 Warning(s) [in 0 ms]
+[2015.12.13-03.56.27:969][631]LogBlueprint:Warning: [compiler Anneau_actor] Warning [0215.23] Compile of Anneau_actor successful, but with 3 Warning(s) [in 5 ms]
+[2015.12.13-03.56.28:021][631]LogBlueprint:Warning: [compiler Quartier_simple_actor] Warning InputAction Event references unknown Action 'SpawnR' for  InputAction SpawnR 
+[2015.12.13-03.56.28:026][631]LogBlueprint:Warning: [compiler Quartier_simple_actor] Warning [0215.29] Compile of Quartier_simple_actor successful, but with 1 Warning(s) [in 9 ms]
+[2015.12.13-03.56.28:027][631]LogBlueprint:Warning: [compiler Quartier_simple_actor] Warning [0215.29] Compile of Quartier_simple_actor successful, but with 2 Warning(s) [in 0 ms]
+[2015.12.13-03.56.28:033][631]LogBlueprint:Warning: [compiler Quartier_simple_actor] Warning [0215.29] Compile of Quartier_simple_actor successful, but with 3 Warning(s) [in 6 ms]
+[2015.12.13-03.56.28:055][631]LogBlueprint:Warning: [compiler Serre_actor] Warning InputAction Event references unknown Action 'SpawnR' for  InputAction SpawnR 
+[2015.12.13-03.56.28:066][631]LogBlueprint:Warning: [compiler Serre_actor] Warning [0215.33] Compile of Serre_actor successful, but with 1 Warning(s) [in 16 ms]
+[2015.12.13-03.56.28:066][631]LogBlueprint:Warning: [compiler Serre_actor] Warning [0215.33] Compile of Serre_actor successful, but with 2 Warning(s) [in 0 ms]
+[2015.12.13-03.56.28:073][631]LogBlueprint:Warning: [compiler Serre_actor] Warning [0215.33] Compile of Serre_actor successful, but with 3 Warning(s) [in 6 ms]
+[2015.12.13-03.56.28:216][631]LogBlueprint:Warning: [compiler Actor_Couloir_petit] Warning InputAction Event references unknown Action 'SpawnR' for  InputAction SpawnR 
+[2015.12.13-03.56.28:276][631]LogBlueprint:Warning: [compiler Actor_Couloir_petit] Warning [0215.54] Compile of Actor_Couloir_petit successful, but with 1 Warning(s) [in 74 ms]
+[2015.12.13-03.56.28:276][631]LogBlueprint:Warning: [compiler Actor_Couloir_petit] Warning [0215.54] Compile of Actor_Couloir_petit successful, but with 2 Warning(s) [in 0 ms]
+[2015.12.13-03.56.28:281][631]LogBlueprint:Warning: [compiler Actor_Couloir_petit] Warning [0215.54] Compile of Actor_Couloir_petit successful, but with 3 Warning(s) [in 4 ms]
+[2015.12.13-03.56.28:440][631]LogBlueprint:Warning: [compiler Level1] Warning InputAction Event references unknown Action 'Mission' for  InputAction Mission 
+[2015.12.13-03.56.28:440][631]LogBlueprint:Warning: [compiler Level1] Warning InputAction Event references unknown Action 'StopSound' for  InputAction StopSound 
+[2015.12.13-03.56.28:440][631]LogBlueprint:Warning: [compiler Level1] Warning InputAction Event references unknown Action 'Pause' for  InputAction Pause 
+[2015.12.13-03.56.28:457][631]LogBlueprint:Warning: [compiler Level1] Warning [0215.72] Compile of Level1 successful, but with 3 Warning(s) [in 23 ms]
+[2015.12.13-03.56.28:457][631]LogBlueprint:Warning: [compiler Level1] Warning [0215.72] Compile of Level1 successful, but with 4 Warning(s) [in 0 ms]
+[2015.12.13-03.56.28:457][631]LogBlueprint:Warning: [compiler Level1] Warning [0215.72] Compile of Level1 successful, but with 5 Warning(s) [in 0 ms]
+[2015.12.13-03.56.28:471][631]LogBlueprint:Warning: [compiler Level1] Warning InputAction Event references unknown Action 'Mission' for  InputAction Mission 
+[2015.12.13-03.56.28:471][631]LogBlueprint:Warning: [compiler Level1] Warning InputAction Event references unknown Action 'StopSound' for  InputAction StopSound 
+[2015.12.13-03.56.28:471][631]LogBlueprint:Warning: [compiler Level1] Warning InputAction Event references unknown Action 'Pause' for  InputAction Pause 
+[2015.12.13-03.56.28:475][631]LogBlueprint:Warning: [compiler Level1] Warning [0215.74] Compile of Level1 successful, but with 3 Warning(s) [in 14 ms]
+[2015.12.13-03.56.28:475][631]LogBlueprint:Warning: [compiler Level1] Warning [0215.74] Compile of Level1 successful, but with 4 Warning(s) [in 0 ms]
+[2015.12.13-03.56.28:475][631]LogBlueprint:Warning: [compiler Level1] Warning [0215.74] Compile of Level1 successful, but with 5 Warning(s) [in 0 ms]
+[2015.12.13-03.56.28:520][631]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2015.12.13-03.56.28:520][631]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Basic_Wall.M_Basic_Wall Referenced by InvisibleWall
+[2015.12.13-03.56.28:520][631]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading NULL.
+[2015.12.13-03.56.30:196][631]LogAIModule: Creating AISystem for world Level1
+[2015.12.13-03.56.30:260][631]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllWidgetsOfClass_FoundWidgets out of bounds [0/0]!
+[2015.12.13-03.56.30:789][631]Cmd: MAP LOAD FILE="../../../../../../Download/Internsheep-max/Internsheep-max/Content/New/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.13-03.56.30:789][631]LightingResults: New page: Lighting Build
+[2015.12.13-03.56.30:808][631]LoadErrors: New page: Loading map: Level1.umap
+[2015.12.13-03.56.30:809][631]MapCheck: New page: Map Check
+[2015.12.13-03.56.30:809][631]LightingResults: New page: Lighting Build
+[2015.12.13-03.56.30:848][631]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008C82887F60
+[2015.12.13-03.56.30:856][631]LogPrimitiveComponent: Zero scaling not supported (/Game/New/Level1.Level1:PersistentLevel.PlayerStart.CollisionCapsule)
+[2015.12.13-03.56.30:864][631]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllWidgetsOfClass_FoundWidgets out of bounds [0/0]!
+[2015.12.13-03.56.31:101][631]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.13-03.56.31:168][631]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.13-03.56.31:248][631]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 80.145ms to complete.
+[2015.12.13-03.56.31:249][631]LogFileHelpers: Loading map 'Level1' took 0.461
+[2015.12.13-03.56.31:257][631]LoadErrors:Error: Error /Game/New/Level1 : Failed import for FloatProperty /Game/Menu/Ressources.Ressources_C:constructionSupply
+[2015.12.13-03.57.05:229][621]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/New/Level1.Level1:PersistentLevel.AtmosphericFog_1.ArrowComponent0 and ArrowComponent /Game/Level1.Level1:PersistentLevel.AtmosphericFog_1.ArrowComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.12.13-03.57.05:229][621]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/New/Level1.Level1:PersistentLevel.LightSource.ArrowComponent0 and ArrowComponent /Game/Level1.Level1:PersistentLevel.LightSource.ArrowComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.12.13-03.57.05:229][621]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/New/Level1.Level1:PersistentLevel.PlayerStart.Arrow and ArrowComponent /Game/Level1.Level1:PersistentLevel.PlayerStart.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.12.13-03.57.05:229][621]LogUObjectGlobals:Warning: Guid is in use by AtmosphericFogComponent /Game/New/Level1.Level1:PersistentLevel.AtmosphericFog_1.AtmosphericFogComponent0 and AtmosphericFogComponent /Game/Level1.Level1:PersistentLevel.AtmosphericFog_1.AtmosphericFogComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.12.13-03.57.05:229][621]LogUObjectGlobals:Warning: Guid is in use by BillboardComponent /Game/New/Level1.Level1:PersistentLevel.AtmosphericFog_1.Sprite and BillboardComponent /Game/Level1.Level1:PersistentLevel.AtmosphericFog_1.Sprite, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.12.13-03.57.05:229][621]LogUObjectGlobals:Warning: Guid is in use by BillboardComponent /Game/New/Level1.Level1:PersistentLevel.PlayerStart.Sprite and BillboardComponent /Game/Level1.Level1:PersistentLevel.PlayerStart.Sprite, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.12.13-03.57.05:229][621]LogUObjectGlobals:Warning: Guid is in use by BillboardComponent /Game/New/Level1.Level1:PersistentLevel.PlayerStart.Sprite2 and BillboardComponent /Game/Level1.Level1:PersistentLevel.PlayerStart.Sprite2, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.12.13-03.57.05:229][621]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/New/Level1.Level1:PersistentLevel.NavMeshBoundsVolume_1.BrushComponent0 and BrushComponent /Game/Level1.Level1:PersistentLevel.NavMeshBoundsVolume_1.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.12.13-03.57.05:229][621]LogUObjectGlobals:Warning: Guid is in use by CameraComponent /Game/New/Level1.Level1:PersistentLevel.CameraActor2_91.CameraComponent and CameraComponent /Game/Level1.Level1:PersistentLevel.CameraActor2_91.CameraComponent, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.12.13-03.57.05:229][621]LogUObjectGlobals:Warning: Guid is in use by CameraComponent /Game/New/Level1.Level1:PersistentLevel.CameraActor_88.CameraComponent and CameraComponent /Game/Level1.Level1:PersistentLevel.CameraActor_88.CameraComponent, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.12.13-03.57.05:229][621]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/New/Level1.Level1:PersistentLevel.PlayerStart.CollisionCapsule and CapsuleComponent /Game/Level1.Level1:PersistentLevel.PlayerStart.CollisionCapsule, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.12.13-03.57.05:230][621]LogUObjectGlobals:Warning: Guid is in use by DirectionalLightComponent /Game/New/Level1.Level1:PersistentLevel.LightSource.LightComponent0 and DirectionalLightComponent /Game/Level1.Level1:PersistentLevel.LightSource.LightComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.12.13-03.57.05:234][621]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/New/Level1.Level1:PersistentLevel.MyFloorMesh_4.StaticMeshComponent0 and StaticMeshComponent /Game/Level1.Level1:PersistentLevel.MyFloorMesh_4.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.12.13-03.57.05:537][621]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.12.13-03.57.05:583][621]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.12.13-03.57.05:589][621]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.12.13-03.57.05:590][621]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2015.12.13-03.57.05:595][621]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8)
+[2015.12.13-03.57.05:597][621]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8)
+[2015.12.13-03.57.05:599][621]LogAIModule: Creating AISystem for world Level1
+[2015.12.13-03.57.05:605][621]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllWidgetsOfClass_FoundWidgets out of bounds [0/0]!
+[2015.12.13-03.57.05:660][621]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008CA02445E0
+[2015.12.13-03.57.05:668][621]Cmd: MAP LOAD FILE="../../../../../../Download/Internsheep-max/Internsheep-max/Content/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.13-03.57.05:668][621]LightingResults: New page: Lighting Build
+[2015.12.13-03.57.05:688][621]LoadErrors: New page: Loading map: Level1.umap
+[2015.12.13-03.57.05:795][621]MapCheck: New page: Map Check
+[2015.12.13-03.57.05:796][621]LightingResults: New page: Lighting Build
+[2015.12.13-03.57.05:828][621]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008C82884D60
+[2015.12.13-03.57.05:836][621]LogPrimitiveComponent: Zero scaling not supported (/Game/Level1.Level1:PersistentLevel.PlayerStart.CollisionCapsule)
+[2015.12.13-03.57.05:840][621]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllWidgetsOfClass_FoundWidgets out of bounds [0/0]!
+[2015.12.13-03.57.06:002][621]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.13-03.57.06:022][621]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.13-03.57.06:077][621]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 55.72ms to complete.
+[2015.12.13-03.57.06:079][621]LogFileHelpers: Loading map 'Level1' took 0.413
+[2015.12.13-03.57.18:255][999]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_701.EdGraphPin_71820''
+[2015.12.13-03.57.18:255][999]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4399.EdGraphPin_72254''
+[2015.12.13-03.57.18:255][999]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_701.EdGraphPin_71822''
+[2015.12.13-03.57.18:300][999]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_701.EdGraphPin_71822''
+[2015.12.13-03.57.18:300][999]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_8490.EdGraphPin_72090''
+[2015.12.13-03.57.18:300][999]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_701.EdGraphPin_71819''
+[2015.12.13-03.57.18:301][999]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_701.EdGraphPin_71821''
+[2015.12.13-03.57.18:343][999]LogBlueprint:Warning: [compiler Level1] Warning InputAction Event references unknown Action 'Mission' for  InputAction Mission 
+[2015.12.13-03.57.18:343][999]LogBlueprint:Warning: [compiler Level1] Warning InputAction Event references unknown Action 'StopSound' for  InputAction StopSound 
+[2015.12.13-03.57.18:343][999]LogBlueprint:Warning: [compiler Level1] Warning InputAction Event references unknown Action 'Pause' for  InputAction Pause 
+[2015.12.13-03.57.18:347][999]LogBlueprint:Warning: [compiler Level1] Warning [0265.61] Compile of Level1 successful, but with 3 Warning(s) [in 11 ms]
+[2015.12.13-03.57.18:347][999]LogBlueprint:Warning: [compiler Level1] Warning [0265.61] Compile of Level1 successful, but with 4 Warning(s) [in 0 ms]
+[2015.12.13-03.57.18:348][999]LogBlueprint:Warning: [compiler Level1] Warning [0265.61] Compile of Level1 successful, but with 5 Warning(s) [in 0 ms]
+[2015.12.13-03.57.18:359][999]LogBlueprint:Warning: [compiler Level1] Warning InputAction Event references unknown Action 'Mission' for  InputAction Mission 
+[2015.12.13-03.57.18:359][999]LogBlueprint:Warning: [compiler Level1] Warning InputAction Event references unknown Action 'StopSound' for  InputAction StopSound 
+[2015.12.13-03.57.18:359][999]LogBlueprint:Warning: [compiler Level1] Warning InputAction Event references unknown Action 'Pause' for  InputAction Pause 
+[2015.12.13-03.57.18:363][999]LogBlueprint:Warning: [compiler Level1] Warning [0265.62] Compile of Level1 successful, but with 3 Warning(s) [in 10 ms]
+[2015.12.13-03.57.18:363][999]LogBlueprint:Warning: [compiler Level1] Warning [0265.62] Compile of Level1 successful, but with 4 Warning(s) [in 0 ms]
+[2015.12.13-03.57.18:363][999]LogBlueprint:Warning: [compiler Level1] Warning [0265.62] Compile of Level1 successful, but with 5 Warning(s) [in 0 ms]
+[2015.12.13-03.57.18:390][999]LogAIModule: Creating AISystem for world Level1
+[2015.12.13-03.57.18:418][999]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllWidgetsOfClass_FoundWidgets out of bounds [0/0]!
+[2015.12.13-03.57.18:525][999]LogBlueprint:Warning: [Level1] CreatePinForVariable: 'Audio' variable not found. Base class was probably changed.
+[2015.12.13-03.57.18:525][999]LogBlueprint:Warning: [Level1] CreatePinForVariable: 'Audio' variable not found. Base class was probably changed.
+[2015.12.13-03.57.18:575][999]LoadErrors:Error: Error /Game/New/Level1 : Failed import for FloatProperty /Game/Menu/Ressources.Ressources_C:constructionSupply
+[2015.12.13-03.57.38:755][719]BlueprintLog: New page: Compile Level1
+[2015.12.13-03.57.38:768][719]LogBlueprint:Warning: [compiler Level1] Warning Could not find a variable named "Audio" in 'Level1_C'.
+Make sure 'Level1_C' has been compiled for  Set Audio 
+[2015.12.13-03.57.38:769][719]LogBlueprint:Error: [compiler Level1] Error Dependency cycle detected, preventing node  Play  from being scheduled
+[2015.12.13-03.57.38:769][719]LogBlueprint:Error: [compiler Level1] Error Dependency cycle detected, preventing node  Set Sound  from being scheduled
+[2015.12.13-03.57.38:784][719]LogBlueprint:Error: [compiler Level1] Error The property associated with  Audio  could not be found
+[2015.12.13-03.57.39:313][719]LogBlueprint:Warning: [compiler Level1] Warning [0286.57] Compile of Level1 failed. 3 Fatal Issue(s) 1 Warning(s) [in 558 ms]
+[2015.12.13-03.57.39:330][719]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Audio" in 'Level1_C'.
+Make sure 'Level1_C' has been compiled for  Set Audio 
+[2015.12.13-03.57.39:330][719]BlueprintEditorCompileResults:Error: Error Dependency cycle detected, preventing node  Play  from being scheduled
+[2015.12.13-03.57.39:330][719]BlueprintEditorCompileResults:Error: Error Dependency cycle detected, preventing node  Set Sound  from being scheduled
+[2015.12.13-03.57.39:330][719]BlueprintEditorCompileResults:Error: Error The property associated with  Audio  could not be found
+[2015.12.13-03.57.39:330][719]BlueprintEditorCompileResults:Warning: Warning [0286.57] Compile of Level1 failed. 3 Fatal Issue(s) 1 Warning(s) [in 558 ms]
+[2015.12.13-03.58.19:417][865]BlueprintLog: New page: Compile Level1
+[2015.12.13-03.58.19:666][865]BlueprintEditorCompileResults: Info [0326.93] Compile of Level1 successful! [in 249 ms]
+[2015.12.13-03.58.24:208][972]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="../../../../../../Download/Internsheep-max/Internsheep-max/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.12.13-03.58.24:379][972]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008CA0668EA0
+[2015.12.13-03.58.24:866][972]LogSavePackage: Save=475.189301ms
+[2015.12.13-03.58.24:866][972]LogSavePackage: Moving '../../../../../../Download/Internsheep-max/Internsheep-max/Saved/Level1F90FD52D49BF8CDBBF27CFA7B3CA9A6C.tmp' to '../../../../../../Download/Internsheep-max/Internsheep-max/Content/Level1.umap'
+[2015.12.13-03.58.24:887][972]LogSavePackage: Total save time: 551.124170ms
+[2015.12.13-03.58.24:887][972]LogSavePackage:Display: Finished SavePackage ../../../../../../Download/Internsheep-max/Internsheep-max/Content/Level1.umap
+[2015.12.13-03.58.29:663][ 93]Cmd: MAP LOAD FILE="../../../../../../Download/Internsheep-max/Internsheep-max/Content/New/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.13-03.58.29:663][ 93]LightingResults: New page: Lighting Build
+[2015.12.13-03.58.29:685][ 93]LoadErrors: New page: Loading map: Level1.umap
+[2015.12.13-03.58.29:687][ 93]MapCheck: New page: Map Check
+[2015.12.13-03.58.29:687][ 93]LightingResults: New page: Lighting Build
+[2015.12.13-03.58.29:778][ 93]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008C827E4EA0
+[2015.12.13-03.58.29:785][ 93]LogPrimitiveComponent: Zero scaling not supported (/Game/New/Level1.Level1:PersistentLevel.PlayerStart.CollisionCapsule)
+[2015.12.13-03.58.29:795][ 93]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllWidgetsOfClass_FoundWidgets out of bounds [0/0]!
+[2015.12.13-03.58.30:098][ 93]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.13-03.58.30:134][ 93]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.13-03.58.30:229][ 93]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 95.132ms to complete.
+[2015.12.13-03.58.30:241][ 93]LogFileHelpers: Loading map 'Level1' took 0.581
+[2015.12.13-03.58.47:808][673]LogAIModule: Creating AISystem for world Level1
+[2015.12.13-03.58.47:815][673]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllWidgetsOfClass_FoundWidgets out of bounds [0/0]!
+[2015.12.13-03.58.47:873][673]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008C81D0EF20
+[2015.12.13-03.58.47:881][673]Cmd: MAP LOAD FILE="../../../../../../Download/Internsheep-max/Internsheep-max/Content/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.13-03.58.47:881][673]LightingResults: New page: Lighting Build
+[2015.12.13-03.58.47:904][673]LoadErrors: New page: Loading map: Level1.umap
+[2015.12.13-03.58.47:905][673]MapCheck: New page: Map Check
+[2015.12.13-03.58.47:905][673]LightingResults: New page: Lighting Build
+[2015.12.13-03.58.47:951][673]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008C827E4220
+[2015.12.13-03.58.47:959][673]LogPrimitiveComponent: Zero scaling not supported (/Game/Level1.Level1:PersistentLevel.PlayerStart.CollisionCapsule)
+[2015.12.13-03.58.47:967][673]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllWidgetsOfClass_FoundWidgets out of bounds [0/0]!
+[2015.12.13-03.58.48:351][673]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.13-03.58.48:408][673]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.13-03.58.48:499][673]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 91.156ms to complete.
+[2015.12.13-03.58.48:499][673]LogFileHelpers: Loading map 'Level1' took 0.620
+[2015.12.13-03.58.53:661][810]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CreateWidget_40.EdGraphPin_74304''
+[2015.12.13-03.58.53:661][810]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4104.EdGraphPin_74321''
+[2015.12.13-03.58.53:662][810]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4104.EdGraphPin_74319''
+[2015.12.13-03.58.53:663][810]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_176.EdGraphPin_73932''
+[2015.12.13-03.58.53:663][810]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_5188.EdGraphPin_74379''
+[2015.12.13-03.58.53:663][810]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_5200.EdGraphPin_74397''
+[2015.12.13-03.58.53:663][810]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_5189.EdGraphPin_74392''
+[2015.12.13-03.58.53:749][810]LogBlueprint:Warning: [compiler Level1] Warning InputAction Event references unknown Action 'Mission' for  InputAction Mission 
+[2015.12.13-03.58.53:750][810]LogBlueprint:Warning: [compiler Level1] Warning InputAction Event references unknown Action 'StopSound' for  InputAction StopSound 
+[2015.12.13-03.58.53:750][810]LogBlueprint:Warning: [compiler Level1] Warning InputAction Event references unknown Action 'Pause' for  InputAction Pause 
+[2015.12.13-03.58.53:754][810]LogBlueprint:Warning: [compiler Level1] Warning [0361.01] Compile of Level1 successful, but with 3 Warning(s) [in 14 ms]
+[2015.12.13-03.58.53:754][810]LogBlueprint:Warning: [compiler Level1] Warning [0361.01] Compile of Level1 successful, but with 4 Warning(s) [in 0 ms]
+[2015.12.13-03.58.53:754][810]LogBlueprint:Warning: [compiler Level1] Warning [0361.01] Compile of Level1 successful, but with 5 Warning(s) [in 0 ms]
+[2015.12.13-03.58.53:767][810]LogBlueprint:Warning: [compiler Level1] Warning InputAction Event references unknown Action 'Mission' for  InputAction Mission 
+[2015.12.13-03.58.53:767][810]LogBlueprint:Warning: [compiler Level1] Warning InputAction Event references unknown Action 'StopSound' for  InputAction StopSound 
+[2015.12.13-03.58.53:767][810]LogBlueprint:Warning: [compiler Level1] Warning InputAction Event references unknown Action 'Pause' for  InputAction Pause 
+[2015.12.13-03.58.53:772][810]LogBlueprint:Warning: [compiler Level1] Warning [0361.03] Compile of Level1 successful, but with 3 Warning(s) [in 12 ms]
+[2015.12.13-03.58.53:772][810]LogBlueprint:Warning: [compiler Level1] Warning [0361.03] Compile of Level1 successful, but with 4 Warning(s) [in 0 ms]
+[2015.12.13-03.58.53:772][810]LogBlueprint:Warning: [compiler Level1] Warning [0361.03] Compile of Level1 successful, but with 5 Warning(s) [in 0 ms]
+[2015.12.13-03.58.53:805][810]LogAIModule: Creating AISystem for world Level1
+[2015.12.13-03.58.53:816][810]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllWidgetsOfClass_FoundWidgets out of bounds [0/0]!
+[2015.12.13-03.58.53:818][810]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Level1.Level1:PersistentLevel.Level1.EventGraph.K2Node_CallFunction_5188 or K2Node_CallFunction /Game/New/Level1.Level1:PersistentLevel.Level1.EventGraph.K2Node_CallFunction_5188
+[2015.12.13-03.58.53:818][810]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_5188.EdGraphPin_74381''
+[2015.12.13-03.58.53:818][810]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Level1.Level1:PersistentLevel.Level1.EventGraph.K2Node_CallFunction_5200 or K2Node_CallFunction /Game/New/Level1.Level1:PersistentLevel.Level1.EventGraph.K2Node_CallFunction_5200
+[2015.12.13-03.58.53:818][810]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_5200.EdGraphPin_74399''
+[2015.12.13-03.58.53:818][810]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/New/Level1.Level1:PersistentLevel.Level1.EventGraph.K2Node_Knot_191 or K2Node_Knot /Game/Level1.Level1:PersistentLevel.Level1.EventGraph.K2Node_Knot_191
+[2015.12.13-03.58.53:818][810]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_191.EdGraphPin_74055''
+[2015.12.13-03.58.53:819][810]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/New/Level1.Level1:PersistentLevel.Level1.EventGraph.K2Node_Knot_191 or K2Node_Knot /Game/Level1.Level1:PersistentLevel.Level1.EventGraph.K2Node_Knot_191
+[2015.12.13-03.58.53:819][810]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_191.EdGraphPin_74056''
+[2015.12.13-03.58.53:820][810]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Level1.Level1:PersistentLevel.Level1.EventGraph.K2Node_CallFunction_5274 or K2Node_CallFunction /Game/New/Level1.Level1:PersistentLevel.Level1.EventGraph.K2Node_CallFunction_5274
+[2015.12.13-03.58.53:820][810]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_5274.EdGraphPin_74421''
+[2015.12.13-03.58.53:820][810]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CreateWidget /Game/Level1.Level1:PersistentLevel.Level1.EventGraph.K2Node_CreateWidget_244 or K2Node_CreateWidget /Game/New/Level1.Level1:PersistentLevel.Level1.EventGraph.K2Node_CreateWidget_244
+[2015.12.13-03.58.53:820][810]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CreateWidget_244.EdGraphPin_74406''
+[2015.12.13-03.58.53:821][810]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Level1.Level1:PersistentLevel.Level1.EventGraph.K2Node_CallFunction_5276 or K2Node_CallFunction /Game/New/Level1.Level1:PersistentLevel.Level1.EventGraph.K2Node_CallFunction_5276
+[2015.12.13-03.58.53:821][810]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_5276.EdGraphPin_74465''
+[2015.12.13-03.58.53:821][810]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Level1.Level1:PersistentLevel.Level1.EventGraph.K2Node_CallFunction_5276 or K2Node_CallFunction /Game/New/Level1.Level1:PersistentLevel.Level1.EventGraph.K2Node_CallFunction_5276
+[2015.12.13-03.58.53:821][810]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_5276.EdGraphPin_74463''
+[2015.12.13-03.58.53:822][810]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallArrayFunction /Game/Level1.Level1:PersistentLevel.Level1.EventGraph.K2Node_CallArrayFunction_169 or K2Node_CallArrayFunction /Game/New/Level1.Level1:PersistentLevel.Level1.EventGraph.K2Node_CallArrayFunction_169
+[2015.12.13-03.58.53:822][810]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallArrayFunction_169.EdGraphPin_74443''
+[2015.12.13-03.58.53:822][810]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Level1.Level1:PersistentLevel.Level1.EventGraph.K2Node_CallFunction_5275 or K2Node_CallFunction /Game/New/Level1.Level1:PersistentLevel.Level1.EventGraph.K2Node_CallFunction_5275
+[2015.12.13-03.58.53:822][810]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_5275.EdGraphPin_74454''
+[2015.12.13-03.58.53:823][810]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Level1.Level1:PersistentLevel.Level1.EventGraph.K2Node_CallFunction_5275 or K2Node_CallFunction /Game/New/Level1.Level1:PersistentLevel.Level1.EventGraph.K2Node_CallFunction_5275
+[2015.12.13-03.58.53:823][810]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_5275.EdGraphPin_74456''
+[2015.12.13-03.58.53:834][810]LoadErrors:Error: Error /Game/New/Level1 : Failed import for FloatProperty /Game/Menu/Ressources.Ressources_C:constructionSupply
+[2015.12.13-03.58.56:151][878]BlueprintLog: New page: Compile Level1
+[2015.12.13-03.58.56:181][878]LogBlueprint:Warning: [compiler Level1] Warning InputAction Event references unknown Action 'Mission' for  InputAction Mission 
+[2015.12.13-03.58.56:182][878]LogBlueprint:Warning: [compiler Level1] Warning InputAction Event references unknown Action 'StopSound' for  InputAction StopSound 
+[2015.12.13-03.58.56:182][878]LogBlueprint:Warning: [compiler Level1] Warning InputAction Event references unknown Action 'Pause' for  InputAction Pause 
+[2015.12.13-03.58.56:320][878]LogBlueprint:Warning: [compiler Level1] Warning [0363.58] Compile of Level1 successful, but with 3 Warning(s) [in 168 ms]
+[2015.12.13-03.58.56:320][878]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Mission' for  InputAction Mission 
+[2015.12.13-03.58.56:320][878]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'StopSound' for  InputAction StopSound 
+[2015.12.13-03.58.56:320][878]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Pause' for  InputAction Pause 
+[2015.12.13-03.58.56:320][878]BlueprintEditorCompileResults:Warning: Warning [0363.58] Compile of Level1 successful, but with 3 Warning(s) [in 168 ms]
+[2015.12.13-04.00.19:219][163]BlueprintLog: New page: Compile Level1
+[2015.12.13-04.00.19:245][163]LogBlueprint:Warning: [compiler Level1] Warning InputAction Event references unknown Action 'Mission' for  InputAction Mission 
+[2015.12.13-04.00.19:245][163]LogBlueprint:Warning: [compiler Level1] Warning InputAction Event references unknown Action 'StopSound' for  InputAction StopSound 
+[2015.12.13-04.00.19:360][163]LogBlueprint:Warning: [compiler Level1] Warning [0446.62] Compile of Level1 successful, but with 2 Warning(s) [in 140 ms]
+[2015.12.13-04.00.19:360][163]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Mission' for  InputAction Mission 
+[2015.12.13-04.00.19:360][163]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'StopSound' for  InputAction StopSound 
+[2015.12.13-04.00.19:360][163]BlueprintEditorCompileResults:Warning: Warning [0446.62] Compile of Level1 successful, but with 2 Warning(s) [in 140 ms]
+[2015.12.13-04.00.56:811][840]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyFloorMesh)
+[2015.12.13-04.01.03:956][ 31]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="../../../../../../Download/Internsheep-max/Internsheep-max/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.12.13-04.01.03:994][ 31]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008CA05CFBA0
+[2015.12.13-04.01.04:029][ 31]LogBlueprint:Warning: [compiler Level1] Warning InputAction Event references unknown Action 'Mission' for  InputAction Mission 
+[2015.12.13-04.01.04:029][ 31]LogBlueprint:Warning: [compiler Level1] Warning InputAction Event references unknown Action 'StopSound' for  InputAction StopSound 
+[2015.12.13-04.01.04:032][ 31]LogBlueprint:Warning: [compiler Level1] Warning [0491.29] Compile of Level1 successful, but with 2 Warning(s) [in 10 ms]
+[2015.12.13-04.01.04:032][ 31]LogBlueprint:Warning: [compiler Level1] Warning [0491.29] Compile of Level1 successful, but with 3 Warning(s) [in 0 ms]
+[2015.12.13-04.01.04:032][ 31]LogBlueprint:Warning: [compiler Level1] Warning [0491.29] Compile of Level1 successful, but with 4 Warning(s) [in 0 ms]
+[2015.12.13-04.01.04:081][ 31]LogBlueprint:Warning: [compiler Level1] Warning [0491.34] Compile of Level1 successful, but with 5 Warning(s) [in 48 ms]
+[2015.12.13-04.01.04:082][ 31]LogBlueprint:Warning: [compiler Level1] Warning [0491.34] Compile of Level1 successful, but with 6 Warning(s) [in 0 ms]
+[2015.12.13-04.01.04:082][ 31]LogBlueprint:Warning: [compiler Level1] Warning [0491.34] Compile of Level1 successful, but with 7 Warning(s) [in 0 ms]
+[2015.12.13-04.01.04:176][ 31]LogSavePackage: Save=162.813370ms
+[2015.12.13-04.01.04:176][ 31]LogSavePackage: Moving '../../../../../../Download/Internsheep-max/Internsheep-max/Saved/Level17FE9789B44F1D29A1FFF048D6621631F.tmp' to '../../../../../../Download/Internsheep-max/Internsheep-max/Content/Level1.umap'
+[2015.12.13-04.01.04:179][ 31]LogSavePackage: Total save time: 181.438074ms
+[2015.12.13-04.01.04:179][ 31]LogSavePackage:Display: Finished SavePackage ../../../../../../Download/Internsheep-max/Internsheep-max/Content/Level1.umap
+[2015.12.13-04.01.05:411][ 66]Cmd: MAP LOAD FILE="../../../../../../Download/Internsheep-max/Internsheep-max/Content/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.13-04.01.05:411][ 66]LightingResults: New page: Lighting Build
+[2015.12.13-04.01.05:423][ 66]LoadErrors: New page: Loading map: Level1.umap
+[2015.12.13-04.01.05:424][ 66]MapCheck: New page: Map Check
+[2015.12.13-04.01.05:424][ 66]LightingResults: New page: Lighting Build
+[2015.12.13-04.01.05:456][ 66]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008C827E7C40
+[2015.12.13-04.01.05:586][ 66]LogBlueprint:Warning: [compiler Level1] Warning InputAction Event references unknown Action 'Mission' for  InputAction Mission 
+[2015.12.13-04.01.05:586][ 66]LogBlueprint:Warning: [compiler Level1] Warning InputAction Event references unknown Action 'StopSound' for  InputAction StopSound 
+[2015.12.13-04.01.05:588][ 66]LogBlueprint:Warning: [compiler Level1] Warning [0492.85] Compile of Level1 successful, but with 2 Warning(s) [in 6 ms]
+[2015.12.13-04.01.05:588][ 66]LogBlueprint:Warning: [compiler Level1] Warning [0492.85] Compile of Level1 successful, but with 3 Warning(s) [in 0 ms]
+[2015.12.13-04.01.05:588][ 66]LogBlueprint:Warning: [compiler Level1] Warning [0492.85] Compile of Level1 successful, but with 4 Warning(s) [in 0 ms]
+[2015.12.13-04.01.05:595][ 66]LogBlueprint:Warning: [compiler Level1] Warning InputAction Event references unknown Action 'Mission' for  InputAction Mission 
+[2015.12.13-04.01.05:595][ 66]LogBlueprint:Warning: [compiler Level1] Warning InputAction Event references unknown Action 'StopSound' for  InputAction StopSound 
+[2015.12.13-04.01.05:597][ 66]LogBlueprint:Warning: [compiler Level1] Warning [0492.86] Compile of Level1 successful, but with 2 Warning(s) [in 6 ms]
+[2015.12.13-04.01.05:597][ 66]LogBlueprint:Warning: [compiler Level1] Warning [0492.86] Compile of Level1 successful, but with 3 Warning(s) [in 0 ms]
+[2015.12.13-04.01.05:597][ 66]LogBlueprint:Warning: [compiler Level1] Warning [0492.86] Compile of Level1 successful, but with 4 Warning(s) [in 0 ms]
+[2015.12.13-04.01.05:616][ 66]LogAIModule: Creating AISystem for world Level1
+[2015.12.13-04.01.05:617][ 66]LogPrimitiveComponent: Zero scaling not supported (/Game/Level1.Level1:PersistentLevel.PlayerStart.CollisionCapsule)
+[2015.12.13-04.01.05:622][ 66]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllWidgetsOfClass_FoundWidgets out of bounds [0/0]!
+[2015.12.13-04.01.05:935][ 66]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.13-04.01.05:960][ 66]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.13-04.01.06:031][ 66]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 71.365ms to complete.
+[2015.12.13-04.01.06:033][ 66]LogFileHelpers: Loading map 'Level1' took 0.625
+[2015.12.13-04.01.10:969][200]BlueprintLog: New page: Compile Level1
+[2015.12.13-04.01.11:007][200]LogBlueprint:Warning: [compiler Level1] Warning InputAction Event references unknown Action 'Mission' for  InputAction Mission 
+[2015.12.13-04.01.11:007][200]LogBlueprint:Warning: [compiler Level1] Warning InputAction Event references unknown Action 'StopSound' for  InputAction StopSound 
+[2015.12.13-04.01.11:150][200]LogBlueprint:Warning: [compiler Level1] Warning [0498.41] Compile of Level1 successful, but with 2 Warning(s) [in 180 ms]
+[2015.12.13-04.01.11:150][200]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Mission' for  InputAction Mission 
+[2015.12.13-04.01.11:150][200]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'StopSound' for  InputAction StopSound 
+[2015.12.13-04.01.11:150][200]BlueprintEditorCompileResults:Warning: Warning [0498.41] Compile of Level1 successful, but with 2 Warning(s) [in 180 ms]
+[2015.12.13-04.01.55:617][736]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008C9F2CE700
+[2015.12.13-04.01.55:878][736]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.12.13-04.01.56:724][737]Cmd: QUIT_EDITOR
+[2015.12.13-04.01.57:161][737]LogExit: Preparing to exit.
+[2015.12.13-04.01.58:607][737]LogExit: Editor shut down
+[2015.12.13-04.01.58:607][737]LogExit: Transaction tracking system shut down
+[2015.12.13-04.01.58:608][737]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008C827E7880
+[2015.12.13-04.01.58:608][737]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008C828F6520
+[2015.12.13-04.01.58:616][737]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008C8E59C220
+[2015.12.13-04.01.58:664][737]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008C9E142F20
+[2015.12.13-04.02.00:502][737]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008C8E59C360
+[2015.12.13-04.02.00:502][737]LogExit: Object subsystem successfully closed.
+[2015.12.13-04.02.00:842][737]LogD3D11RHI: Shutdown
+[2015.12.13-04.02.00:842][737]LogD3D11RHI: CleanupD3DDevice
+[2015.12.13-04.02.00:988][737]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.12.13-04.02.01:929][737]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (202)
+[2015.12.13-04.02.01:929][737]LogModuleManager: Shutting down and abandoning module CookingStats (201)
+[2015.12.13-04.02.01:929][737]LogModuleManager: Shutting down and abandoning module SequencerWidgets (200)
+[2015.12.13-04.02.01:929][737]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2015.12.13-04.02.01:929][737]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2015.12.13-04.02.01:929][737]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2015.12.13-04.02.01:929][737]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2015.12.13-04.02.01:929][737]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2015.12.13-04.02.01:968][737]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2015.12.13-04.02.01:989][737]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2015.12.13-04.02.01:989][737]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2015.12.13-04.02.02:043][737]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2015.12.13-04.02.02:043][737]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2015.12.13-04.02.02:043][737]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2015.12.13-04.02.02:103][737]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2015.12.13-04.02.02:103][737]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2015.12.13-04.02.02:103][737]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2015.12.13-04.02.02:103][737]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2015.12.13-04.02.02:103][737]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2015.12.13-04.02.02:103][737]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2015.12.13-04.02.02:103][737]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2015.12.13-04.02.02:103][737]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2015.12.13-04.02.02:103][737]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2015.12.13-04.02.02:103][737]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2015.12.13-04.02.02:103][737]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2015.12.13-04.02.02:127][737]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2015.12.13-04.02.02:225][737]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2015.12.13-04.02.02:225][737]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2015.12.13-04.02.02:249][737]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2015.12.13-04.02.02:249][737]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2015.12.13-04.02.02:934][737]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2015.12.13-04.02.02:934][737]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2015.12.13-04.02.02:934][737]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2015.12.13-04.02.02:934][737]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2015.12.13-04.02.02:934][737]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2015.12.13-04.02.02:934][737]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2015.12.13-04.02.02:935][737]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2015.12.13-04.02.02:935][737]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2015.12.13-04.02.02:957][737]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2015.12.13-04.02.03:004][737]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2015.12.13-04.02.03:015][737]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2015.12.13-04.02.03:110][737]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2015.12.13-04.02.03:111][737]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2015.12.13-04.02.03:111][737]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2015.12.13-04.02.03:111][737]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2015.12.13-04.02.03:160][737]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2015.12.13-04.02.03:160][737]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2015.12.13-04.02.03:213][737]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2015.12.13-04.02.03:213][737]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2015.12.13-04.02.03:320][737]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2015.12.13-04.02.03:320][737]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2015.12.13-04.02.03:361][737]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2015.12.13-04.02.03:439][737]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2015.12.13-04.02.03:507][737]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2015.12.13-04.02.03:514][737]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2015.12.13-04.02.03:514][737]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2015.12.13-04.02.03:515][737]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2015.12.13-04.02.03:616][737]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2015.12.13-04.02.03:659][737]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2015.12.13-04.02.03:659][737]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2015.12.13-04.02.03:659][737]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2015.12.13-04.02.03:660][737]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2015.12.13-04.02.03:660][737]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2015.12.13-04.02.03:717][737]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2015.12.13-04.02.03:717][737]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2015.12.13-04.02.03:717][737]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2015.12.13-04.02.03:736][737]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2015.12.13-04.02.03:736][737]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2015.12.13-04.02.03:736][737]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2015.12.13-04.02.03:775][737]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2015.12.13-04.02.03:775][737]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2015.12.13-04.02.03:775][737]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2015.12.13-04.02.03:775][737]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2015.12.13-04.02.03:816][737]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2015.12.13-04.02.03:816][737]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2015.12.13-04.02.03:816][737]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2015.12.13-04.02.03:816][737]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2015.12.13-04.02.03:816][737]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2015.12.13-04.02.03:832][737]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2015.12.13-04.02.03:874][737]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2015.12.13-04.02.03:929][737]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2015.12.13-04.02.03:943][737]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2015.12.13-04.02.03:943][737]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2015.12.13-04.02.03:943][737]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2015.12.13-04.02.03:943][737]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2015.12.13-04.02.03:943][737]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2015.12.13-04.02.03:943][737]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2015.12.13-04.02.03:943][737]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2015.12.13-04.02.04:204][737]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2015.12.13-04.02.04:204][737]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2015.12.13-04.02.04:224][737]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2015.12.13-04.02.04:224][737]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2015.12.13-04.02.04:292][737]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2015.12.13-04.02.04:325][737]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2015.12.13-04.02.04:325][737]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2015.12.13-04.02.04:325][737]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2015.12.13-04.02.04:374][737]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2015.12.13-04.02.04:424][737]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2015.12.13-04.02.04:473][737]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2015.12.13-04.02.04:514][737]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2015.12.13-04.02.04:515][737]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2015.12.13-04.02.04:564][737]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2015.12.13-04.02.04:614][737]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2015.12.13-04.02.04:628][737]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2015.12.13-04.02.04:649][737]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2015.12.13-04.02.04:649][737]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2015.12.13-04.02.04:673][737]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2015.12.13-04.02.04:673][737]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2015.12.13-04.02.04:673][737]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2015.12.13-04.02.04:688][737]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2015.12.13-04.02.04:712][737]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2015.12.13-04.02.04:712][737]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2015.12.13-04.02.04:747][737]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2015.12.13-04.02.04:747][737]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2015.12.13-04.02.04:954][737]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2015.12.13-04.02.04:954][737]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2015.12.13-04.02.05:051][737]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2015.12.13-04.02.05:152][737]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2015.12.13-04.02.05:152][737]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2015.12.13-04.02.05:185][737]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2015.12.13-04.02.05:222][737]LogModuleManager: Shutting down and abandoning module Media (82)
+[2015.12.13-04.02.05:222][737]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2015.12.13-04.02.05:275][737]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2015.12.13-04.02.05:275][737]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2015.12.13-04.02.05:275][737]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2015.12.13-04.02.05:308][737]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2015.12.13-04.02.05:378][737]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2015.12.13-04.02.05:378][737]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2015.12.13-04.02.05:422][737]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2015.12.13-04.02.05:422][737]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2015.12.13-04.02.05:422][737]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2015.12.13-04.02.05:422][737]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2015.12.13-04.02.05:448][737]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2015.12.13-04.02.05:448][737]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2015.12.13-04.02.05:448][737]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2015.12.13-04.02.05:448][737]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2015.12.13-04.02.05:468][737]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2015.12.13-04.02.05:468][737]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2015.12.13-04.02.05:468][737]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2015.12.13-04.02.05:468][737]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2015.12.13-04.02.05:468][737]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2015.12.13-04.02.05:468][737]LogModuleManager: Shutting down and abandoning module Core (60)
+[2015.12.13-04.02.05:468][737]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2015.12.13-04.02.05:468][737]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2015.12.13-04.02.05:468][737]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2015.12.13-04.02.05:523][737]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2015.12.13-04.02.05:569][737]LogDerivedDataCache: Shutdown
+[2015.12.13-04.02.05:569][737]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2015.12.13-04.02.05:604][737]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2015.12.13-04.02.05:645][737]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2015.12.13-04.02.05:686][737]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2015.12.13-04.02.05:686][737]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2015.12.13-04.02.05:730][737]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2015.12.13-04.02.05:746][737]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2015.12.13-04.02.05:746][737]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2015.12.13-04.02.05:746][737]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2015.12.13-04.02.05:746][737]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2015.12.13-04.02.05:746][737]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2015.12.13-04.02.05:802][737]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2015.12.13-04.02.05:828][737]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2015.12.13-04.02.05:875][737]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2015.12.13-04.02.05:875][737]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2015.12.13-04.02.05:891][737]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2015.12.13-04.02.05:940][737]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2015.12.13-04.02.05:940][737]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2015.12.13-04.02.05:940][737]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2015.12.13-04.02.05:940][737]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2015.12.13-04.02.05:940][737]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2015.12.13-04.02.05:940][737]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2015.12.13-04.02.05:940][737]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2015.12.13-04.02.05:940][737]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2015.12.13-04.02.05:940][737]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2015.12.13-04.02.05:940][737]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2015.12.13-04.02.05:940][737]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2015.12.13-04.02.05:940][737]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2015.12.13-04.02.05:940][737]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2015.12.13-04.02.05:986][737]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2015.12.13-04.02.05:999][737]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2015.12.13-04.02.06:019][737]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2015.12.13-04.02.06:019][737]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2015.12.13-04.02.06:019][737]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2015.12.13-04.02.06:019][737]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2015.12.13-04.02.06:109][737]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2015.12.13-04.02.06:109][737]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2015.12.13-04.02.07:111][737]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2015.12.13-04.02.07:182][737]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2015.12.13-04.02.07:221][737]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.12.13-04.02.07:221][737]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.12.13-04.02.07:221][737]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.12.13-04.02.07:221][737]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.12.13-04.02.07:221][737]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.12.13-04.02.07:518][737]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.12.13-04.02.07:566][737]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.12.13-04.02.07:566][737]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.12.13-04.02.07:566][737]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.12.13-04.02.07:566][737]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.12.13-04.02.07:566][737]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.12.13-04.02.07:566][737]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.12.13-04.02.07:579][737]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.12.13-04.02.07:618][737]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.12.13-04.02.08:092][737]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.12.13-04.02.08:162][737]LogExit: Exiting.
+[2015.12.13-04.02.08:173][737]Log file closed, 12/13/15 05:02:08

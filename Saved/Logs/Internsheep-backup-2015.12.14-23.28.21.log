@@ -1,0 +1,1222 @@
+﻿[2015.12.15-04.11.01:503][  0]Log file open, 12/14/15 23:11:01
+[2015.12.15-04.11.01:503][  0]LogInit:Display: Running engine for game: Internsheep
+[2015.12.15-04.11.01:503][  0]LogPlatformFile: Not using cached read wrapper
+[2015.12.15-04.11.01:503][  0]LogInit:Display: RandInit(1398098776) SRandInit(1398098777).
+[2015.12.15-04.11.01:503][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.12.15-04.11.01:503][  0]LogStats: Stats thread started at 0.074805
+[2015.12.15-04.11.01:503][  0]LogInit: Version: 4.10.1-2791327+++depot+UE4-Releases+4.10
+[2015.12.15-04.11.01:503][  0]LogInit: API Version: 2758231
+[2015.12.15-04.11.01:503][  0]LogInit: Compiled (64-bit): Dec  4 2015 19:44:40
+[2015.12.15-04.11.01:503][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2015.12.15-04.11.01:503][  0]LogInit: Build Configuration: Development
+[2015.12.15-04.11.01:503][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2015.12.15-04.11.01:503][  0]LogInit: Command line:  
+[2015.12.15-04.11.01:503][  0]LogInit: Base directory: E:/Epic Games/4.10/Engine/Binaries/Win64/
+[2015.12.15-04.11.01:503][  0]LogInit: Rocket: 1
+[2015.12.15-04.11.01:512][  0]LogInit: Using libcurl 7.41.0
+[2015.12.15-04.11.01:512][  0]LogInit:  - built for x86_64-pc-win32
+[2015.12.15-04.11.01:512][  0]LogInit:  - supports SSL with WinSSL
+[2015.12.15-04.11.01:512][  0]LogInit:  - other features:
+[2015.12.15-04.11.01:512][  0]LogInit:      CURL_VERSION_SSL
+[2015.12.15-04.11.01:512][  0]LogInit:      CURL_VERSION_IPV6
+[2015.12.15-04.11.01:512][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.12.15-04.11.01:512][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.12.15-04.11.01:512][  0]LogInit:      CURL_VERSION_IDN
+[2015.12.15-04.11.01:512][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.12.15-04.11.01:512][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.12.15-04.11.01:512][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.12.15-04.11.01:512][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.12.15-04.11.01:512][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.12.15-04.11.01:520][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.12.15-04.11.01:526][  0]LogInit: Object subsystem initialized
+[2015.12.15-04.11.01:526][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.15-04.11.01:526][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.12.15-04.11.01:535][  0]LogInit: Computer: ARMOLEA
+[2015.12.15-04.11.01:535][  0]LogInit: User: Thibaud
+[2015.12.15-04.11.01:535][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.12.15-04.11.01:535][  0]LogInit: High frequency timer resolution =3.421386 MHz
+[2015.12.15-04.11.01:535][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2015.12.15-04.11.01:535][  0]LogMemory: Platform Memory Stats for Windows
+[2015.12.15-04.11.01:535][  0]LogMemory: Process Physical Memory: 57.11 MB used, 57.11 MB peak
+[2015.12.15-04.11.01:535][  0]LogMemory: Process Virtual Memory: 58.63 MB used, 58.63 MB peak
+[2015.12.15-04.11.01:535][  0]LogMemory: Physical Memory: 4858.50 MB used, 16344.01 MB total
+[2015.12.15-04.11.01:535][  0]LogMemory: Virtual Memory: 352.92 MB used, 8388608.00 MB total
+[2015.12.15-04.11.01:576][  0]LogTextLocalizationManager: No translations for ('fr-FR') exist, falling back to 'en' for localization and internationalization data.
+[2015.12.15-04.11.01:950][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon R9 200 Series (Feature Level 11_0)
+[2015.12.15-04.11.01:950][  0]LogD3D11RHI: Adapter has 3051MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 1 output[s]
+[2015.12.15-04.11.01:950][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.12.15-04.11.01:954][  0]LogD3D11RHI: !Direct3DDevice
+[2015.12.15-04.11.01:954][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.12.15-04.11.01:960][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.12.15-04.11.01:969][  0]LogShaderCompilers: Guid format shader working directory is 2 characters bigger than the processId version (C:/Users/Thibaud/Downloads/Internsheep-Brendan/Intermediate/Shaders/WorkingDirectory/3940/).
+[2015.12.15-04.11.01:969][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Thibaud/AppData/Local/Temp/UnrealShaderWorkingDir/160DDCBF41C6A919EC8C9B83C06676FB/'.
+[2015.12.15-04.11.01:969][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.12.15-04.11.02:929][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.12.15-04.11.02:934][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.12.15-04.11.02:939][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.12.15-04.11.02:943][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.12.15-04.11.02:948][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.12.15-04.11.02:951][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.12.15-04.11.02:954][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.12.15-04.11.02:957][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.12.15-04.11.02:960][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.12.15-04.11.02:963][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.12.15-04.11.02:966][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.12.15-04.11.02:972][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2015.12.15-04.11.02:972][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.12.15-04.11.02:973][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.12.15-04.11.02:989][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.12.15-04.11.02:992][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.12.15-04.11.02:994][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.12.15-04.11.02:997][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.12.15-04.11.02:997][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.12.15-04.11.03:101][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.12.15-04.11.03:138][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/Thibaud/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2015.12.15-04.11.03:138][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Thibaud/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2015.12.15-04.11.03:138][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Thibaud/Downloads/Internsheep-Brendan/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.12.15-04.11.03:138][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.12.15-04.11.03:138][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Thibaud/Downloads/Internsheep-Brendan/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.12.15-04.11.03:138][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.12.15-04.11.03:188][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.12.15-04.11.03:200][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Thibaud/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.12.15-04.11.03:369][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.15-04.11.03:370][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.12.15-04.11.03:407][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.12.15-04.11.03:407][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.12.15-04.11.03:712][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.12.15-04.11.04:591][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.12.15-04.11.04:688][  0]LogAssetRegistry: FAssetRegistry took 0.0099 seconds to start up
+[2015.12.15-04.11.04:862][  0]SourceControl: Info Source control is disabled
+[2015.12.15-04.11.05:362][  0]SourceControl: Info Source control is disabled
+[2015.12.15-04.11.05:377][  0]SourceControl: Info Source control is disabled
+[2015.12.15-04.11.05:392][  0]SourceControl: Info Source control is disabled
+[2015.12.15-04.11.05:669][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2015.12.15-04.11.05:669][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2015.12.15-04.11.05:724][  0]LogEngine: Initializing Engine...
+[2015.12.15-04.11.05:726][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2015.12.15-04.11.05:726][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.12.15-04.11.05:845][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.12.15-04.11.05:855][  0]LogInit: XAudio2 using 'Haut-parleurs (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.15-04.11.05:904][  0]LogInit: FAudioDevice initialized.
+[2015.12.15-04.11.05:923][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Thibaud/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2015.12.15-04.11.05:928][  0]LogInit: Texture streaming: Enabled
+[2015.12.15-04.11.05:934][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.12.15-04.11.05:934][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.1-2791327+++depot+UE4-Releases+4.10
+[2015.12.15-04.11.05:935][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId c4cb0065470c7fed67185fb998a75772|02b90dcd3604419fae972e0e48614b74|3712bedc-020b-4cec-b298-262ef8e70fd1
+[2015.12.15-04.11.05:935][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.12.15-04.11.06:213][  0]LogInit: Transaction tracking system initialized
+[2015.12.15-04.11.06:248][  0]BlueprintLog: New page: Editor Load
+[2015.12.15-04.11.06:340][  0]LocalizationService: Info Localization service is disabled
+[2015.12.15-04.11.06:425][  0]LogConsoleResponse:Display: 
+[2015.12.15-04.11.06:543][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.12.15-04.11.06:612][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Thibaud/Downloads/Internsheep-Brendan/Content/' took 0.02s
+[2015.12.15-04.11.06:612][  0]SourceControl: Info Source control is disabled
+[2015.12.15-04.11.06:612][  0]Cmd: MAP LOAD FILE="C:/Users/Thibaud/Downloads/Internsheep-Brendan/Content/Debut.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.15-04.11.06:616][  0]LightingResults: New page: Lighting Build
+[2015.12.15-04.11.06:620][  0]MapCheck: New page: Map Check
+[2015.12.15-04.11.06:620][  0]LightingResults: New page: Lighting Build
+[2015.12.15-04.11.06:631][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000020E1EAC0
+[2015.12.15-04.11.06:674][  0]LogBlueprint:Warning: [compiler Debut] Warning Node  Unknown  is not referencing a valid level actor
+[2015.12.15-04.11.06:674][  0]LogBlueprint:Warning: [compiler Debut] Warning [0005.58] Compile of Debut successful, but with 1 Warning(s) [in 3 ms]
+[2015.12.15-04.11.06:674][  0]LogBlueprint:Warning: [compiler Debut] Warning [0005.58] Compile of Debut successful, but with 2 Warning(s) [in 0 ms]
+[2015.12.15-04.11.06:674][  0]LogBlueprint:Warning: [compiler Debut] Warning [0005.58] Compile of Debut successful, but with 3 Warning(s) [in 0 ms]
+[2015.12.15-04.11.06:678][  0]LogBlueprint:Warning: [compiler Debut] Warning Node  Unknown  is not referencing a valid level actor
+[2015.12.15-04.11.06:679][  0]LogBlueprint:Warning: [compiler Debut] Warning [0005.59] Compile of Debut successful, but with 1 Warning(s) [in 3 ms]
+[2015.12.15-04.11.06:679][  0]LogBlueprint:Warning: [compiler Debut] Warning [0005.59] Compile of Debut successful, but with 2 Warning(s) [in 0 ms]
+[2015.12.15-04.11.06:679][  0]LogBlueprint:Warning: [compiler Debut] Warning [0005.59] Compile of Debut successful, but with 3 Warning(s) [in 0 ms]
+[2015.12.15-04.11.06:693][  0]LogAIModule: Creating AISystem for world Debut
+[2015.12.15-04.11.06:696][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.15-04.11.06:696][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.15-04.11.06:768][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 71.026ms to complete.
+[2015.12.15-04.11.06:768][  0]LogFileHelpers: Loading map 'Debut' took 0.156
+[2015.12.15-04.11.06:875][  0]LogCollectionManager: Loaded 0 collections in 0.003029 seconds
+[2015.12.15-04.11.06:915][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Thibaud/Downloads/Internsheep-Brendan/Saved/Collections/' took 0.01s
+[2015.12.15-04.11.06:915][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Thibaud/Downloads/Internsheep-Brendan/Content/Developers/Thibaud/Collections/' took 0.01s
+[2015.12.15-04.11.06:916][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Thibaud/Downloads/Internsheep-Brendan/Content/Collections/' took 0.01s
+[2015.12.15-04.11.06:916][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2015.12.15-04.11.06:923][  0]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 1893 classes and 338 folders.
+[2015.12.15-04.11.06:930][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.12.15-04.11.06:985][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.12.15-04.11.06:990][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2015.12.15-04.11.07:009][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.12.15-04.11.07:014][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.12.15-04.11.07:035][  0]LogLoad: Full Startup: 5.95 seconds (BP compile: 0.02 seconds)
+[2015.12.15-04.11.07:376][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2015.12.15-04.11.07:494][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.12.15-04.11.07:720][  0]LogRenderer: Reallocating scene render targets to support 1320x552 (Frame:2).
+[2015.12.15-04.11.07:902][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Thibaud/Downloads/Internsheep-Brendan/Content/' took 0.51s
+[2015.12.15-04.11.08:251][  2]LogAssetRegistry: Asset discovery search completed in 3.5733 seconds
+[2015.12.15-04.11.08:251][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.12.15-04.11.08:251][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000018 seconds (updated 0 objects)
+[2015.12.15-04.11.36:502][998]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.15-04.11.36:871][998]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 107 classes and 0 folders.
+[2015.12.15-04.11.37:236][998]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllWidgetsOfClass_FoundWidgets out of bounds [0/0]!
+[2015.12.15-04.11.48:576][924]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllWidgetsOfClass_FoundWidgets out of bounds [0/0]!
+[2015.12.15-04.11.58:080][822]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.12.15-04.11.59:643][969]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllWidgetsOfClass_FoundWidgets out of bounds [0/0]!
+[2015.12.15-04.12.11:171][128]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllWidgetsOfClass_FoundWidgets out of bounds [0/0]!
+[2015.12.15-04.12.15:909][628]LogEditorTransaction: Undo Delete current selection
+[2015.12.15-04.12.15:917][628]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllWidgetsOfClass_FoundWidgets out of bounds [0/0]!
+[2015.12.15-04.12.16:346][652]LogEditorTransaction: Undo Add Node
+[2015.12.15-04.12.16:354][652]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllWidgetsOfClass_FoundWidgets out of bounds [0/0]!
+[2015.12.15-04.12.17:078][733]LogEditorTransaction: Undo AddPin
+[2015.12.15-04.12.17:490][781]LogEditorTransaction: Undo AddPin
+[2015.12.15-04.12.17:701][805]LogEditorTransaction: Undo AddPin
+[2015.12.15-04.12.17:894][828]LogEditorTransaction: Undo AddPin
+[2015.12.15-04.12.19:193][979]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000031DEF7E0
+[2015.12.15-04.12.19:195][979]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000364E1F80
+[2015.12.15-04.12.19:242][979]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/BasicPlateform2" FILE="C:/Users/Thibaud/Downloads/Internsheep-Brendan/Content/Sprites/BasicPlateform2.uasset" SILENT=true
+[2015.12.15-04.12.19:397][979]LogSavePackage: Save=141.028229ms
+[2015.12.15-04.12.19:397][979]LogSavePackage: Moving 'C:/Users/Thibaud/Downloads/Internsheep-Brendan/Saved/BasicPlateform2A4E9194A4D3A10622178F2B9EE7E1B8B.tmp' to 'C:/Users/Thibaud/Downloads/Internsheep-Brendan/Content/Sprites/BasicPlateform2.uasset'
+[2015.12.15-04.12.19:400][979]LogSavePackage: Total save time: 157.030221ms
+[2015.12.15-04.12.19:400][979]LogSavePackage:Display: Finished SavePackage C:/Users/Thibaud/Downloads/Internsheep-Brendan/Content/Sprites/BasicPlateform2.uasset
+[2015.12.15-04.12.20:156][ 60]BlueprintLog: New page: Compile BasicPlateform
+[2015.12.15-04.12.20:190][ 60]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllWidgetsOfClass_FoundWidgets out of bounds [0/0]!
+[2015.12.15-04.12.20:245][ 60]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllWidgetsOfClass_FoundWidgets out of bounds [0/0]!
+[2015.12.15-04.12.20:252][ 60]BlueprintEditorCompileResults: Info [0079.16] Compile of BasicPlateform successful! [in 95 ms]
+[2015.12.15-04.15.14:270][361]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllWidgetsOfClass_FoundWidgets out of bounds [0/0]!
+[2015.12.15-04.15.24:804][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/BasicPlateform2" FILE="C:/Users/Thibaud/Downloads/Internsheep-Brendan/Content/Sprites/BasicPlateform2.uasset" SILENT=true
+[2015.12.15-04.15.24:939][603]LogSavePackage: Save=127.101707ms
+[2015.12.15-04.15.24:939][603]LogSavePackage: Moving 'C:/Users/Thibaud/Downloads/Internsheep-Brendan/Saved/BasicPlateform2C8218EE44179755EBB3DD8B5F9CC448D.tmp' to 'C:/Users/Thibaud/Downloads/Internsheep-Brendan/Content/Sprites/BasicPlateform2.uasset'
+[2015.12.15-04.15.24:943][603]LogSavePackage: Total save time: 136.561032ms
+[2015.12.15-04.15.24:943][603]LogSavePackage:Display: Finished SavePackage C:/Users/Thibaud/Downloads/Internsheep-Brendan/Content/Sprites/BasicPlateform2.uasset
+[2015.12.15-04.15.31:104][276]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllWidgetsOfClass_FoundWidgets out of bounds [0/0]!
+[2015.12.15-04.15.37:069][938]LogEditorTransaction: Undo Move Node
+[2015.12.15-04.15.37:077][938]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllWidgetsOfClass_FoundWidgets out of bounds [0/0]!
+[2015.12.15-04.15.37:469][967]LogEditorTransaction: Undo Resize Node
+[2015.12.15-04.15.37:479][967]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllWidgetsOfClass_FoundWidgets out of bounds [0/0]!
+[2015.12.15-04.15.38:343][ 55]LogEditorTransaction: Undo Rename Node
+[2015.12.15-04.15.38:351][ 55]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllWidgetsOfClass_FoundWidgets out of bounds [0/0]!
+[2015.12.15-04.15.45:049][793]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllWidgetsOfClass_FoundWidgets out of bounds [0/0]!
+[2015.12.15-04.16.01:571][585]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/BasicPlateform2" FILE="C:/Users/Thibaud/Downloads/Internsheep-Brendan/Content/Sprites/BasicPlateform2.uasset" SILENT=true
+[2015.12.15-04.16.01:703][585]LogSavePackage: Save=125.129990ms
+[2015.12.15-04.16.01:703][585]LogSavePackage: Moving 'C:/Users/Thibaud/Downloads/Internsheep-Brendan/Saved/BasicPlateform2AD13738A4733E3A4721FBBB6F1C774DE.tmp' to 'C:/Users/Thibaud/Downloads/Internsheep-Brendan/Content/Sprites/BasicPlateform2.uasset'
+[2015.12.15-04.16.01:706][585]LogSavePackage: Total save time: 133.240446ms
+[2015.12.15-04.16.01:706][585]LogSavePackage:Display: Finished SavePackage C:/Users/Thibaud/Downloads/Internsheep-Brendan/Content/Sprites/BasicPlateform2.uasset
+[2015.12.15-04.16.02:185][632]BlueprintLog: New page: Compile BasicPlateform
+[2015.12.15-04.16.02:220][632]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllWidgetsOfClass_FoundWidgets out of bounds [0/0]!
+[2015.12.15-04.16.02:276][632]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllWidgetsOfClass_FoundWidgets out of bounds [0/0]!
+[2015.12.15-04.16.02:282][632]BlueprintEditorCompileResults: Info [0301.19] Compile of BasicPlateform successful! [in 97 ms]
+[2015.12.15-04.22.25:029][585]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Debut' took 0.023
+[2015.12.15-04.22.25:037][585]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Sprites/BasicPlateform2] ([1] browsable assets)...
+[2015.12.15-04.22.25:037][585]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/BasicPlateform2]
+[2015.12.15-04.22.25:037][585]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/BasicPlateform2" FILE="C:/Users/Thibaud/Downloads/Internsheep-Brendan/Saved/Autosaves/Game/Sprites/BasicPlateform2_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.12.15-04.22.25:176][585]LogSavePackage: Save=127.935875ms
+[2015.12.15-04.22.25:176][585]LogSavePackage: Moving 'C:/Users/Thibaud/Downloads/Internsheep-Brendan/Saved/BasicPlateform2_Auto13E7ED1DC478A631547C454BB76C6F27A.tmp' to 'C:/Users/Thibaud/Downloads/Internsheep-Brendan/Saved/Autosaves/Game/Sprites/BasicPlateform2_Auto1.uasset'
+[2015.12.15-04.22.25:177][585]LogSavePackage: Total save time: 138.760142ms
+[2015.12.15-04.22.25:177][585]LogSavePackage:Display: Finished SavePackage C:/Users/Thibaud/Downloads/Internsheep-Brendan/Saved/Autosaves/Game/Sprites/BasicPlateform2_Auto1.uasset
+[2015.12.15-04.22.25:177][585]LogFileHelpers: Auto-saving content packages took 0.145
+[2015.12.15-04.22.25:923][588]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.12.15-04.22.30:794][ 49]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000356542C0
+[2015.12.15-04.22.32:548][ 49]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000359D9260
+[2015.12.15-04.27.52:660][735]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Debut.Debut:PersistentLevel' has LevelScriptBlueprint '/Game/Debut.Debut:PersistentLevel.Debut' with GeneratedClass '/Game/Debut.Debut_C' with ClassGeneratedBy '/Game/Debut.Debut:PersistentLevel.Debut'
+[2015.12.15-04.27.52:660][735]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.15-04.27.52:661][735]PIE: New page: PIE session: Debut (Dec 14, 2015, 6:27:52 PM)
+[2015.12.15-04.27.52:661][735]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Debut
+[2015.12.15-04.27.52:666][735]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005045s)
+[2015.12.15-04.27.52:666][735]LogAIModule: Creating AISystem for world Debut
+[2015.12.15-04.27.52:667][735]LogPlayLevel: PIE: World Init took: (0.000706s)
+[2015.12.15-04.27.52:667][735]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Debut.Debut to /Game/UEDPIE_0_Debut.Debut (0.005951s)
+[2015.12.15-04.27.52:696][735]LogInit: XAudio2 using 'Haut-parleurs (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.15-04.27.52:708][735]LogInit: FAudioDevice initialized.
+[2015.12.15-04.27.52:751][735]LogLinker:Warning: Can't find file '/Game/Gamemode'
+[2015.12.15-04.27.52:751][735]LogLinker:Warning: Can't find file '/Game/Gamemode'
+[2015.12.15-04.27.52:751][735]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/Gamemode.Gamemode_C'
+[2015.12.15-04.27.52:751][735]LogWorld: Game class is 'GameMode'
+[2015.12.15-04.27.52:753][735]LogWorld: Bringing World /Game/UEDPIE_0_Debut.Debut up for play (max tick rate 0) at 2015.12.14-23.27.52
+[2015.12.15-04.27.52:753][735]LogActor:Warning: GameSession /Game/UEDPIE_0_Debut.Debut:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.15-04.27.52:754][735]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Debut.Debut:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.15-04.27.52:754][735]LogWorld: Bringing up level for play took: 0.000870
+[2015.12.15-04.27.52:756][735]PIE: Info Play in editor start time for /Game/UEDPIE_0_Debut -0.122
+[2015.12.15-04.27.52:756][735]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Debut.Debut:PersistentLevel' has LevelScriptBlueprint '/Game/Debut.Debut:PersistentLevel.Debut' with GeneratedClass '/Game/Debut.Debut_C' with ClassGeneratedBy '/Game/Debut.Debut:PersistentLevel.Debut'
+[2015.12.15-04.27.53:492][813]LogPackageName: SearchForPackageOnDisk took   0.072s to resolve Level1.umap.
+[2015.12.15-04.27.53:562][813]LogPackageName: SearchForPackageOnDisk took   0.069s to resolve Level1.umap.
+[2015.12.15-04.27.53:562][813]LogNet: Browse: /Game/Level1
+[2015.12.15-04.27.53:562][813]LogLoad: LoadMap: /Game/Level1
+[2015.12.15-04.27.53:582][813]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000342954E0
+[2015.12.15-04.27.53:584][813]Cmd: MEM
+[2015.12.15-04.27.53:603][813]LogMemory: Platform Memory Stats for Windows
+[2015.12.15-04.27.53:603][813]LogMemory: Process Physical Memory: 1033.47 MB used, 1033.47 MB peak
+[2015.12.15-04.27.53:603][813]LogMemory: Process Virtual Memory: 958.94 MB used, 961.36 MB peak
+[2015.12.15-04.27.53:603][813]LogMemory: Physical Memory: 5531.43 MB used, 16344.01 MB total
+[2015.12.15-04.27.53:603][813]LogMemory: Virtual Memory: 1602.86 MB used, 8388608.00 MB total
+[2015.12.15-04.27.53:603][813]LogMemory: 
+[2015.12.15-04.27.53:603][813]Allocator Stats for TBB: (not implemented)
+[2015.12.15-04.27.53:787][813]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2015.12.15-04.27.53:787][813]LoadErrors: Info Failed to load /Game/UI/GameHud.GameHud_C Referenced by Mur10_GEN_VARIABLE
+[2015.12.15-04.27.53:787][813]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading C:/Users/Thibaud/Downloads/Internsheep-Brendan/Content/Mesh/InvisibleWall.uasset.
+[2015.12.15-04.27.53:787][813]LoadErrors:Error: Error /Game/Mesh/InvisibleWall : Can't find file for asset. /Game/StarterContent/Materials/M_Basic_Wall
+[2015.12.15-04.27.53:788][813]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2015.12.15-04.27.53:788][813]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading C:/Users/Thibaud/Downloads/Internsheep-Brendan/Content/Mesh/InvisibleWall.uasset.
+[2015.12.15-04.27.55:695][813]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2015.12.15-04.27.55:695][813]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Basic_Wall.M_Basic_Wall Referenced by InvisibleWall
+[2015.12.15-04.27.55:695][813]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading NULL.
+[2015.12.15-04.27.56:387][813]LogAIModule: Creating AISystem for world Level1
+[2015.12.15-04.27.56:387][813]LogWorld: Game class is 'MyGameMode_C'
+[2015.12.15-04.27.56:394][813]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllWidgetsOfClass_FoundWidgets out of bounds [0/0]!
+[2015.12.15-04.27.56:396][813]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2015.12.14-23.27.56
+[2015.12.15-04.27.56:396][813]LogActor:Warning: GameSession /Game/UEDPIE_0_Level1.Level1:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.15-04.27.56:397][813]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Level1.Level1:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.15-04.27.56:397][813]LogWorld: Bringing up level for play took: 0.009107
+[2015.12.15-04.27.56:399][813]LogScript:Warning: Accessed None 'GameHudReference'
+	Char2_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.Char2_C_0
+	Function /Game/Char2.Char2_C:ExecuteUbergraph_Char2:09FC
+[2015.12.15-04.27.56:399][813]PIE:Error: Error Accessed None 'GameHudReference' from node Add in graph 'EventGraph' in blueprint Char2
+[2015.12.15-04.27.56:399][813]LogScript:Warning: Accessed None
+	Char2_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.Char2_C_0
+	Function /Game/Char2.Char2_C:ExecuteUbergraph_Char2:09DD
+[2015.12.15-04.27.56:399][813]PIE:Error: Error Accessed None from node Add in graph 'EventGraph' in blueprint Char2
+[2015.12.15-04.27.56:402][813]LogScript:Warning: Accessed None 'timeManager'
+	Actor_Couloir_petit_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.Actor_Couloir_petit_C_1
+	Function /Game/Plateforme/BasicPlateform.BasicPlateform_C:TickUpdate:001E
+[2015.12.15-04.27.56:402][813]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.56:437][814]LogScript:Warning: Accessed None 'timeManager'
+	Actor_Couloir_petit_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.Actor_Couloir_petit_C_1
+	Function /Game/Plateforme/BasicPlateform.BasicPlateform_C:TickUpdate:001E
+[2015.12.15-04.27.56:437][814]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.56:494][815]LogScript:Warning: Accessed None 'timeManager'
+	Actor_Couloir_petit_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.Actor_Couloir_petit_C_1
+	Function /Game/Plateforme/BasicPlateform.BasicPlateform_C:TickUpdate:001E
+[2015.12.15-04.27.56:494][815]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.56:512][816]LogScript:Warning: Accessed None 'timeManager'
+	Actor_Couloir_petit_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.Actor_Couloir_petit_C_1
+	Function /Game/Plateforme/BasicPlateform.BasicPlateform_C:TickUpdate:001E
+[2015.12.15-04.27.56:512][816]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.56:565][817]LogScript:Warning: Accessed None 'timeManager'
+	Actor_Couloir_petit_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.Actor_Couloir_petit_C_1
+	Function /Game/Plateforme/BasicPlateform.BasicPlateform_C:TickUpdate:001E
+[2015.12.15-04.27.56:565][817]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.56:709][818]LogScript:Warning: Accessed None 'timeManager'
+	Actor_Couloir_petit_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.Actor_Couloir_petit_C_1
+	Function /Game/Plateforme/BasicPlateform.BasicPlateform_C:TickUpdate:001E
+[2015.12.15-04.27.56:709][818]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.56:717][819]LogScript:Warning: Accessed None 'timeManager'
+	Actor_Couloir_petit_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.Actor_Couloir_petit_C_1
+	Function /Game/Plateforme/BasicPlateform.BasicPlateform_C:TickUpdate:001E
+[2015.12.15-04.27.56:717][819]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.56:725][820]LogScript:Warning: Accessed None 'timeManager'
+	Actor_Couloir_petit_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.Actor_Couloir_petit_C_1
+	Function /Game/Plateforme/BasicPlateform.BasicPlateform_C:TickUpdate:001E
+[2015.12.15-04.27.56:725][820]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.56:734][821]LogScript:Warning: Accessed None 'timeManager'
+	Actor_Couloir_petit_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.Actor_Couloir_petit_C_1
+	Function /Game/Plateforme/BasicPlateform.BasicPlateform_C:TickUpdate:001E
+[2015.12.15-04.27.56:734][821]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.56:742][822]LogScript:Warning: Accessed None 'timeManager'
+	Actor_Couloir_petit_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.Actor_Couloir_petit_C_1
+	Function /Game/Plateforme/BasicPlateform.BasicPlateform_C:TickUpdate:001E
+[2015.12.15-04.27.56:743][822]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.56:751][823]LogScript:Warning: Accessed None 'timeManager'
+	Actor_Couloir_petit_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.Actor_Couloir_petit_C_1
+	Function /Game/Plateforme/BasicPlateform.BasicPlateform_C:TickUpdate:001E
+[2015.12.15-04.27.56:751][823]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.56:758][824]LogScript:Warning: Accessed None 'timeManager'
+	Actor_Couloir_petit_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.Actor_Couloir_petit_C_1
+	Function /Game/Plateforme/BasicPlateform.BasicPlateform_C:TickUpdate:001E
+[2015.12.15-04.27.56:758][824]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.56:767][825]LogScript:Warning: Accessed None 'timeManager'
+	Actor_Couloir_petit_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.Actor_Couloir_petit_C_1
+	Function /Game/Plateforme/BasicPlateform.BasicPlateform_C:TickUpdate:001E
+[2015.12.15-04.27.56:767][825]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.56:776][826]LogScript:Warning: Accessed None 'timeManager'
+	Actor_Couloir_petit_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.Actor_Couloir_petit_C_1
+	Function /Game/Plateforme/BasicPlateform.BasicPlateform_C:TickUpdate:001E
+[2015.12.15-04.27.56:776][826]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.56:784][827]LogScript:Warning: Accessed None 'timeManager'
+	Actor_Couloir_petit_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.Actor_Couloir_petit_C_1
+	Function /Game/Plateforme/BasicPlateform.BasicPlateform_C:TickUpdate:001E
+[2015.12.15-04.27.56:784][827]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.56:793][828]LogScript:Warning: Accessed None 'timeManager'
+	Actor_Couloir_petit_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.Actor_Couloir_petit_C_1
+	Function /Game/Plateforme/BasicPlateform.BasicPlateform_C:TickUpdate:001E
+[2015.12.15-04.27.56:793][828]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.56:801][829]LogScript:Warning: Accessed None 'timeManager'
+	Actor_Couloir_petit_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.Actor_Couloir_petit_C_1
+	Function /Game/Plateforme/BasicPlateform.BasicPlateform_C:TickUpdate:001E
+[2015.12.15-04.27.56:801][829]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.56:809][830]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.56:818][831]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.56:825][832]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.56:834][833]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.56:842][834]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.56:851][835]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.56:859][836]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.56:868][837]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.56:876][838]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.56:885][839]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.56:892][840]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.56:901][841]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.56:909][842]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.56:919][843]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.56:926][844]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.56:934][845]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.56:943][846]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.56:951][847]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.56:959][848]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.56:967][849]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.56:976][850]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.56:984][851]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.56:993][852]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:002][853]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:010][854]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:020][855]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:026][856]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:034][857]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:043][858]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:051][859]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:059][860]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:068][861]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:077][862]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:085][863]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:093][864]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:101][865]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:109][866]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:118][867]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:126][868]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:134][869]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:143][870]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:151][871]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:159][872]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:168][873]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:176][874]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:184][875]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:193][876]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:201][877]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:209][878]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:218][879]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:226][880]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:234][881]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:243][882]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:251][883]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:259][884]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:268][885]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:276][886]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:284][887]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:293][888]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:301][889]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:309][890]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:318][891]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:326][892]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:334][893]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:343][894]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:351][895]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:359][896]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:368][897]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:376][898]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:384][899]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:393][900]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:401][901]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:409][902]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:418][903]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:426][904]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:434][905]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:443][906]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:451][907]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:459][908]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:468][909]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:476][910]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:484][911]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:493][912]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:501][913]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:510][914]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:518][915]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:526][916]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:535][917]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:543][918]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:551][919]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:559][920]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:568][921]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:576][922]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:584][923]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:593][924]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:601][925]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:610][926]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:618][927]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:626][928]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:634][929]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:643][930]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:651][931]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:659][932]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:668][933]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:676][934]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:684][935]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:693][936]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:701][937]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:709][938]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:718][939]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:726][940]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:734][941]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:743][942]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:751][943]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:759][944]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:768][945]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:776][946]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:784][947]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:793][948]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:801][949]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:809][950]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:818][951]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:826][952]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:834][953]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:843][954]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:851][955]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:859][956]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:868][957]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:876][958]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:884][959]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:893][960]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:901][961]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:909][962]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:918][963]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:926][964]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:935][965]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:943][966]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:951][967]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:959][968]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:968][969]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:976][970]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:984][971]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.57:993][972]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:001][973]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:009][974]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:018][975]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:026][976]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:034][977]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:043][978]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:051][979]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:059][980]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:068][981]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:076][982]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:084][983]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:093][984]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:101][985]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:109][986]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:118][987]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:126][988]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:134][989]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:143][990]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:151][991]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:160][992]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:168][993]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:176][994]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:184][995]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:193][996]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:201][997]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:209][998]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:218][999]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:226][  0]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:234][  1]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:243][  2]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:251][  3]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:259][  4]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:268][  5]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:276][  6]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:284][  7]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:293][  8]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:301][  9]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:309][ 10]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:318][ 11]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:326][ 12]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:334][ 13]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:343][ 14]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:351][ 15]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:360][ 16]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:368][ 17]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:376][ 18]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:384][ 19]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:393][ 20]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:401][ 21]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:409][ 22]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:418][ 23]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:426][ 24]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:434][ 25]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:443][ 26]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:451][ 27]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:460][ 28]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:468][ 29]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:476][ 30]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:484][ 31]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:493][ 32]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:501][ 33]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:509][ 34]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:518][ 35]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:526][ 36]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:534][ 37]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:543][ 38]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:551][ 39]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:559][ 40]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:568][ 41]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:576][ 42]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:584][ 43]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:593][ 44]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:601][ 45]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:609][ 46]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:618][ 47]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:626][ 48]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:634][ 49]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:643][ 50]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:651][ 51]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:659][ 52]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:668][ 53]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:676][ 54]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:684][ 55]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:693][ 56]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:701][ 57]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:709][ 58]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:718][ 59]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:726][ 60]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:734][ 61]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:743][ 62]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:751][ 63]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:759][ 64]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:768][ 65]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:776][ 66]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:784][ 67]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:793][ 68]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:801][ 69]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:809][ 70]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:818][ 71]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:826][ 72]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:834][ 73]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:843][ 74]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:851][ 75]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:859][ 76]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:868][ 77]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:876][ 78]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:884][ 79]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:893][ 80]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:901][ 81]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:909][ 82]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:918][ 83]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:926][ 84]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:934][ 85]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:943][ 86]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:951][ 87]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:959][ 88]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:968][ 89]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:976][ 90]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:984][ 91]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.58:993][ 92]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:001][ 93]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:009][ 94]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:018][ 95]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:026][ 96]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:034][ 97]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:043][ 98]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:051][ 99]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:059][100]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:068][101]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:076][102]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:084][103]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:093][104]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:101][105]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:109][106]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:118][107]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:126][108]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:134][109]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:143][110]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:151][111]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:159][112]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:168][113]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:176][114]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:184][115]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:193][116]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:201][117]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:209][118]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:218][119]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:226][120]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:234][121]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:243][122]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:251][123]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:259][124]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:268][125]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:276][126]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:284][127]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:293][128]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:301][129]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:309][130]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:318][131]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:326][132]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:334][133]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:343][134]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:351][135]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:359][136]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:368][137]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:376][138]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:384][139]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:393][140]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:401][141]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:409][142]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:418][143]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:426][144]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:434][145]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:443][146]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:451][147]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:459][148]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:468][149]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:476][150]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:484][151]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:493][152]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:501][153]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:509][154]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:518][155]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:526][156]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:534][157]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:543][158]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:551][159]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:559][160]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:568][161]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:576][162]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:584][163]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:593][164]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:601][165]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:609][166]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:618][167]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:626][168]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:634][169]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:643][170]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:651][171]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:659][172]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:668][173]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:676][174]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:684][175]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:693][176]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:701][177]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:709][178]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:718][179]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:726][180]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:734][181]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:743][182]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:751][183]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:759][184]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:768][185]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:776][186]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:784][187]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:793][188]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:801][189]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:809][190]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:818][191]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:826][192]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:834][193]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:843][194]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:851][195]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:859][196]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:868][197]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:876][198]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:884][199]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:893][200]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:901][201]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:909][202]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:918][203]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:926][204]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:934][205]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:943][206]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:951][207]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:959][208]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:968][209]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:976][210]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:984][211]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.27.59:993][212]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:008][213]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:016][214]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:025][215]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:033][216]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:041][217]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:050][218]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:058][219]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:066][220]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:075][221]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:083][222]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:091][223]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:100][224]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:108][225]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:116][226]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:125][227]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:133][228]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:141][229]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:149][230]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:158][231]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:166][232]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:174][233]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:183][234]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:191][235]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:199][236]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:208][237]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:216][238]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:224][239]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:233][240]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:241][241]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:249][242]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:258][243]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:266][244]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:274][245]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:283][246]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:291][247]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:299][248]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:308][249]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:316][250]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:324][251]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:333][252]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:341][253]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:349][254]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:358][255]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:366][256]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:374][257]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:383][258]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:391][259]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:399][260]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:408][261]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:416][262]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:424][263]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:433][264]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:441][265]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:449][266]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:458][267]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:466][268]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:474][269]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:483][270]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:491][271]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:499][272]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:508][273]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:516][274]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:524][275]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:533][276]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:541][277]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:549][278]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:558][279]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:566][280]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:574][281]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:583][282]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:591][283]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:599][284]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:608][285]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:616][286]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:624][287]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:633][288]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:641][289]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:649][290]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:658][291]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:666][292]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:674][293]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:683][294]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:691][295]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:699][296]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:708][297]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:716][298]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:724][299]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:733][300]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:741][301]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:749][302]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:758][303]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:766][304]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:774][305]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:783][306]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:791][307]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:799][308]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:808][309]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:816][310]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:824][311]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:833][312]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:841][313]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:849][314]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:858][315]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:866][316]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:874][317]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:883][318]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:891][319]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:899][320]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:908][321]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:916][322]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:924][323]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:933][324]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:941][325]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:949][326]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:958][327]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:966][328]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:974][329]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:983][330]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:991][331]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.00:999][332]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:008][333]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:016][334]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:024][335]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:033][336]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:041][337]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:049][338]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:058][339]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:066][340]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:074][341]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:083][342]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:091][343]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:099][344]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:108][345]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:116][346]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:124][347]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:133][348]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:141][349]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:149][350]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:158][351]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:166][352]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:174][353]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:183][354]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:191][355]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:199][356]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:208][357]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:216][358]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:224][359]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:233][360]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:241][361]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:249][362]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:258][363]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:266][364]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:274][365]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:283][366]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:291][367]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:299][368]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:308][369]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:316][370]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:324][371]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:333][372]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:341][373]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:349][374]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:358][375]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:366][376]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:374][377]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:383][378]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:391][379]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:399][380]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:408][381]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:416][382]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:424][383]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:433][384]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:441][385]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:449][386]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:458][387]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:466][388]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:474][389]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:483][390]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:491][391]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:499][392]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:508][393]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:516][394]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:524][395]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:533][396]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:541][397]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:549][398]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:558][399]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:566][400]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:574][401]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:583][402]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:591][403]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:599][404]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:608][405]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:616][406]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:624][407]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:633][408]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:641][409]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:649][410]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:658][411]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:666][412]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:674][413]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:683][414]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:691][415]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:699][416]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:708][417]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:716][418]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:724][419]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:733][420]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:741][421]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:749][422]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:758][423]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:766][424]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:774][425]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:783][426]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:791][427]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:799][428]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:808][429]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:816][430]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:824][431]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:833][432]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:841][433]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:849][434]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:858][435]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:866][436]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:874][437]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:883][438]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:891][439]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:899][440]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:908][441]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:916][442]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:924][443]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:933][444]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:941][445]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:949][446]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:958][447]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:966][448]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:974][449]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:983][450]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:991][451]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.01:999][452]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.02:008][453]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.02:016][454]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.02:024][455]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.02:033][456]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.02:041][457]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.02:049][458]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.02:058][459]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.02:066][460]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.02:074][461]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.02:083][462]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.02:091][463]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.02:099][464]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.02:108][465]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.02:116][466]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.02:124][467]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.02:133][468]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.02:141][469]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.02:149][470]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.02:158][471]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.02:166][472]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.02:174][473]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.02:183][474]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.02:191][475]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.02:199][476]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.02:208][477]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.02:216][478]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.02:224][479]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.02:233][480]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.02:241][481]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.02:249][482]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.02:258][483]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.02:266][484]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.02:274][485]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.02:283][486]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.02:291][487]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.02:299][488]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.02:308][489]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.02:316][490]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.02:324][491]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.02:333][492]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.02:341][493]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.02:349][494]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.02:358][495]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.02:366][496]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.02:374][497]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.02:383][498]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.02:391][499]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.02:400][500]PIE:Error: Error Accessed None 'timeManager' from node Get Weighted Delta Time in graph 'TickUpdate' in blueprint BasicPlateform
+[2015.12.15-04.28.03:021][546]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Debut.Debut:PersistentLevel' has LevelScriptBlueprint '/Game/Debut.Debut:PersistentLevel.Debut' with GeneratedClass '/Game/Debut.Debut_C' with ClassGeneratedBy '/Game/Debut.Debut:PersistentLevel.Debut'
+[2015.12.15-04.28.03:056][546]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Debut.Debut:PersistentLevel' has LevelScriptBlueprint '/Game/Debut.Debut:PersistentLevel.Debut' with GeneratedClass '/Game/Debut.Debut_C' with ClassGeneratedBy '/Game/Debut.Debut:PersistentLevel.Debut'
+[2015.12.15-04.28.03:081][546]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011324F40
+[2015.12.15-04.28.03:203][547]Cmd: QUIT_EDITOR
+[2015.12.15-04.28.03:795][547]LogExit: Preparing to exit.
+[2015.12.15-04.28.04:702][547]LogExit: Editor shut down
+[2015.12.15-04.28.04:702][547]LogExit: Transaction tracking system shut down
+[2015.12.15-04.28.04:703][547]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012E06F20
+[2015.12.15-04.28.04:703][547]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000113B5300
+[2015.12.15-04.28.04:706][547]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000031FF3920
+[2015.12.15-04.28.04:889][547]LogExit: Object subsystem successfully closed.
+[2015.12.15-04.28.04:903][547]LogD3D11RHI: Shutdown
+[2015.12.15-04.28.04:903][547]LogD3D11RHI: CleanupD3DDevice
+[2015.12.15-04.28.04:904][547]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.12.15-04.28.04:918][547]LogModuleManager: Shutting down and abandoning module CookingStats (200)
+[2015.12.15-04.28.04:919][547]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2015.12.15-04.28.04:919][547]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2015.12.15-04.28.04:919][547]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2015.12.15-04.28.04:919][547]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2015.12.15-04.28.04:919][547]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2015.12.15-04.28.04:919][547]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2015.12.15-04.28.04:919][547]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2015.12.15-04.28.04:919][547]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2015.12.15-04.28.04:920][547]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2015.12.15-04.28.04:920][547]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2015.12.15-04.28.04:920][547]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2015.12.15-04.28.04:920][547]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2015.12.15-04.28.04:920][547]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2015.12.15-04.28.04:920][547]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2015.12.15-04.28.04:920][547]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2015.12.15-04.28.04:920][547]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2015.12.15-04.28.04:920][547]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2015.12.15-04.28.04:920][547]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2015.12.15-04.28.04:920][547]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2015.12.15-04.28.04:920][547]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2015.12.15-04.28.04:920][547]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2015.12.15-04.28.04:920][547]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2015.12.15-04.28.04:920][547]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2015.12.15-04.28.04:920][547]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2015.12.15-04.28.04:920][547]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2015.12.15-04.28.04:920][547]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2015.12.15-04.28.04:920][547]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2015.12.15-04.28.05:444][547]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2015.12.15-04.28.05:444][547]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2015.12.15-04.28.05:444][547]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2015.12.15-04.28.05:444][547]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2015.12.15-04.28.05:444][547]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2015.12.15-04.28.05:444][547]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2015.12.15-04.28.05:444][547]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2015.12.15-04.28.05:444][547]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2015.12.15-04.28.05:444][547]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2015.12.15-04.28.05:444][547]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2015.12.15-04.28.05:444][547]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2015.12.15-04.28.05:444][547]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2015.12.15-04.28.05:444][547]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2015.12.15-04.28.05:444][547]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2015.12.15-04.28.05:444][547]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2015.12.15-04.28.05:444][547]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2015.12.15-04.28.05:444][547]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2015.12.15-04.28.05:444][547]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2015.12.15-04.28.05:444][547]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2015.12.15-04.28.05:444][547]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2015.12.15-04.28.05:444][547]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2015.12.15-04.28.05:445][547]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2015.12.15-04.28.05:445][547]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2015.12.15-04.28.05:445][547]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2015.12.15-04.28.05:445][547]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2015.12.15-04.28.05:445][547]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2015.12.15-04.28.05:445][547]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2015.12.15-04.28.05:445][547]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2015.12.15-04.28.05:445][547]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2015.12.15-04.28.05:445][547]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2015.12.15-04.28.05:445][547]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2015.12.15-04.28.05:445][547]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2015.12.15-04.28.05:445][547]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2015.12.15-04.28.05:445][547]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2015.12.15-04.28.05:445][547]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2015.12.15-04.28.05:445][547]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2015.12.15-04.28.05:445][547]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2015.12.15-04.28.05:445][547]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2015.12.15-04.28.05:445][547]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2015.12.15-04.28.05:445][547]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2015.12.15-04.28.05:445][547]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2015.12.15-04.28.05:445][547]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2015.12.15-04.28.05:445][547]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2015.12.15-04.28.05:445][547]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2015.12.15-04.28.05:445][547]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2015.12.15-04.28.05:445][547]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2015.12.15-04.28.05:445][547]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2015.12.15-04.28.05:445][547]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2015.12.15-04.28.05:445][547]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2015.12.15-04.28.05:445][547]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2015.12.15-04.28.05:513][547]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2015.12.15-04.28.05:513][547]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2015.12.15-04.28.05:513][547]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2015.12.15-04.28.05:513][547]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2015.12.15-04.28.05:513][547]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2015.12.15-04.28.05:513][547]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2015.12.15-04.28.05:513][547]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2015.12.15-04.28.05:513][547]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2015.12.15-04.28.05:520][547]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2015.12.15-04.28.05:520][547]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2015.12.15-04.28.05:520][547]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2015.12.15-04.28.05:520][547]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2015.12.15-04.28.05:520][547]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2015.12.15-04.28.05:520][547]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2015.12.15-04.28.05:520][547]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2015.12.15-04.28.05:520][547]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2015.12.15-04.28.05:520][547]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2015.12.15-04.28.05:520][547]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2015.12.15-04.28.05:520][547]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2015.12.15-04.28.05:520][547]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2015.12.15-04.28.05:520][547]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2015.12.15-04.28.05:520][547]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2015.12.15-04.28.05:520][547]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2015.12.15-04.28.05:520][547]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2015.12.15-04.28.05:520][547]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2015.12.15-04.28.05:520][547]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2015.12.15-04.28.05:520][547]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2015.12.15-04.28.05:520][547]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2015.12.15-04.28.05:520][547]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2015.12.15-04.28.05:520][547]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2015.12.15-04.28.05:521][547]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2015.12.15-04.28.05:521][547]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2015.12.15-04.28.05:521][547]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2015.12.15-04.28.05:522][547]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2015.12.15-04.28.05:566][547]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2015.12.15-04.28.05:567][547]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2015.12.15-04.28.05:567][547]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2015.12.15-04.28.05:667][547]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2015.12.15-04.28.05:667][547]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2015.12.15-04.28.05:667][547]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2015.12.15-04.28.05:669][547]LogModuleManager: Shutting down and abandoning module Media (82)
+[2015.12.15-04.28.05:669][547]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2015.12.15-04.28.05:670][547]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2015.12.15-04.28.05:670][547]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2015.12.15-04.28.05:670][547]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2015.12.15-04.28.05:670][547]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2015.12.15-04.28.05:670][547]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2015.12.15-04.28.05:670][547]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2015.12.15-04.28.05:670][547]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2015.12.15-04.28.05:670][547]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2015.12.15-04.28.05:670][547]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2015.12.15-04.28.05:670][547]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2015.12.15-04.28.05:670][547]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2015.12.15-04.28.05:670][547]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2015.12.15-04.28.05:670][547]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2015.12.15-04.28.05:670][547]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2015.12.15-04.28.05:672][547]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2015.12.15-04.28.05:672][547]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2015.12.15-04.28.05:672][547]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2015.12.15-04.28.05:672][547]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2015.12.15-04.28.05:672][547]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2015.12.15-04.28.05:672][547]LogModuleManager: Shutting down and abandoning module Core (60)
+[2015.12.15-04.28.05:672][547]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2015.12.15-04.28.05:672][547]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2015.12.15-04.28.05:672][547]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2015.12.15-04.28.05:672][547]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2015.12.15-04.28.05:732][547]LogDerivedDataCache: Shutdown
+[2015.12.15-04.28.05:732][547]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2015.12.15-04.28.05:732][547]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2015.12.15-04.28.05:732][547]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2015.12.15-04.28.05:732][547]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2015.12.15-04.28.05:732][547]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2015.12.15-04.28.05:732][547]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2015.12.15-04.28.05:732][547]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2015.12.15-04.28.05:732][547]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2015.12.15-04.28.05:732][547]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2015.12.15-04.28.05:732][547]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2015.12.15-04.28.05:732][547]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2015.12.15-04.28.05:732][547]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2015.12.15-04.28.05:732][547]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2015.12.15-04.28.05:732][547]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2015.12.15-04.28.05:732][547]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2015.12.15-04.28.05:732][547]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2015.12.15-04.28.05:732][547]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2015.12.15-04.28.05:732][547]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2015.12.15-04.28.05:732][547]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2015.12.15-04.28.05:732][547]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2015.12.15-04.28.05:732][547]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2015.12.15-04.28.05:732][547]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2015.12.15-04.28.05:732][547]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2015.12.15-04.28.05:732][547]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2015.12.15-04.28.05:732][547]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2015.12.15-04.28.05:732][547]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2015.12.15-04.28.05:732][547]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2015.12.15-04.28.05:732][547]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2015.12.15-04.28.05:732][547]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2015.12.15-04.28.05:732][547]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2015.12.15-04.28.05:732][547]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2015.12.15-04.28.05:732][547]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2015.12.15-04.28.05:732][547]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2015.12.15-04.28.05:732][547]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2015.12.15-04.28.05:732][547]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2015.12.15-04.28.05:732][547]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2015.12.15-04.28.05:732][547]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2015.12.15-04.28.06:732][547]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2015.12.15-04.28.06:732][547]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2015.12.15-04.28.06:732][547]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.12.15-04.28.06:732][547]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.12.15-04.28.06:732][547]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.12.15-04.28.06:732][547]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.12.15-04.28.06:732][547]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.12.15-04.28.06:733][547]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.12.15-04.28.06:733][547]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.12.15-04.28.06:733][547]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.12.15-04.28.06:733][547]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.12.15-04.28.06:733][547]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.12.15-04.28.06:733][547]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.12.15-04.28.06:733][547]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.12.15-04.28.06:733][547]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.12.15-04.28.06:733][547]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.12.15-04.28.06:733][547]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.12.15-04.28.06:734][547]LogExit: Exiting.
+[2015.12.15-04.28.06:735][547]Log file closed, 12/14/15 23:28:06

@@ -1,0 +1,456 @@
+﻿[2015.12.14-23.42.30:875][  0]Log file open, 12/15/15 00:42:30
+[2015.12.14-23.42.30:875][  0]LogInit:Display: Running engine for game: Internsheep
+[2015.12.14-23.42.30:875][  0]LogPlatformFile: Not using cached read wrapper
+[2015.12.14-23.42.30:875][  0]LogInit:Display: RandInit(1648229465) SRandInit(1648229466).
+[2015.12.14-23.42.30:875][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.12.14-23.42.30:875][  0]LogStats: Stats thread started at 0.388344
+[2015.12.14-23.42.30:875][  0]LogInit: Version: 4.10.0-2758231+++depot+UE4-Releases+4.10
+[2015.12.14-23.42.30:875][  0]LogInit: API Version: 2758231
+[2015.12.14-23.42.30:875][  0]LogInit: Compiled (64-bit): Nov  7 2015 05:13:45
+[2015.12.14-23.42.30:875][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2015.12.14-23.42.30:875][  0]LogInit: Build Configuration: Development
+[2015.12.14-23.42.30:875][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2015.12.14-23.42.30:875][  0]LogInit: Command line:  
+[2015.12.14-23.42.30:875][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/
+[2015.12.14-23.42.30:875][  0]LogInit: Rocket: 1
+[2015.12.14-23.42.32:560][  0]LogInit: Using libcurl 7.41.0
+[2015.12.14-23.42.32:560][  0]LogInit:  - built for x86_64-pc-win32
+[2015.12.14-23.42.32:560][  0]LogInit:  - supports SSL with WinSSL
+[2015.12.14-23.42.32:560][  0]LogInit:  - other features:
+[2015.12.14-23.42.32:560][  0]LogInit:      CURL_VERSION_SSL
+[2015.12.14-23.42.32:560][  0]LogInit:      CURL_VERSION_IPV6
+[2015.12.14-23.42.32:560][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.12.14-23.42.32:560][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.12.14-23.42.32:560][  0]LogInit:      CURL_VERSION_IDN
+[2015.12.14-23.42.32:560][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.12.14-23.42.32:560][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.12.14-23.42.32:560][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.12.14-23.42.32:560][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.12.14-23.42.32:560][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.12.14-23.42.32:576][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.12.14-23.42.32:591][  0]LogInit: Object subsystem initialized
+[2015.12.14-23.42.32:591][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.14-23.42.32:591][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.12.14-23.42.32:872][  0]LogInit: Computer: BASUS
+[2015.12.14-23.42.32:872][  0]LogInit: User: BCoat
+[2015.12.14-23.42.32:872][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.12.14-23.42.32:872][  0]LogInit: High frequency timer resolution =2.143603 MHz
+[2015.12.14-23.42.32:872][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2015.12.14-23.42.32:872][  0]LogMemory: Platform Memory Stats for Windows
+[2015.12.14-23.42.32:872][  0]LogMemory: Process Physical Memory: 57.80 MB used, 57.80 MB peak
+[2015.12.14-23.42.32:872][  0]LogMemory: Process Virtual Memory: 58.03 MB used, 58.03 MB peak
+[2015.12.14-23.42.32:872][  0]LogMemory: Physical Memory: 1335.15 MB used, 4001.06 MB total
+[2015.12.14-23.42.32:872][  0]LogMemory: Virtual Memory: 352.75 MB used, 8388608.00 MB total
+[2015.12.14-23.42.35:869][  0]LogTextLocalizationManager: No translations for ('fr-FR') exist, falling back to 'en' for localization and internationalization data.
+[2015.12.14-23.42.38:850][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 540M      (Feature Level 11_0)
+[2015.12.14-23.42.38:850][  0]LogD3D11RHI: Adapter has 2000MB of dedicated video memory, 0MB of dedicated system memory, and 1744MB of shared system memory, 1 output[s]
+[2015.12.14-23.42.39:051][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 540M      (Feature Level 11_0)
+[2015.12.14-23.42.39:051][  0]LogD3D11RHI: Adapter has 2000MB of dedicated video memory, 0MB of dedicated system memory, and 1744MB of shared system memory, 0 output[s]
+[2015.12.14-23.42.39:051][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.12.14-23.42.39:279][  0]LogD3D11RHI: !Direct3DDevice
+[2015.12.14-23.42.39:281][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.12.14-23.42.39:325][  0]LogD3D11RHI: Async texture creation enabled
+[2015.12.14-23.42.39:893][  0]LogShaderCompilers: Guid format shader working directory is -31 characters bigger than the processId version (../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Intermediate/Shaders/WorkingDirectory/1944/).
+[2015.12.14-23.42.39:893][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/BCoat/AppData/Local/Temp/UnrealShaderWorkingDir/2F11D3AC4D4B6CE1E9B6818C193EDF57/'.
+[2015.12.14-23.42.39:893][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.12.14-23.42.57:508][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.12.14-23.42.57:588][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.12.14-23.42.57:633][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.12.14-23.42.57:695][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.12.14-23.42.57:803][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.12.14-23.42.57:978][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.12.14-23.42.58:006][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.12.14-23.42.58:093][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.12.14-23.42.58:220][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.12.14-23.42.58:351][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.12.14-23.42.58:390][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.12.14-23.42.58:625][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2015.12.14-23.42.58:625][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.12.14-23.42.58:691][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.12.14-23.42.59:150][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.12.14-23.42.59:202][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.12.14-23.42.59:226][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.12.14-23.42.59:343][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.12.14-23.42.59:366][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.12.14-23.43.02:542][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.12.14-23.43.04:740][  0]LogDerivedDataCache: Loaded boot cache 2.17s 41MB C:/Users/BCoat/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2015.12.14-23.43.04:741][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/BCoat/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2015.12.14-23.43.04:766][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.12.14-23.43.04:766][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.12.14-23.43.04:767][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.12.14-23.43.04:767][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.12.14-23.43.05:634][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.12.14-23.43.05:694][  0]LogDerivedDataCache: Using Local data cache path C:/Users/BCoat/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.12.14-23.43.22:952][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.14-23.43.22:970][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.12.14-23.43.24:001][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.12.14-23.43.24:001][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.12.14-23.43.35:917][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.12.14-23.44.13:434][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.12.14-23.44.14:478][  0]LogAssetRegistry: FAssetRegistry took 0.0114 seconds to start up
+[2015.12.14-23.44.19:061][  0]SourceControl: Info Source control is disabled
+[2015.12.14-23.44.19:125][  0]SourceControl: Info Source control is disabled
+[2015.12.14-23.44.19:223][  0]SourceControl: Info Source control is disabled
+[2015.12.14-23.44.19:369][  0]SourceControl: Info Source control is disabled
+[2015.12.14-23.44.22:718][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2015.12.14-23.44.22:719][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2015.12.14-23.44.23:217][  0]LogEngine: Initializing Engine...
+[2015.12.14-23.44.23:288][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2015.12.14-23.44.23:335][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.12.14-23.44.24:630][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.12.14-23.44.24:917][  0]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.14-23.44.25:154][  0]LogInit: FAudioDevice initialized.
+[2015.12.14-23.44.25:263][  0]LogDerivedDataCache:Error: Could not save memory cache C:/Users/BCoat/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2015.12.14-23.44.25:280][  0]LogInit: Texture streaming: Enabled
+[2015.12.14-23.44.25:312][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.12.14-23.44.25:312][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.0-2758231+++depot+UE4-Releases+4.10
+[2015.12.14-23.44.25:312][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 359921a2436e31eaf87960919bdb1a59|936cf5e516d74d48a34239ccdf491ac4|c2d66dc4-68c3-4b61-8408-d1981ac11ab9
+[2015.12.14-23.44.25:327][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.12.14-23.44.26:284][  0]LogInit: Transaction tracking system initialized
+[2015.12.14-23.44.26:756][  0]BlueprintLog: New page: Editor Load
+[2015.12.14-23.44.29:460][  0]LocalizationService: Info Localization service is disabled
+[2015.12.14-23.44.34:706][  0]LogConsoleResponse:Display: 
+[2015.12.14-23.44.43:396][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.12.14-23.44.44:249][  0]LogFileCache: Scanning file cache for directory 'C:/Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/' took 0.12s
+[2015.12.14-23.44.44:502][  0]SourceControl: Info Source control is disabled
+[2015.12.14-23.44.44:502][  0]Cmd: MAP LOAD FILE="../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/Debut.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.14-23.44.44:564][  0]LightingResults: New page: Lighting Build
+[2015.12.14-23.44.44:568][  0]MapCheck: New page: Map Check
+[2015.12.14-23.44.44:568][  0]LightingResults: New page: Lighting Build
+[2015.12.14-23.44.44:580][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000252ED1C0
+[2015.12.14-23.44.45:070][  0]LogBlueprint:Warning: [compiler Debut] Warning Node  Unknown  is not referencing a valid level actor
+[2015.12.14-23.44.45:071][  0]LogBlueprint:Warning: [compiler Debut] Warning [0151.52] Compile of Debut successful, but with 1 Warning(s) [in 3 ms]
+[2015.12.14-23.44.45:071][  0]LogBlueprint:Warning: [compiler Debut] Warning [0151.52] Compile of Debut successful, but with 2 Warning(s) [in 0 ms]
+[2015.12.14-23.44.45:071][  0]LogBlueprint:Warning: [compiler Debut] Warning [0151.52] Compile of Debut successful, but with 3 Warning(s) [in 0 ms]
+[2015.12.14-23.44.45:075][  0]LogBlueprint:Warning: [compiler Debut] Warning Node  Unknown  is not referencing a valid level actor
+[2015.12.14-23.44.45:076][  0]LogBlueprint:Warning: [compiler Debut] Warning [0151.53] Compile of Debut successful, but with 1 Warning(s) [in 3 ms]
+[2015.12.14-23.44.45:076][  0]LogBlueprint:Warning: [compiler Debut] Warning [0151.53] Compile of Debut successful, but with 2 Warning(s) [in 0 ms]
+[2015.12.14-23.44.45:076][  0]LogBlueprint:Warning: [compiler Debut] Warning [0151.53] Compile of Debut successful, but with 3 Warning(s) [in 0 ms]
+[2015.12.14-23.44.45:827][  0]LogAIModule: Creating AISystem for world Debut
+[2015.12.14-23.44.45:893][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.14-23.44.45:894][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.14-23.44.45:951][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 56.97ms to complete.
+[2015.12.14-23.44.45:951][  0]LogFileHelpers: Loading map 'Debut' took 1.449
+[2015.12.14-23.44.47:458][  0]LogCollectionManager: Loaded 0 collections in 0.084122 seconds
+[2015.12.14-23.44.47:508][  0]LogFileCache: Scanning file cache for directory 'C:/Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Saved/Collections/' took 0.01s
+[2015.12.14-23.44.47:509][  0]LogFileCache: Scanning file cache for directory 'C:/Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/Developers/BCoat/Collections/' took 0.01s
+[2015.12.14-23.44.47:509][  0]LogFileCache: Scanning file cache for directory 'C:/Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/Collections/' took 0.01s
+[2015.12.14-23.44.47:509][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2015.12.14-23.44.47:525][  0]LogContentBrowser: Native class hierarchy populated in 0.0165 seconds. Added 1893 classes and 338 folders.
+[2015.12.14-23.44.47:670][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2015.12.14-23.44.57:120][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2015.12.14-23.44.57:243][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2015.12.14-23.44.58:190][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.12.14-23.44.58:205][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.12.14-23.44.58:230][  0]LogLoad: Full Startup: 164.68 seconds (BP compile: 0.73 seconds)
+[2015.12.14-23.44.58:573][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2015.12.14-23.44.59:838][  0]LogContentStreaming: Texture pool size now 200 MB
+[2015.12.14-23.45.00:921][  0]LogRenderer: Reallocating scene render targets to support 792x368 (Frame:2).
+[2015.12.14-23.45.00:966][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/' took 2.38s
+[2015.12.14-23.45.01:975][  4]LogAssetRegistry: Asset discovery search completed in 47.5070 seconds
+[2015.12.14-23.45.01:975][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2015.12.14-23.45.01:975][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000050 seconds (updated 0 objects)
+[2015.12.14-23.45.02:378][  5]AssetReimport: New page: Outstanding source content changes 1:45:02 AM
+[2015.12.14-23.45.02:611][  5]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:/Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/Textures/cadreRessources.png)
+[2015.12.14-23.45.02:990][  6]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:/Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/Textures/clock.png)
+[2015.12.14-23.45.03:661][  7]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:/Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/Textures/iconAmidon.png)
+[2015.12.14-23.45.03:705][  7]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:/Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/Textures/iconFood.png)
+[2015.12.14-23.45.04:197][  8]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:/Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/Textures/iconMaterials.png)
+[2015.12.14-23.45.04:296][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/cadreRessources" FILE="../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/Textures/cadreRessources.uasset" SILENT=true
+[2015.12.14-23.45.04:347][  8]LogSavePackage: Save=35.417938ms
+[2015.12.14-23.45.04:347][  8]LogSavePackage: Moving '../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Saved/cadreRessources523609324287A800CFA5E5BF08316D9C.tmp' to '../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/Textures/cadreRessources.uasset'
+[2015.12.14-23.45.04:351][  8]LogSavePackage: Total save time: 52.573167ms
+[2015.12.14-23.45.04:351][  8]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/Textures/cadreRessources.uasset
+[2015.12.14-23.45.04:387][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/clock" FILE="../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/Textures/clock.uasset" SILENT=true
+[2015.12.14-23.45.04:397][  8]LogSavePackage: Save=7.691723ms
+[2015.12.14-23.45.04:397][  8]LogSavePackage: Moving '../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Saved/clockBE0E75AA4967E1F962B3519C1CD688E7.tmp' to '../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/Textures/clock.uasset'
+[2015.12.14-23.45.04:400][  8]LogSavePackage: Total save time: 11.862736ms
+[2015.12.14-23.45.04:401][  8]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/Textures/clock.uasset
+[2015.12.14-23.45.04:443][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/iconAmidon" FILE="../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/Textures/iconAmidon.uasset" SILENT=true
+[2015.12.14-23.45.04:456][  8]LogSavePackage: Save=10.413775ms
+[2015.12.14-23.45.04:456][  8]LogSavePackage: Moving '../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Saved/iconAmidon2BEF17FD4B4E4A0D931FDAB56551B6DC.tmp' to '../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/Textures/iconAmidon.uasset'
+[2015.12.14-23.45.04:461][  8]LogSavePackage: Total save time: 15.205242ms
+[2015.12.14-23.45.04:461][  8]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/Textures/iconAmidon.uasset
+[2015.12.14-23.45.04:503][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/iconFood" FILE="../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/Textures/iconFood.uasset" SILENT=true
+[2015.12.14-23.45.04:518][  8]LogSavePackage: Save=13.941481ms
+[2015.12.14-23.45.04:518][  8]LogSavePackage: Moving '../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Saved/iconFood606A946B43FC325F7E7522B9B156FEBE.tmp' to '../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/Textures/iconFood.uasset'
+[2015.12.14-23.45.04:522][  8]LogSavePackage: Total save time: 17.526101ms
+[2015.12.14-23.45.04:522][  8]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/Textures/iconFood.uasset
+[2015.12.14-23.45.04:557][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/iconMaterials" FILE="../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/Textures/iconMaterials.uasset" SILENT=true
+[2015.12.14-23.45.04:566][  8]LogSavePackage: Save=6.380846ms
+[2015.12.14-23.45.04:566][  8]LogSavePackage: Moving '../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Saved/iconMaterials8FFA74C7429B368CE9C909B8FDC3ABBD.tmp' to '../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/Textures/iconMaterials.uasset'
+[2015.12.14-23.45.04:569][  8]LogSavePackage: Total save time: 9.670164ms
+[2015.12.14-23.45.04:569][  8]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/Textures/iconMaterials.uasset
+[2015.12.14-23.45.07:595][ 18]AssetReimport: Info Importing new asset /Game/Textures/cadreRessources.
+[2015.12.14-23.45.07:595][ 18]AssetReimport: Info Importing new asset /Game/Textures/clock.
+[2015.12.14-23.45.07:595][ 18]AssetReimport: Info Importing new asset /Game/Textures/iconAmidon.
+[2015.12.14-23.45.07:595][ 18]AssetReimport: Info Importing new asset /Game/Textures/iconFood.
+[2015.12.14-23.45.07:595][ 18]AssetReimport: Info Importing new asset /Game/Textures/iconMaterials.
+[2015.12.14-23.45.07:595][ 18]AssetReimport: Info Ignoring new file Icone_Anneau.png as it's already imported by Icone_Anneau.
+[2015.12.14-23.45.07:595][ 18]AssetReimport: Info Ignoring new file Icone_Atelier.png as it's already imported by Icone_Atelier.
+[2015.12.14-23.45.07:595][ 18]AssetReimport: Info Ignoring new file Icone_Couloir_Grand.png as it's already imported by Icone_Couloir_Grand.
+[2015.12.14-23.45.07:595][ 18]AssetReimport: Info Ignoring new file Icone_Couloir_Petit.png as it's already imported by Icone_Couloir_Petit.
+[2015.12.14-23.45.07:595][ 18]AssetReimport: Info Ignoring new file Icone_Laboratoire.png as it's already imported by Icone_Laboratoire.
+[2015.12.14-23.45.07:595][ 18]AssetReimport: Info Ignoring new file Icone_PanneauSolaire.png as it's already imported by Icone_PanneauSolaire.
+[2015.12.14-23.45.07:595][ 18]AssetReimport: Info Ignoring new file Icone_Quartier.png as it's already imported by Icone_Quartier.
+[2015.12.14-23.45.07:595][ 18]AssetReimport: Info Ignoring new file Icone_Serre.png as it's already imported by Icone_Serre.
+[2015.12.14-23.49.44:967][568]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.14-23.49.45:796][568]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 107 classes and 0 folders.
+[2015.12.14-23.50.02:013][964]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameHud" FILE="../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/UI/GameHud.uasset" SILENT=true
+[2015.12.14-23.50.02:219][964]LogSavePackage: Save=139.460052ms
+[2015.12.14-23.50.02:219][964]LogSavePackage: Moving '../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Saved/GameHud7B6D850A40CB352723DDB4A13C6D420C.tmp' to '../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/UI/GameHud.uasset'
+[2015.12.14-23.50.02:234][964]LogSavePackage: Total save time: 218.019847ms
+[2015.12.14-23.50.02:234][964]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/UI/GameHud.uasset
+[2015.12.14-23.50.03:439][994]BlueprintLog: New page: Compile GameHud
+[2015.12.14-23.50.03:677][994]BlueprintEditorCompileResults: Info [0470.12] Compile of GameHud successful! [in 237 ms]
+[2015.12.14-23.51.04:242][247]LogLinker:Warning: Can't find file '/Game/Textures/barre'
+[2015.12.14-23.51.04:243][247]LogLinker: Can't find file '/Game/Textures/barre'
+[2015.12.14-23.51.04:243][247]LogProperty:Warning: ObjectProperty /Script/SlateCore.SlateBrush:ResourceObject: unresolved reference to 'Texture2D'/Game/Textures/barre.barre')'
+[2015.12.14-23.51.04:243][247]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_5:Ressources_C_0.WidgetTree_185.CanvasPanel_0 or CanvasPanel /Game/Menu/MenuDebut.MenuDebut:WidgetTree.CanvasPanel_0
+[2015.12.14-23.51.04:243][247]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_5:Ressources_C_0.WidgetTree_185.CanvasPanel_0 or CanvasPanel /Game/Menu/Ressources.Ressources_C:WidgetTree_184.CanvasPanel_0
+[2015.12.14-23.51.04:243][247]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_5:Ressources_C_0.WidgetTree_185.CanvasPanel_0 or CanvasPanel /Game/Menu/Ressources.Ressources_C:WidgetTree_183.CanvasPanel_0
+[2015.12.14-23.51.04:243][247]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_5:Ressources_C_0.WidgetTree_185.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_Ressources_C_13:WidgetTree_177.CanvasPanel_0
+[2015.12.14-23.51.04:243][247]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_5:Ressources_C_0.WidgetTree_185.CanvasPanel_0 or CanvasPanel /Game/Menu/MenuDebut.MenuDebut_C:WidgetTree_4.CanvasPanel_0
+[2015.12.14-23.51.04:243][247]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_5:Ressources_C_0.WidgetTree_185.CanvasPanel_0 or CanvasPanel /Engine/Transient.WidgetTree_182:CanvasPanel_0
+[2015.12.14-23.51.04:243][247]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_5:Ressources_C_0.WidgetTree_185.CanvasPanel_0 or CanvasPanel /Game/UI/GameHud.GameHud:WidgetTree.CanvasPanel_0
+[2015.12.14-23.51.04:243][247]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_5:Ressources_C_0.WidgetTree_185.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_Ressources_C_11:WidgetTree_23.CanvasPanel_0
+[2015.12.14-23.51.04:243][247]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_5:Ressources_C_0.WidgetTree_185.CanvasPanel_0 or CanvasPanel /Engine/Transient.WidgetTree_176:CanvasPanel_0
+[2015.12.14-23.51.04:243][247]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_5:Ressources_C_0.WidgetTree_185.CanvasPanel_0 or CanvasPanel /Game/Menu/Ressources.Ressources:WidgetTree.CanvasPanel_0
+[2015.12.14-23.51.04:243][247]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_5:Ressources_C_0.WidgetTree_185.CanvasPanel_0 or CanvasPanel /Game/UI/GameHud.GameHud_C:WidgetTree_156.CanvasPanel_0
+[2015.12.14-23.51.04:243][247]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_5:Ressources_C_0.WidgetTree_185.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:GameHud_C_0.WidgetTree_165.CanvasPanel_0
+[2015.12.14-23.51.04:244][247]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_5:Ressources_C_0.WidgetTree_185.CanvasPanel_0 or CanvasPanel /Game/UI/GameHud.GameHud_C:WidgetTree_147.CanvasPanel_0
+[2015.12.14-23.51.04:244][247]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_5:Ressources_C_0.WidgetTree_185.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_GameHud_C_8:WidgetTree_38.CanvasPanel_0
+[2015.12.14-23.51.04:244][247]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_5:Ressources_C_0.WidgetTree_185.CanvasPanel_0 or CanvasPanel /Engine/Transient.TRASHCLASS_GameHud_31:CanvasPanel_0
+[2015.12.14-23.51.04:244][247]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_5:Ressources_C_0.WidgetTree_185.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:GameHud_C_2.WidgetTree_92.CanvasPanel_0
+[2015.12.14-23.51.04:244][247]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_5:Ressources_C_0.WidgetTree_185.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:GameHud_C_3.WidgetTree_110.CanvasPanel_0
+[2015.12.14-23.51.04:244][247]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_5:Ressources_C_0.WidgetTree_185.CanvasPanel_0 or CanvasPanel /Game/Menu/Ressources.Ressources_C:WidgetTree_186.CanvasPanel_0
+[2015.12.14-23.51.04:244][247]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_5:Ressources_C_0.WidgetTree_185.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:Ressources_C_1.WidgetTree_187.CanvasPanel_0
+[2015.12.14-23.51.04:244][247]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_35''
+[2015.12.14-23.51.49:358][ 96]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000007CB1A80
+[2015.12.14-23.51.49:428][ 96]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu/Ressources" FILE="../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/Menu/Ressources.uasset" SILENT=true
+[2015.12.14-23.51.49:562][ 96]LogSavePackage: Save=83.797699ms
+[2015.12.14-23.51.49:562][ 96]LogSavePackage: Moving '../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Saved/RessourcesD2A9CB14457A0B41BF5F6B9835CAD0C1.tmp' to '../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/Menu/Ressources.uasset'
+[2015.12.14-23.51.49:575][ 96]LogSavePackage: Total save time: 103.316240ms
+[2015.12.14-23.51.49:575][ 96]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/Menu/Ressources.uasset
+[2015.12.14-23.52.11:196][381]LogEditorTransaction: Undo Move Widget
+[2015.12.14-23.52.54:552][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu/Ressources" FILE="../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/Menu/Ressources.uasset" SILENT=true
+[2015.12.14-23.52.54:684][ 56]LogSavePackage: Save=90.210266ms
+[2015.12.14-23.52.54:684][ 56]LogSavePackage: Moving '../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Saved/Ressources9C6C654F4A7774010A8DEEB3B386ED8A.tmp' to '../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/Menu/Ressources.uasset'
+[2015.12.14-23.52.54:698][ 56]LogSavePackage: Total save time: 107.628606ms
+[2015.12.14-23.52.54:698][ 56]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/BCoat/Documents/GitHub/Internsheep/Internsheep-Pierre/Content/Menu/Ressources.uasset
+[2015.12.14-23.53.02:589][300]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000045A8CA40
+[2015.12.14-23.53.03:054][301]Cmd: QUIT_EDITOR
+[2015.12.14-23.53.03:236][301]LogExit: Preparing to exit.
+[2015.12.14-23.53.03:691][301]LogExit: Editor shut down
+[2015.12.14-23.53.03:692][301]LogExit: Transaction tracking system shut down
+[2015.12.14-23.53.03:697][301]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000010C237E0
+[2015.12.14-23.53.03:698][301]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000145F60C0
+[2015.12.14-23.53.03:698][301]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000313AC4A0
+[2015.12.14-23.53.03:702][301]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000007CB2480
+[2015.12.14-23.53.03:713][301]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000045619760
+[2015.12.14-23.53.04:022][301]LogExit: Object subsystem successfully closed.
+[2015.12.14-23.53.04:045][301]LogD3D11RHI: Shutdown
+[2015.12.14-23.53.04:045][301]LogD3D11RHI: CleanupD3DDevice
+[2015.12.14-23.53.04:150][301]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.12.14-23.53.04:296][301]LogModuleManager: Shutting down and abandoning module SequencerWidgets (201)
+[2015.12.14-23.53.04:296][301]LogModuleManager: Shutting down and abandoning module BlueprintGraph (200)
+[2015.12.14-23.53.04:296][301]LogModuleManager: Shutting down and abandoning module CookingStats (199)
+[2015.12.14-23.53.04:296][301]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2015.12.14-23.53.04:296][301]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2015.12.14-23.53.04:296][301]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2015.12.14-23.53.04:296][301]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2015.12.14-23.53.04:301][301]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2015.12.14-23.53.04:331][301]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2015.12.14-23.53.04:331][301]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2015.12.14-23.53.04:369][301]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2015.12.14-23.53.04:393][301]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2015.12.14-23.53.04:402][301]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2015.12.14-23.53.04:457][301]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2015.12.14-23.53.04:457][301]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2015.12.14-23.53.04:457][301]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2015.12.14-23.53.04:457][301]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2015.12.14-23.53.04:457][301]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2015.12.14-23.53.04:457][301]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2015.12.14-23.53.04:457][301]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2015.12.14-23.53.04:457][301]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2015.12.14-23.53.04:457][301]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2015.12.14-23.53.04:457][301]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2015.12.14-23.53.04:483][301]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2015.12.14-23.53.04:525][301]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2015.12.14-23.53.04:548][301]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2015.12.14-23.53.04:549][301]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2015.12.14-23.53.04:557][301]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2015.12.14-23.53.04:557][301]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2015.12.14-23.53.04:797][301]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2015.12.14-23.53.04:797][301]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2015.12.14-23.53.04:797][301]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2015.12.14-23.53.04:797][301]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2015.12.14-23.53.04:814][301]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2015.12.14-23.53.04:814][301]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2015.12.14-23.53.04:823][301]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2015.12.14-23.53.04:838][301]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2015.12.14-23.53.04:849][301]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2015.12.14-23.53.04:865][301]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2015.12.14-23.53.04:872][301]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2015.12.14-23.53.04:890][301]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2015.12.14-23.53.04:900][301]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2015.12.14-23.53.04:909][301]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2015.12.14-23.53.04:909][301]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2015.12.14-23.53.04:909][301]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2015.12.14-23.53.04:909][301]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2015.12.14-23.53.04:924][301]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2015.12.14-23.53.04:924][301]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2015.12.14-23.53.04:953][301]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2015.12.14-23.53.04:953][301]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2015.12.14-23.53.04:974][301]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2015.12.14-23.53.04:999][301]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2015.12.14-23.53.05:013][301]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2015.12.14-23.53.05:019][301]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2015.12.14-23.53.05:019][301]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2015.12.14-23.53.05:046][301]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2015.12.14-23.53.05:058][301]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2015.12.14-23.53.05:071][301]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2015.12.14-23.53.05:099][301]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2015.12.14-23.53.05:099][301]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2015.12.14-23.53.05:110][301]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2015.12.14-23.53.05:111][301]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2015.12.14-23.53.05:191][301]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2015.12.14-23.53.05:191][301]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2015.12.14-23.53.05:192][301]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2015.12.14-23.53.05:192][301]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2015.12.14-23.53.05:192][301]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2015.12.14-23.53.05:203][301]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2015.12.14-23.53.05:215][301]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2015.12.14-23.53.05:215][301]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2015.12.14-23.53.05:228][301]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2015.12.14-23.53.05:228][301]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2015.12.14-23.53.05:228][301]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2015.12.14-23.53.05:228][301]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2015.12.14-23.53.05:228][301]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2015.12.14-23.53.05:228][301]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2015.12.14-23.53.05:255][301]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2015.12.14-23.53.05:255][301]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2015.12.14-23.53.05:255][301]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2015.12.14-23.53.05:360][301]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2015.12.14-23.53.05:384][301]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2015.12.14-23.53.05:384][301]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2015.12.14-23.53.05:384][301]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2015.12.14-23.53.05:384][301]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2015.12.14-23.53.05:398][301]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2015.12.14-23.53.05:398][301]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2015.12.14-23.53.05:398][301]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2015.12.14-23.53.05:450][301]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2015.12.14-23.53.05:450][301]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2015.12.14-23.53.05:461][301]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2015.12.14-23.53.05:461][301]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2015.12.14-23.53.05:506][301]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2015.12.14-23.53.05:541][301]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2015.12.14-23.53.05:541][301]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2015.12.14-23.53.05:541][301]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2015.12.14-23.53.05:557][301]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2015.12.14-23.53.05:570][301]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2015.12.14-23.53.05:577][301]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2015.12.14-23.53.05:577][301]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2015.12.14-23.53.05:577][301]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2015.12.14-23.53.05:592][301]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2015.12.14-23.53.05:620][301]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2015.12.14-23.53.05:653][301]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2015.12.14-23.53.05:668][301]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2015.12.14-23.53.05:668][301]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2015.12.14-23.53.05:680][301]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2015.12.14-23.53.05:688][301]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2015.12.14-23.53.05:688][301]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2015.12.14-23.53.05:707][301]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2015.12.14-23.53.05:722][301]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2015.12.14-23.53.05:722][301]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2015.12.14-23.53.05:751][301]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2015.12.14-23.53.05:754][301]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2015.12.14-23.53.06:000][301]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2015.12.14-23.53.06:001][301]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2015.12.14-23.53.06:064][301]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2015.12.14-23.53.06:165][301]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2015.12.14-23.53.06:165][301]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2015.12.14-23.53.06:172][301]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2015.12.14-23.53.06:180][301]LogModuleManager: Shutting down and abandoning module Media (82)
+[2015.12.14-23.53.06:180][301]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2015.12.14-23.53.06:197][301]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2015.12.14-23.53.06:197][301]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2015.12.14-23.53.06:197][301]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2015.12.14-23.53.06:203][301]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2015.12.14-23.53.06:232][301]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2015.12.14-23.53.06:232][301]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2015.12.14-23.53.06:232][301]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2015.12.14-23.53.06:232][301]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2015.12.14-23.53.06:232][301]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2015.12.14-23.53.06:232][301]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2015.12.14-23.53.06:249][301]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2015.12.14-23.53.06:249][301]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2015.12.14-23.53.06:249][301]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2015.12.14-23.53.06:249][301]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2015.12.14-23.53.06:254][301]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2015.12.14-23.53.06:254][301]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2015.12.14-23.53.06:254][301]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2015.12.14-23.53.06:254][301]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2015.12.14-23.53.06:254][301]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2015.12.14-23.53.06:254][301]LogModuleManager: Shutting down and abandoning module Core (60)
+[2015.12.14-23.53.06:254][301]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2015.12.14-23.53.06:254][301]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2015.12.14-23.53.06:254][301]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2015.12.14-23.53.06:275][301]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2015.12.14-23.53.06:292][301]LogDerivedDataCache: Shutdown
+[2015.12.14-23.53.06:292][301]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2015.12.14-23.53.06:313][301]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2015.12.14-23.53.06:314][301]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2015.12.14-23.53.06:323][301]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2015.12.14-23.53.06:323][301]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2015.12.14-23.53.06:323][301]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2015.12.14-23.53.06:323][301]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2015.12.14-23.53.06:323][301]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2015.12.14-23.53.06:323][301]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2015.12.14-23.53.06:323][301]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2015.12.14-23.53.06:323][301]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2015.12.14-23.53.06:323][301]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2015.12.14-23.53.06:323][301]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2015.12.14-23.53.06:323][301]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2015.12.14-23.53.06:324][301]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2015.12.14-23.53.06:324][301]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2015.12.14-23.53.06:324][301]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2015.12.14-23.53.06:324][301]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2015.12.14-23.53.06:324][301]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2015.12.14-23.53.06:324][301]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2015.12.14-23.53.06:324][301]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2015.12.14-23.53.06:324][301]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2015.12.14-23.53.06:324][301]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2015.12.14-23.53.06:324][301]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2015.12.14-23.53.06:324][301]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2015.12.14-23.53.06:324][301]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2015.12.14-23.53.06:324][301]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2015.12.14-23.53.06:324][301]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2015.12.14-23.53.06:324][301]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2015.12.14-23.53.06:324][301]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2015.12.14-23.53.06:324][301]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2015.12.14-23.53.06:324][301]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2015.12.14-23.53.06:324][301]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2015.12.14-23.53.06:324][301]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2015.12.14-23.53.06:324][301]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2015.12.14-23.53.06:324][301]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2015.12.14-23.53.06:324][301]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2015.12.14-23.53.08:325][301]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2015.12.14-23.53.08:352][301]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2015.12.14-23.53.08:359][301]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.12.14-23.53.08:359][301]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.12.14-23.53.08:360][301]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.12.14-23.53.08:360][301]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.12.14-23.53.08:360][301]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.12.14-23.53.08:381][301]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.12.14-23.53.08:391][301]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.12.14-23.53.08:391][301]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.12.14-23.53.08:391][301]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.12.14-23.53.08:391][301]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.12.14-23.53.08:391][301]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.12.14-23.53.08:391][301]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.12.14-23.53.08:403][301]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.12.14-23.53.08:403][301]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.12.14-23.53.08:411][301]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.12.14-23.53.08:423][301]LogExit: Exiting.
+[2015.12.14-23.53.08:426][301]Log file closed, 12/15/15 00:53:08
