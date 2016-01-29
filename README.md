@@ -1,22 +1,21 @@
 # Internsheep
 
 
-Internsheep est un jeu crée à la base pour un projet scolaire dans un cours de conception. Il est maintenu par la suite par quelques de ces developpeurs originels
+Internsheep is a game created for a uni project in a game design class. It is then continued by some of its developpers
 
-Le jeu est un jeu de survie temps réel dans l'espace en 2D.
+The game is a 2D survival game. Its base ideas are the duration of time, day by day, similar of This War of Mine and a hard management of ressources, like in PlanetBase.
 
+Functionnalités
+- Survive random events that happens each morning (done)
+- Build your station (done)
+- Better production of ressources (in progress)
+- Expand your crew (to do)
 
-Fonctionnalités:
-- Survivre avec des evenements aléatoires variés (en cours)
-- Devoir accomplir un projet ponctués d'étapes (en cours)
-- Augmenter la taille de son equipage
+Game modes
+- Tutorial (done)
+- Quick mode (in progress)
+- Long duration mode (planned)
+- Free build mode (to do)
 
-Modes de jeu :
-
-- Tutoriel (fini)
-- Mode court
-- Mode long
-- Mode libre
-
-Autres :
-- localisation anglaise automatique (en cours)
+Others
+- English language (to do)
